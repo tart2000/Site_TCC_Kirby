@@ -59,10 +59,13 @@ h2 {
   margin-bottom: 25px;
 }
 .center {
-    text-align: center;
+  text-align: center;
 }
 .left {
-    text-align: left;
+  text-align: left;
+}
+.right {
+  text-align: right;
 }
 .mt {
   margin-top: 15px;
@@ -187,6 +190,7 @@ Footer
   padding-top: 30px;
   padding-bottom: 30px;
   border-top: 1px solid #F4F4F4 !important;
+  color: #bfc9d3;
 }
 
 
