@@ -1,4 +1,4 @@
-Title: La première édition de Museomix à Montréal
+Title: la première édition de Museomix à Montréal
 
 ----
 
@@ -19,6 +19,10 @@ dates: 7,8,9 novembre
 ----
 
 vimeoLink: 116911536
+
+----
+
+tags: museomix
 
 ----
 text: 

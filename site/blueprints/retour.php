@@ -30,3 +30,6 @@ fields:
   text:
     label: Text
     type:  textarea
+  Tags: 
+    label: Tags (ajouter le tag d'un projet pour le connecter)
+    type: text

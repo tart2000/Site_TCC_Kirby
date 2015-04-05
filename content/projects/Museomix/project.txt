@@ -1,12 +1,20 @@
-Title: Project B
+Title: Museomix
 
 ----
 
-Year: 2013
+Tags: outdoor
 
 ----
 
-Tags: city
+projectTag: museomix
+
+----
+
+projectLink: http://museomixmtl.com
+
+----
+
+Short: Museomix est un sprint créatif de 3 jours au coeur d'un musée. Plus de 70 participants aux profils variés se réunissent en équipes pluri-disciplinaires pour concevoir et prototyper de nouvelles utilisation du numérique en milieu muséal. 
 
 ----
 

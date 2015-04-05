@@ -22,3 +22,6 @@ fields:
   text:
     label: Text
     type:  textarea
+  tags:
+    label: Tags (ajouter le tag d'un projet pour le conecter)
+    type: text

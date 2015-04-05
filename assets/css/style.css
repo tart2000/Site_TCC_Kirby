@@ -85,6 +85,12 @@ h2 {
 .mr {
   margin-right: 15px;
 }
+.pt {
+  padding-top: 15px;
+}
+.pb {
+  padding-bottom: 15px;
+}
 .responsive-video {
     position: relative;
     padding-bottom: 56.25%;
@@ -165,6 +171,9 @@ a:focus {
   color: white; 
   background-color: rgba(0,0,0,0.5);
   padding: 5px;
+}
+.grey {
+  background-color: #f9f9f9;
 }
 /* ################################################################
 Sticky 

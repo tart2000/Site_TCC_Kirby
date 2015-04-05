@@ -8,7 +8,8 @@ language: fr
 role: admin
 token: 196efada87b3bd2fc0547a91f92ec0e61938be03
 history:
-  - null
-  - news
-  - news/Space-Apps-call
-  - home
+  - retours/spaceapps-2014
+  - projects
+  - projects/Space-apps
+  - projects/RDR
+  - projects/POWOP
