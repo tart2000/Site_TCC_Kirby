@@ -25,11 +25,15 @@
         </div>
     </div><!-- /row -->
 
-    <?php snippet('retour') ?>
+</main>
 
+<?php snippet('newsletter') ?>
+
+<div class="container">
+    <?php snippet('retour') ?>
+</div>
 
     <!-- <?php snippet('projects') ?> -->
 
-  </main>
 
 <?php snippet('footer') ?>
