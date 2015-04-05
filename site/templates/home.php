@@ -27,9 +27,6 @@
 
     <?php snippet('retour') ?>
 
-      
-
-    <hr>
 
     <!-- <?php snippet('projects') ?> -->
 

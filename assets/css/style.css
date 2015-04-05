@@ -76,6 +76,12 @@ h2 {
 .sml {
   margin-left: 5px;
 }
+.smr {
+  margin-right: 5px;
+}
+.mr {
+  margin-right: 15px;
+}
 .responsive-video {
     position: relative;
     padding-bottom: 56.25%;
@@ -156,6 +162,11 @@ Sticky
 /* ################################################################
 Footer 
 ################################################################### */ 
-
+.footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #F4F4F4 !important;
+}
 
 

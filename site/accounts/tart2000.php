@@ -8,5 +8,7 @@ language: fr
 role: admin
 token: 196efada87b3bd2fc0547a91f92ec0e61938be03
 history:
+  - null
+  - news
   - news/Space-Apps-call
   - home

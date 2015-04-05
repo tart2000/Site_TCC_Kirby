@@ -10,8 +10,20 @@ Description: Techno Culture Club est à l'intresection de la culture et de la te
 
 ----
 
-Keywords: techno, culture, club, museomix, bibliomix, space apps, Montréal, musées, bibliothèques, événements, powop, radar
+Keywords: techno,culture,club,museomix,bibliomix,space apps,Montréal,musées,bibliothèques,événements,powop,radar
 
 ----
 
-Copyright: © 20014-(date: Year)
+Copyright: © 2014-(date: Year)
+
+----
+
+Facebook: https://www.facebook.com/technocultureclub
+
+----
+
+Twitter: http://twitter.com/technocultureclub
+
+----
+
+Linkedin: http://www.linkedin.com/company/technocultureclub

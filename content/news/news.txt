@@ -1,0 +1,5 @@
+Title: news
+
+----
+
+Text: Un texte pour introduire les news ici ?
