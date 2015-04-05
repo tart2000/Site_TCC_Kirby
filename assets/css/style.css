@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+
+
+/* ################################################################
+Header  
+################################################################### */ 
+
+.logo img {
+    max-height: 46px;
+}
+.logo {
+    position: relative;
+    top: -15px;
+}
+.navbar {
+    min-height: 70px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #F4F4F4 !important;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #000000;
+    background-color: transparent;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: transparent;
+}
+
+.dropdown-menu {
+    background: #ffffff;
+}
+.nav li {
+    text-transform: uppercase;
+}
+/* ################################################################
+Global
+################################################################### */ 
+h2 {
+  background-color: #FFFF00;
+  display: inline-block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.responsive-video {
+    position: relative;
+    padding-bottom: 38%;
+    overflow: hidden;
+}
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.container {
+  max-width: 960px;
+}
+
+/* ################################################################
+Footer 
+################################################################### */ 
+
+
+
