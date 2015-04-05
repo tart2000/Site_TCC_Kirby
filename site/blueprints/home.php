@@ -6,7 +6,11 @@ fields:
   title:
     label: Title
     type:  text
+  header: 
+    label: Texte header
+    type: textarea
   text:
     label: Text
     type:  textarea
     size:  large
+  
