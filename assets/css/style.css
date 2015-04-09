@@ -66,6 +66,7 @@ h2 {
 }
 .right {
   text-align: right;
+  float: right;
 }
 .mt {
   margin-top: 15px;
