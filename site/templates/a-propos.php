@@ -1,3 +1,5 @@
+<?php snippet('head') ?>
+
 <?php snippet('header') ?>
 
 <div id="aboutwrap">
