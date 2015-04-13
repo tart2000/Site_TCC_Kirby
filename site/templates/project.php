@@ -60,25 +60,35 @@
       <a href="<?php echo $page->projectLink() ?>" target="_blank"><?php echo $page->projectLink() ?> <i class="fa fa-external-link"></i></a>
       <hr>
       <?php $thetag=$page->projectTag(); ?>
-      <strong>Editions précédentes</strong></br>
-      <?php foreach (page('retours')->children()->filterBy('tags',$thetag,',') as $retour) : ?>
-          <a href="<?php echo $retour->Url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
-          <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
-          <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>
-      <?php endforeach ?>
-      <hr>
-      <strong>Nouvelles</strong></br>
-      <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->limit(5) as $retour) : ?>
-          <a href="<?php echo $retour->Url() ?>"><?php echo $retour->title() ?></a></br>
-      <?php endforeach ?>
+
+      <?php if (page('retours')->children()->filterBy('tags',$thetag,',') != '') : ?>
+        <strong>Editions précédentes</strong></br>
+          <?php foreach (page('retours')->children()->filterBy('tags',$thetag,',') as $retour) : ?>
+              <a href="<?php echo $retour->Url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
+              <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
+              <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>
+              <a href="<?php echo $retour->Url() ?>" class="right">Voir <i class="fa fa-arrow-right"></i></a>
+              <div class="clearfix"></div>
+          <?php endforeach ?>
+      <?php endif ?> 
+
+      <?php if (page('news')->children()->filterBy('tags',$thetag,',') != '') : ?>
+        <hr>
+        <strong>Nouvelles</strong></br>
+          <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->limit(5) as $retour) : ?>
+              <a href="<?php echo $retour->Url() ?>"><?php echo $retour->title() ?></a></br>
+          <?php endforeach ?>
+      <?php endif ?>
       <hr>
       <strong>À venir</strong>
 
-      <hr>
-      <b>Tags:</b><br> 
-      <?php foreach ($page->tags()->split(',') as $atag) : ?>
-        <div class="atag grey"><?php echo $atag ?></div>
-      <?php endforeach ?>
+      <?php if ($page->tags() != '') : ?>
+        <hr>
+        <b>Tags:</b><br> 
+        <?php foreach ($page->tags()->split(',') as $atag) : ?>
+          <div class="atag grey"><?php echo $atag ?></div>
+        <?php endforeach ?>
+      <?php endif ?>
     </div>
   </div>
   <!-- end 2ème colonne -->
