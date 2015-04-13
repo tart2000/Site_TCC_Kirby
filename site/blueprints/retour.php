@@ -8,9 +8,6 @@ fields:
   title:
     label: Title
     type:  text
-  year:
-    label: Year
-    type:  text
   place:
     label: Place
     type:  text
@@ -19,9 +16,17 @@ fields:
     label: Place Url
     type: Url
     width: 1/2
+  participants: 
+    label : Nombre de participants
+    type: number
+    width: 1/2
   dates: 
     label: Dates
     type: text
+    width: 1/2
+  year:
+    label: Year
+    type:  text
     width: 1/2
   vimeoLink: 
     label: Vimeo link (ex. 57724509)

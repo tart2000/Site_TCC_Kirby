@@ -44,7 +44,7 @@
                     <?php $first = page('projects')->children()->first() ?>
                     <?php foreach (page('projects')->children() as $project) : ?>
                     <li <?php if($project == $first) echo 'class="active"' ?>>
-                        <a href="#<?php echo $project->title()->short(5) ?>" data-toggle="tab"><?php echo $project->title() ?></a>
+                        <a href="#<?php echo $project->projectTag() ?>" data-toggle="tab"><?php echo $project->title() ?></a>
                     </li>
                     <?php endforeach ?>
                 </ul>
@@ -53,7 +53,7 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <?php foreach (page('projects')->children() as $project) : ?>
-                        <div class="tab-pane  <?php if($project == $first) echo 'active' ?>" id="<?php echo $project->title()->short(5) ?>">
+                        <div class="tab-pane  <?php if($project == $first) echo 'active' ?>" id="<?php echo $project->projectTag() ?>">
                             <h4><?php echo $project->title() ?></h4>
                             <p><?php echo $project->short() ?></p>
                             <a href="<?php echo $project->Url() ?>" class="btn btn-theme">En savoir plus</a>
