@@ -32,17 +32,17 @@
     <div class="container">
         <div clas="row">
             <div class="col-md-12">
-                <h3>Nos projets</h3>
+                <h3>Projets</h3>
             </div>
             <div class="clearfix"></div>
             <div class="col-md-4 mb">
-                <p><?php echo page('projects')->text() ?></p>
-                <a href="/projects" class="btn btn-theme">Voir tous les projets</a>
+                <p><?php echo page('projets')->text() ?></p>
+                <!-- <a href="/projets" class="btn btn-theme">Voir tous les projets</a> -->
             </div>
             <div class="col-md-2 col-xs-4">
                 <ul class="nav nav-tabs tabs-left">
-                    <?php $first = page('projects')->children()->first() ?>
-                    <?php foreach (page('projects')->children() as $project) : ?>
+                    <?php $first = page('projets')->children()->first() ?>
+                    <?php foreach (page('projets')->children() as $project) : ?>
                     <li <?php if($project == $first) echo 'class="active"' ?>>
                         <a href="#<?php echo $project->projectTag() ?>" data-toggle="tab"><?php echo $project->title() ?></a>
                     </li>
@@ -52,12 +52,11 @@
             <div class="col-md-6 col-xs-8">
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <?php foreach (page('projects')->children() as $project) : ?>
+                    <?php foreach (page('projets')->children() as $project) : ?>
                         <div class="tab-pane  <?php if($project == $first) echo 'active' ?>" id="<?php echo $project->projectTag() ?>">
                             <h4><?php echo $project->title() ?></h4>
                             <p><?php echo $project->short() ?></p>
                             <a href="<?php echo $project->Url() ?>" class="btn btn-theme">En savoir plus</a>
-                            <a class="right" href="<?php echo $project->projectLink() ?>"><?php echo $project->projectLink() ?> <i class="fa fa-external-link"></i></a></br>
                             <?php echo $key ?>
                         </div>
                     <?php endforeach ?>
