@@ -8,8 +8,9 @@ language: fr
 role: admin
 token: faa9b290ffea85d1f0432cdb9d17e245ba6184d7
 history:
+  - news/testjuin
+  - news/testmai
+  - >
+    news/atelier-scan-impression-3d-avec-helios
+  - news/lancement-de-radar
   - retours/museomix-2014
-  - projects/Museomix
-  - retours/spaceapps-2014
-  - projects
-  - projects/Space-apps

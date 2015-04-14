@@ -1,0 +1,25 @@
+Title: testmai
+
+----
+
+Newslink: 
+
+----
+
+Newsdate: 2015-04-08
+
+----
+
+Newsend: 2015-05-06
+
+----
+
+Sticky: 1
+
+----
+
+Text: 
+
+----
+
+Tags: 

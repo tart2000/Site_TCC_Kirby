@@ -1,0 +1,25 @@
+Title: testjuin
+
+----
+
+Newslink: 
+
+----
+
+Newsdate: 2015-04-23
+
+----
+
+Newsend: 2015-04-15
+
+----
+
+Sticky: 1
+
+----
+
+Text: 
+
+----
+
+Tags: museomix

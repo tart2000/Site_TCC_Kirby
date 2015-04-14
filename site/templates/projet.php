@@ -14,6 +14,26 @@
   <a href="<?php echo $site->url() ?>" title="Retour"><img src="<?php echo $site->url() ?>/assets/images/logo_TCC_sign_S.png" class="img-responsive"></a>
 </div>
 
+<?php $thetag=$page->projectTag(); ?>
+
+<div class="container mt">
+    <?php $thedate = strtotime(date("Y-m-d")); ?>
+    <?php foreach(page('news')->children()->filterBy('sticky','1')->filterBy('tags',$thetag,',')->flip() as $new): ?>
+    <?php $thisEndDate =  $new->date('','newsEnd') ?>
+        <?php if ($thisEndDate > $thedate) : ?>
+            <div class="alert alert-warning alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <strong><?php echo $new->title() ?></strong> 
+                    <?php if ($new->newsLink() != '') : ?>
+                        <a href="<?php echo $new->newsLink() ?>"><i class="fa fa-external-link sml"></i></a>
+                    <?php endif ?><br>
+                <?php echo $new->text() ?>
+            </div>
+        <?php endif ?>
+    <?php endforeach ?>
+</div>
+
+
 <main class="container">
   <div class="row">
     <div class="col-md-8">
@@ -56,11 +76,11 @@
 
     <!-- 2ème colonne -->
     <div class="col-md-4">
-      <img src="/assets/images/<?php echo $page->projectTag() ?>.png" class="img-responsive pb">
-      <a href="<?php echo $page->projectLink() ?>" target="_blank"><?php echo $page->projectLink() ?> <i class="fa fa-external-link"></i></a>
+      <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="/assets/images/<?php echo $page->projectTag() ?>.png" class="img-responsive pb"></a>
+      <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right">Site du projet <i class="fa fa-external-link"></i></a>
+      <div class="clearfix"></div>
       <hr>
-      <?php $thetag=$page->projectTag(); ?>
-
+      
       <?php if (page('retours')->children()->filterBy('tags',$thetag,',') != '') : ?>
         <strong>Editions précédentes</strong></br>
           <?php foreach (page('retours')->children()->filterBy('tags',$thetag,',') as $retour) : ?>
@@ -80,7 +100,8 @@
           <?php endforeach ?>
       <?php endif ?>
       <hr>
-      <strong>À venir</strong>
+      <strong>Prochaine édition</strong>
+      <!-- Mettre du code qui appelle les futurs événements ici -->
 
       <?php if ($page->tags() != '') : ?>
         <hr>

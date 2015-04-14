@@ -21,6 +21,10 @@
                 <p>Techno Culture Club<br> 
                 7255 Alexandra #203<br> 
                 Montréal, QC</p>
+                <div class="clearfix"></div>
+                <strong>Code</strong><br>
+                <p>fait avec <a href="http://getkirby.com">Kirby</a></p>
+                <a href="https://github.com/tart2000/Site_TCC_Kirby" target="_blank"><i class="fa fa-github fa-2x"></i>
             </div>
         </div>
     </div>

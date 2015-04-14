@@ -2,6 +2,17 @@
 
 Site basé sur [Kirby](http://getkirby.com), un CMS sans base de donnée. 
 
+##News 
+
+Le site est fait pour accueillir des news courtes, à la manière des tweets ou des 'call to action'. 
+Les news peuvent être 'sticky' et apparaitre comme des alertes en haut de la homepage. 
+Par exemple :
+
+- les inscriptions sont ouvertes pour tel atelier 
+- l'appel à projet est ouvet pour tel événement
+
+Si on pose une 'date de péremption', la news cessera d'être posée en haut de la page une fois la date passée. 
+
 ##Retours
 
 Tous les événements ne sont pas obligés d'avoir un retour. Il faut donc le créer si on veut. 

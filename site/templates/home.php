@@ -12,7 +12,8 @@
     </div>
 </div>
 
-<?php snippet('sticky') ?>
+<?php snippet('sticky2') ?>
+
 
 <main class="container">
 

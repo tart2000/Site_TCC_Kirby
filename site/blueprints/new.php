@@ -10,11 +10,15 @@ fields:
   newsLink:
     label: Lien 
     type: Url
-    width: 1/2
+    width: 1/4
   newsDate: 
     label: Date 
     type: date
     width: 1/4
+  newsEnd:
+    label: Date de Péremption ?
+    type: date
+    width:1/4
   sticky: 
     label: Sticky ? 
     type: checkbox
