@@ -100,7 +100,7 @@
           <?php endforeach ?>
       <?php endif ?>
       <hr>
-      <strong>Prochaine édition</strong>
+      <strong>Prochains événements</strong>
       <!-- Mettre du code qui appelle les futurs événements ici -->
 
       <?php if ($page->tags() != '') : ?>

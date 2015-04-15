@@ -253,5 +253,9 @@ Footer
   border-top: 1px solid #F4F4F4 !important;
   color: #bfc9d3;
 }
-
+.register {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
 

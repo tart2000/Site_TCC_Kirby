@@ -6,11 +6,10 @@ password: >
   $2a$10$7TTFNVNrXXoX08TuPk4ffeWim37c6S4o7Nbin/XAaR64v/VDDh7WK
 language: fr
 role: admin
-token: faa9b290ffea85d1f0432cdb9d17e245ba6184d7
+token: 1de31bf873de7c5537bcc7394af594303695bd2b
 history:
-  - news/testjuin
-  - news/testmai
-  - >
-    news/atelier-scan-impression-3d-avec-helios
-  - news/lancement-de-radar
-  - retours/museomix-2014
+  - evenements/museomix-2014
+  - evenements/powop-summer-1
+  - evenements/space-apps-challenge-2015
+  - evenements/lancement-de-museomix-2015
+  - evenements/chromatic-kids

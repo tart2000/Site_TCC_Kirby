@@ -1,7 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Retour
-pages: false
+pages: 
+  template: partenaire
 files:
   sortable: true
 fields:

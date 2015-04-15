@@ -6,11 +6,11 @@ Text:
 
 ----
 
-Year: 
+Year: 2014
 
 ----
 
-Place: 
+Place: Planétarium Rio Tinto Alcan
 
 ----
 
@@ -18,12 +18,16 @@ Placelink:
 
 ----
 
-Dates: 
+Dates: 12, 13 avril
 
 ----
 
-Vimeolink: 
+Vimeolink: 92189174
 
 ----
 
-Projecttag: space-apps
+Participants: 30
+
+----
+
+Tags: space-apps
