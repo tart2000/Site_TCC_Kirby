@@ -24,7 +24,9 @@
                 <div class="clearfix"></div>
                 <strong>Code</strong><br>
                 <p>fait avec <a href="http://getkirby.com">Kirby</a></p>
-                <a href="https://github.com/tart2000/Site_TCC_Kirby" target="_blank"><i class="fa fa-github fa-2x"></i>
+                <p>Dernière mise à jour :<br> 
+                <?php echo $site->modified('d/m/Y H:i') ?></p>
+                <a href="https://github.com/tart2000/Site_TCC_Kirby" target="_blank"><i class="fa fa-github fa-2x"></i></a>
             </div>
         </div>
     </div>

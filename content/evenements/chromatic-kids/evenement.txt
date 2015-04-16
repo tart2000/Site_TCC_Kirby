@@ -27,3 +27,15 @@ Tags:
 ----
 
 Text: Bacon ipsum dolor amet pork chop venison shoulder, strip steak beef ribs meatball t-bone porchetta pork loin andouille boudin frankfurter beef ham hock ball tip. Ball tip jowl hamburger beef ribs boudin short loin pancetta ground round picanha beef meatloaf t-bone porchetta prosciutto rump.
+
+----
+
+Venuename: Chalet du Mont-Royal
+
+----
+
+Venuelink: http://plouf.com
+
+----
+
+Infolink: 

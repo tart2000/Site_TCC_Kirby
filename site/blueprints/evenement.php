@@ -35,10 +35,13 @@ fields:
     label: Lien pour inscription
     type: Url
     width: 1/2
+  infoLink: 
+    label: Lien vers plus d'infos
+    type: Url
+    width: 1/2
   tags: 
     label: Tags  
     type: text
-    width: 1/2
   text:
     label: Texte
     type:  textarea

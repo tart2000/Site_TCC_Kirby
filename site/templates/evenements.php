@@ -44,7 +44,7 @@
   <div class="row center bmt">
     <h3>Evénements passés</h3> 
   </div>
-    <?php foreach(page()->children()->sortBy('startDate') as $event): ?>
+    <?php foreach(page()->children()->sortBy('startDate')->flip() as $event): ?>
     <?php $thedate=strtotime(date("Y-m-d"))?>
     <?php $thisdate = $event->date('','startDate') ?>
     <?php if ($thedate > $thisdate) : ?>

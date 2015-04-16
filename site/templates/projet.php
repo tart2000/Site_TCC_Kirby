@@ -97,10 +97,10 @@
       <?php if (page('news')->children()->filterBy('tags',$thetag,',') != '') : ?>
         <hr>
         <strong>Nouvelles</strong></br>
-          <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->sortBy('newsDate')->limit(5) as $retour) : ?>
-            <?php $theNewsDate=$event->date('','newsDate') ?>
+          <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->sortBy('newsDate')->limit(5) as $news) : ?>
+            <?php $theNewsDate=$news->date('','newsDate') ?>
               <?php if ($theNewsDate >= $thedate) : ?>
-                <a href="<?php echo $retour->Url() ?>"><?php echo $retour->title() ?></a></br>
+                <a href="<?php echo $news->Url() ?>"><?php echo $news->title() ?></a></br>
               <?php endif ?>
           <?php endforeach ?>
       <?php endif ?>

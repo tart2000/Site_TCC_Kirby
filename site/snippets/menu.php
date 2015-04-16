@@ -1,5 +1,6 @@
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <a class="navbar-brand logo" href="<?php echo $site->url ?>"><img src="/assets/images/logo_TCC_sign_S.png" class="img-responsive"></a>
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -8,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand logo" href="<?php echo $site->url ?>"><img src="/assets/images/logo_TCC_sign_S.png" class="img-responsive"></a>
+      
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">

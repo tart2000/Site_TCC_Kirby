@@ -14,8 +14,6 @@
 
 <?php snippet('sticky2') ?>
 
-<hr>
-
 <main class="container">
 
     <div class="row bmt">
@@ -29,6 +27,8 @@
     </div><!-- /row -->
 
 </main>
+
+<hr class="bmt">
 
 <?php snippet('events') ?>
 
