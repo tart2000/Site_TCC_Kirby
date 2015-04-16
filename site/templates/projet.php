@@ -15,9 +15,9 @@
 </div>
 
 <?php $thetag=$page->projectTag(); ?>
+<?php $thedate = strtotime(date("Y-m-d")); ?>
 
 <div class="container mt">
-    <?php $thedate = strtotime(date("Y-m-d")); ?>
     <?php foreach(page('news')->children()->filterBy('sticky','1')->filterBy('tags',$thetag,',')->flip() as $new): ?>
     <?php $thisEndDate =  $new->date('','newsEnd') ?>
         <?php if ($thisEndDate > $thedate) : ?>
@@ -37,37 +37,39 @@
 <main class="container">
   <div class="row">
     <div class="col-md-8">
-      <!-- Carousel -->
-      <div id="project-carousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <?php $first = $page->images()->flip()->first() ?>
-          <?php $index0 = 0 ?>
-          <?php foreach($page->images()->flip() as $image): ?>
-          <li data-target="#project-carousel" data-slide-to="<?php echo $index0 ?>" <?php if($image == $first) echo 'class="active"' ?>></li>
-          <?php $index0++; ?>
-          <?php endforeach ?>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <?php $first = $page->images()->flip()->first() ?>
-          <?php foreach($page->images()->flip() as $image): ?>
-            <div class="item <?php if($image == $first) echo 'active' ?>">
-              <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
-            </div>
-          <?php endforeach ?>
+      <?php if ($page->images() != '') : ?>
+        <!-- Carousel -->
+        <div id="project-carousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <?php $first = $page->images()->flip()->first() ?>
+            <?php $index0 = 0 ?>
+            <?php foreach($page->images()->flip() as $image): ?>
+            <li data-target="#project-carousel" data-slide-to="<?php echo $index0 ?>" <?php if($image == $first) echo 'class="active"' ?>></li>
+            <?php $index0++; ?>
+            <?php endforeach ?>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <?php $first = $page->images()->flip()->first() ?>
+            <?php foreach($page->images()->flip() as $image): ?>
+              <div class="item <?php if($image == $first) echo 'active' ?>">
+                <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
+              </div>
+            <?php endforeach ?>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#project-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#project-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <!-- Controls -->
-        <a class="left carousel-control" href="#project-carousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#project-carousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <!-- end carousel -->
+        <!-- end carousel -->
+      <?php endif ?>
 
       <div class="pt lg">
         <?php echo $page->text()->kirbytext() ?>
@@ -79,9 +81,9 @@
       <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="/assets/images/<?php echo $page->projectTag() ?>.png" class="img-responsive pb"></a>
       <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right">Site du projet <i class="fa fa-external-link"></i></a>
       <div class="clearfix"></div>
-      <hr>
       
       <?php if (page('retours')->children()->filterBy('tags',$thetag,',') != '') : ?>
+        <hr>
         <strong>Editions précédentes</strong></br>
           <?php foreach (page('retours')->children()->filterBy('tags',$thetag,',') as $retour) : ?>
               <a href="<?php echo $retour->Url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
@@ -95,13 +97,24 @@
       <?php if (page('news')->children()->filterBy('tags',$thetag,',') != '') : ?>
         <hr>
         <strong>Nouvelles</strong></br>
-          <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->limit(5) as $retour) : ?>
-              <a href="<?php echo $retour->Url() ?>"><?php echo $retour->title() ?></a></br>
+          <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->sortBy('newsDate')->limit(5) as $retour) : ?>
+            <?php $theNewsDate=$event->date('','newsDate') ?>
+              <?php if ($theNewsDate >= $thedate) : ?>
+                <a href="<?php echo $retour->Url() ?>"><?php echo $retour->title() ?></a></br>
+              <?php endif ?>
           <?php endforeach ?>
       <?php endif ?>
-      <hr>
-      <strong>Prochains événements</strong>
-      <!-- Mettre du code qui appelle les futurs événements ici -->
+      
+      <?php if (page('evenements')->children()->filterBy('tags',$thetag,',') != '') : ?>
+        <hr>
+        <strong>Prochains événements</strong></br>
+          <?php foreach (page('evenements')->children()->filterBy('tags',$thetag,',')->sortBy('startDate')->limit(5) as $event) : ?>
+            <?php $eventDate=$event->date('','startDate') ?>
+              <?php if ($eventDate >= $thedate) : ?>
+                <?php echo $event->date('d M','startDate') ?> - <a href="<?php echo $event->Url() ?>"><?php echo $event->title() ?></a></br>
+              <?php endif ?>
+          <?php endforeach ?>
+      <?php endif ?>
 
       <?php if ($page->tags() != '') : ?>
         <hr>
