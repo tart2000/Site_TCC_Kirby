@@ -27,6 +27,15 @@
                 </div>
             <?php endforeach ?>
         </div>
+
+        <div class="row">
+            <?php foreach ($page->children() as $p) :?>
+                <?php $siperSize = $p->superWidth()*2 ?>
+                <div class="col-md-<?php echo $siperSize ?>">
+                    <a href="<?php echo $p->lien() ?>" target="_blank"><img src="<?php echo $p->images()->first()->url() ?>" class="img-responsive"></a>
+                </div>
+            <?php endforeach ?>
+        </div>
         <hr>
 
   </main>
