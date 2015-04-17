@@ -258,4 +258,9 @@ Footer
   right: 10px;
   top: 10px;
 }
-
+.old {
+  color: #efefef;
+}
+.btn .disabled {
+  opacity: 0.25 !important; 
+}
