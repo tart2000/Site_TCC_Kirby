@@ -8,6 +8,7 @@ Header
 
 .logo img {
     max-height: 46px;
+    max-width: 200px;
 }
 .logo {
     position: relative;
@@ -77,6 +78,9 @@ h2 {
 .bmt {
   margin-top: 30px;
 }
+.header-marg {
+  margin-top: 70px;
+}
 .mb {
   margin-bottom: 15px;
 }
@@ -94,6 +98,12 @@ h2 {
 }
 .pb {
   padding-bottom: 15px;
+}
+.bpb {
+  padding-bottom: 45px;
+}
+.bpt {
+  padding-top: 45px;
 }
 .lg {
   font-size: 1.3em;
@@ -242,6 +252,13 @@ Project page
   top: 0px;
   padding: 10px;
   max-width: 50px;
+}
+
+.fa-play-circle-o {
+  font-size: 10em;
+}
+.plog img {
+  max-height: 22px;
 }
 /* ################################################################
 Footer 
