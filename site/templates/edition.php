@@ -99,17 +99,10 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 
 <!--- Partenaires --> 
 
-<hr>
-<div class="container">
-    <div class="row">
-        <?php if ($page->children() !='') : ?>
-            <?php foreach ($page->chidren() as $p) : ?>
-                <?php echo $p->title() ?>
-            <?php endforeach ?>
-        <?php endif ?>
-    </div>
-</div>
-    <!-- Devenir partenaire -->
+<!-- Partenaires -->
+<?php snippet('partners') ?>
+
+ <!-- Devenir partenaire -->
 
 
 
@@ -119,4 +112,8 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 
 <!-- footer -->
 
-Un projet Techno Culture Club 
+
+<div class="footer center">
+    Un projet Techno Culture Club <br>
+    <a href="<?php echo $site->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/logo_TCC_M.png" style="max-width:10%;"></a>
+</div>

@@ -83,6 +83,7 @@
       <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right">Site du projet <i class="fa fa-external-link"></i></a>
       <div class="clearfix"></div>
       
+      <!-- retours -->
       <?php if (page('retours')->children()->filterBy('connect',$theTag2,',') != '') : ?>
         <hr>
         <strong>Editions précédentes</strong></br>
@@ -95,6 +96,17 @@
           <?php endforeach ?>
       <?php endif ?> 
 
+      <!-- next edition -->
+      <?php if ($page->children('edition') != '') : ?>
+        <hr>
+        <strong>Prochaine édition</strong></br>
+        <?php foreach ($page->children('edition') as $e) : ?>
+          <a href="<?php echo $e->url() ?>"><?php echo $e->title() ?></a>
+        <?php endforeach ?>
+
+      <?php endif ?>
+
+      <!-- news -->
       <?php if (page('news')->children()->filterBy('tags',$thetag,',') != '') : ?>
         <hr>
         <strong>Nouvelles</strong></br>
