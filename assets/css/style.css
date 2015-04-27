@@ -260,6 +260,14 @@ Project page
 .plog img {
   max-height: 22px;
 }
+.partner img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.partner img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
 /* ################################################################
 Footer 
 ################################################################### */ 

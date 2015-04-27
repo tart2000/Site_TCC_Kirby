@@ -11,9 +11,20 @@ fields:
     type: Url
     width: 1/2
   superWidth: 
-    label: largeur (1, 2 ou 3)
+    label: Largeur (1, 2 ou 3)
     type: number
     width: 1/2
+  category:
+    label: Catégorie 
+    type: select
+    default: sponsor
+    options: 
+      co: Co-organisateur
+      sponsor: Commanditaire
+      service: Partenaire de service
+      technical: Partenaire technique
+      community: Partenaire de communauté 
+      diffusion: Partenaire de diffusion  
   text:
     label: Text
     type:  textarea

@@ -36,6 +36,9 @@ fields:
   text:
     label: Text
     type:  textarea
-  Tags: 
-    label: Tags (ajouter le tag d'un projet pour le connecter)
-    type: text
+  connect: 
+    label: Connexion à un projet
+    type: select 
+    options: query
+    query: 
+      page: projets
