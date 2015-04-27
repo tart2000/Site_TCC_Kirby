@@ -21,13 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <?php $counter=0; foreach($retour->images()->sortBy('sort', 'asc') as $image): if($counter++ == 0) continue; ?>
-                <div class="col-md-3 col-xs-6">
-                    <a href="<?php echo $image->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>" class="img-responsive mt mb"></a>
-                </div>
-            <?php endforeach ?>
-        </div>
+
         <hr>
 
     <?php endforeach ?>

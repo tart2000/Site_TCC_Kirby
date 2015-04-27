@@ -15,6 +15,7 @@
 </div>
 
 <?php $thetag=$page->projectTag(); ?>
+<?php $theTag2 = $page->dirname(); ?>
 <?php $thedate = strtotime(date("Y-m-d")); ?>
 
 <div class="container mt">
@@ -82,10 +83,10 @@
       <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right">Site du projet <i class="fa fa-external-link"></i></a>
       <div class="clearfix"></div>
       
-      <?php if (page('retours')->children()->filterBy('tags',$thetag,',') != '') : ?>
+      <?php if (page('retours')->children()->filterBy('connect',$theTag2,',') != '') : ?>
         <hr>
         <strong>Editions précédentes</strong></br>
-          <?php foreach (page('retours')->children()->filterBy('tags',$thetag,',') as $retour) : ?>
+          <?php foreach (page('retours')->children()->filterBy('connect',$theTag2,',') as $retour) : ?>
               <a href="<?php echo $retour->Url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
               <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
               <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>

@@ -8,13 +8,11 @@ language: fr
 role: admin
 token: ef2dca1c8a9e1ba5d911b2bccd684e8e303fa4fd
 history:
+  - retours/museomix-2014
+  - retours/spaceapps-2014
   - >
     retours/la-deuxieme-edition-de-space-apps-a-montreal
   - >
     retours/la-deuxieme-edition-de-space-apps-a-montreal/nasa
   - >
     retours/la-deuxieme-edition-de-space-apps-a-montreal/plane
-  - >
-    retours/la-deuxieme-edition-de-space-apps-a-montreal/helios
-  - >
-    retours/la-deuxieme-edition-de-space-apps-a-montreal/ile-sans-fil
