@@ -128,14 +128,21 @@
   </div>
   <!-- end 2ème colonne -->
 
-  <nav class="nextprev cf" role="navigation">
-    <?php if($prev = $page->prevVisible()): ?>
-    <a class="prev" href="<?php echo $prev->url() ?>">&larr; previous</a>
-    <?php endif ?>
-    <?php if($next = $page->nextVisible()): ?>
-    <a class="next" href="<?php echo $next->url() ?>">next &rarr;</a>
-    <?php endif ?>
-  </nav>
+    <!-- navigation -->
+    <div class="row mt">
+        <div class="col-md-10 col-md-offset-1">
+          <nav class="" role="navigation">
+            <ul class="pager">
+              <?php if($prev = $page->prev()): ?>
+              <li class="previous"><a href="<?php echo $prev->url() ?>">&larr; Précédent</a></li>
+              <?php endif ?>
+              <?php if($next = $page->next()): ?>
+              <li class="next"><a href="<?php echo $next->url() ?>">Suivant &rarr;</a></li>
+              <?php endif ?>
+            </ul>
+          </nav>
+      </div>
+    </div>
 
 </main>
 
