@@ -14,7 +14,7 @@ Newsend:
 
 ----
 
-Sticky: 1
+Sticky: 
 
 ----
 

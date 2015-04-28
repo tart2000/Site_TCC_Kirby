@@ -1,5 +1,5 @@
 <div class="container mt">
-    <?php $thedate = strtotime(date("Y-m-d")); ?>
+    <?php $thedate = time()  ?>
     <?php $counter = 0 ?>
     <?php foreach(page('news')->children()->filterBy('sticky','1')->flip() as $new): ?>
     <?php $thisEndDate =  $new->date('','newsEnd') ?>
@@ -10,7 +10,7 @@
               <strong><?php echo $new->title() ?></strong> 
                 <?php if ($new->newsLink() != '') : ?>
                     <a href="<?php echo $new->newsLink() ?>"><i class="fa fa-external-link sml"></i></a>
-                <?php endif ?><br>
+                <?php endif ?>
               <?php echo $new->text() ?>
             </div>
             <?php $counter++ ?>

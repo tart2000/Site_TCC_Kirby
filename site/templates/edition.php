@@ -94,7 +94,12 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 </script>
 
 <div class="container">
-<h3><?php echo $page->text()->kirbytext() ?></h3>
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 center"> 
+            <h3><?php echo $page->text()->kirbytext() ?></h3>
+            <a href="<?php $page->parent()->url() ?>" class="btn btn-theme">En savoir plus sur <?php echo $page->parent()->title() ?></a>
+        </div>
+    </div>
 </div>
 
 <!--- Partenaires --> 

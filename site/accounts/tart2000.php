@@ -8,13 +8,8 @@ language: fr
 role: admin
 token: ef2dca1c8a9e1ba5d911b2bccd684e8e303fa4fd
 history:
-  - >
-    retours/la-deuxieme-edition-de-space-apps-a-montreal/mtl-int
-  - >
-    retours/la-deuxieme-edition-de-space-apps-a-montreal/csa
-  - >
-    retours/la-deuxieme-edition-de-space-apps-a-montreal/institut
-  - >
-    retours/la-deuxieme-edition-de-space-apps-a-montreal/prospectia-lex
-  - >
-    retours/la-deuxieme-edition-de-space-apps-a-montreal/google
+  - news/encore-une-nouvelle
+  - news/testjuin
+  - news/une-news-d-ajourd-hui
+  - retours/spaceapps-2014
+  - retours/museomix-2014

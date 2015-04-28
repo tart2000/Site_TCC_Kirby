@@ -21,6 +21,10 @@ fields:
     label : Nombre de participants
     type: number
     width: 1/2
+  nbprojets:
+    label: Nombre de projets
+    type: number
+    width:1/2
   dates: 
     label: Dates
     type: text

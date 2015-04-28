@@ -13,7 +13,8 @@
                 </a>
                 <?php endif ?>
                 <h3><?php echo $page->place() ?> - <?php echo $page->dates() ?> <?php echo $page->year() ?></h3>
-                <em><?php echo $page->participants() ?> participants</em>
+                <em><?php echo $page->participants() ?> participants</em> - 
+                <em><?php echo $page->nbprojets() ?> projets</em>
                 <p><?php echo $page->text()->kirbytext() ?></p>
             </div>
             <div class="col-md-7">
