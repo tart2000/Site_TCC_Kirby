@@ -32,7 +32,7 @@
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="" class="navdate hide"><strong><?php echo $page->dateText() ?></strong></a></li>
+        <li><a href="" class="navdate hide"><strong><?php echo $page->dateText() ?> - <?php echo $page->venue() ?></strong></a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -121,22 +121,32 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 <?php $aapStart = $page->date('','debutCall') ?>
 <?php $aapEnd = $page->date('','endCall') ?>
 
-<div class="container center">
-<?php if ($thedate < $aapEnd) : ?>
-    <?php if ($thedate > $aapStart) : ?>
-    <!-- Pendant AàP -->
-        <div class="lg">
-            <?php echo $page->call4p()->kirbytext() ?>
-        </div>
-    <?php else : ?>
-    <!-- Avant AàP -->
-        <h2>Participer</h2>
-        <p class="lg">Rendez-vous le <?php echo strftime("%e %B",$aapStart) ?> pour l'ouverture des places !</p>
-    <?php endif ?>
-<?php else : ?>
-<!-- Après AàP -->
+<div class="container bmt">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+        <?php if ($thedate < $aapEnd) : ?>
+            <?php if ($thedate > $aapStart) : ?>
+            <!-- Pendant AàP -->
+                <div class="bs-callout bs-callout-warning"> 
+                    <a href="<?php echo $page->registrationLink() ?>" target="_blank" class="btn btn-theme right"><?php echo $page->registrationText() ?></a>
+                    <h4>Participer :</h4>
+                    <div class="lg">
+                        <?php echo $page->call4p()->kirbytext() ?>
+                    </div>
+                </div>
+            <?php else : ?>
+            <!-- Avant AàP -->
+                <div class="bs-callout bs-callout-default">
+                <h4>Participer :</h4>
+                <p class="lg">Rendez-vous le <?php echo strftime("%e %B",$aapStart) ?> pour l'ouverture des places !</p>
+                </div>
+            <?php endif ?>
+        <?php else : ?>
+        <!-- Après AàP -->
 
-<?php endif ?>
+        <?php endif ?>
+        </div>
+    </div>
 </div>
 
 <!-- Team --> 

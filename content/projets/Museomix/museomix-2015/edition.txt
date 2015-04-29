@@ -18,7 +18,7 @@ Venue: Musée d'art contemporain
 
 ----
 
-Debutcall: 2015-05-31
+Debutcall: 2015-04-28
 
 ----
 
@@ -26,7 +26,7 @@ Endcall: 2015-07-15
 
 ----
 
-Registrationlink: http://plouf.com
+Registrationlink: http://google.com
 
 ----
 
@@ -34,7 +34,7 @@ Registrationtext: Inscriptions
 
 ----
 
-Call4p: L'appel à participant est ouvert !
+Call4p: L'appel à participants est ouvert !
 
 ----
 
@@ -62,4 +62,7 @@ Partenaires: http://part.com
 
 ----
 
-Partenaire: Un bla bla ici sur pourquoi c'est épique d'être partenaire...
+Partenaire: 
+
+Un bla bla ici sur pourquoi c'est épique d'être partenaire...
+(éditable depuis le backoffice of course !)
