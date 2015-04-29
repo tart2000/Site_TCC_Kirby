@@ -7,11 +7,6 @@
         </div>
         <div class="row center">
             <div class="col-md-5 left">
-                <?php if($image = $page->images()->sortBy('sort', 'asc')->first()): ?>
-                <a href="<?php echo $page->url() ?>">
-                  <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>" class="img-responsive">
-                </a>
-                <?php endif ?>
                 <h3><?php echo $page->place() ?> - <?php echo $page->dates() ?> <?php echo $page->year() ?></h3>
                 <em><?php echo $page->participants() ?> participants</em> - 
                 <em><?php echo $page->nbprojets() ?> projets</em>
@@ -30,7 +25,7 @@
         <!-- Images -->
         <?php if ($page->images() != '') : ?>
         <div class="row">
-            <?php foreach($page->images()->sortBy('sort', 'asc')->offset('1') as $image): ?>
+            <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
                 <div class="col-md-3 col-xs-6">
                     <a href="<?php echo $image->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>" class="img-responsive mt mb"></a>
                 </div>

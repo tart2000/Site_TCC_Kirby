@@ -6,7 +6,7 @@ password: >
   $2a$10$7TTFNVNrXXoX08TuPk4ffeWim37c6S4o7Nbin/XAaR64v/VDDh7WK
 language: fr
 role: admin
-token: ef2dca1c8a9e1ba5d911b2bccd684e8e303fa4fd
+token: b2cb10e19e9941d18063006c5f49278c355c3aae
 history:
   - >
     retours/la-deuxieme-edition-de-space-apps-a-montreal/csa
