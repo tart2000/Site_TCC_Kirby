@@ -35,11 +35,15 @@
 <div id="projects" class="bmt pt pb">
     <div class="container">
         <div clas="row">
-            <div class="col-md-12 bmb">
+            <div class="col-md-12">
                 <h3>Projets</h3>
-                <p class="lg"><?php echo page('projets')->text() ?></p>
             </div>
-            <div class="col-md-3 col-xs-4">
+            <div class="clearfix"></div>
+            <div class="col-md-4 mb">
+                <p><?php echo page('projets')->text() ?></p>
+                <!-- <a href="/projets" class="btn btn-theme">Voir tous les projets</a> -->
+            </div>
+            <div class="col-md-2 col-xs-4">
                 <ul class="nav nav-tabs tabs-left">
                     <?php $first = page('projets')->children()->first() ?>
                     <?php foreach (page('projets')->children() as $project) : ?>
@@ -49,19 +53,15 @@
                     <?php endforeach ?>
                 </ul>
             </div>
-            <div class="col-md-9 col-xs-8">
+            <div class="col-md-6 col-xs-8">
                 <!-- Tab panes -->
-                <div class="tab-content pt">
+                <div class="tab-content">
                     <?php foreach (page('projets')->children() as $project) : ?>
                         <div class="tab-pane  <?php if($project == $first) echo 'active' ?>" id="<?php echo $project->projectTag() ?>">
-                            <div class="col-md-6">
-                                <p><?php echo $project->short() ?></p>
-                                <a href="<?php echo $project->Url() ?>" class="btn btn-theme">En savoir plus</a>
-                                <?php echo $key ?>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="../assets/images/banner-<?php echo $project->projectTag() ?>.jpg" class="img-responsive">
-                            </div>
+                            <h4><?php echo $project->title() ?></h4>
+                            <p><?php echo $project->short() ?></p>
+                            <a href="<?php echo $project->Url() ?>" class="btn btn-theme">En savoir plus</a>
+                            <?php echo $key ?>
                         </div>
                     <?php endforeach ?>
                 </div>

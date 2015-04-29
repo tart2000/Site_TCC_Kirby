@@ -16,7 +16,7 @@ fields:
     type: date
     width: 1/4
   newsEnd:
-    label: Date de péremption ?
+    label: Date de Péremption ?
     type: date
     width:1/4
   sticky: 

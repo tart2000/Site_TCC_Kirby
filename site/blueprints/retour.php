@@ -21,10 +21,6 @@ fields:
     label : Nombre de participants
     type: number
     width: 1/2
-  nbprojets:
-    label: Nombre de projets
-    type: number
-    width:1/2
   dates: 
     label: Dates
     type: text
@@ -40,9 +36,6 @@ fields:
   text:
     label: Text
     type:  textarea
-  connect: 
-    label: Connexion à un projet
-    type: select 
-    options: query
-    query: 
-      page: projets
+  Tags: 
+    label: Tags (ajouter le tag d'un projet pour le connecter)
+    type: text
