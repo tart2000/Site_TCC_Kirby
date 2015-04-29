@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Partenaire
+title: partenaire
 pages: false
 fields:
   title:

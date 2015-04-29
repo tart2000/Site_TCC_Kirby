@@ -1,4 +1,4 @@
-        <?php if ($page->children() != '') : ?>
+        <?php if ($page->hasChildren('partenaire')) : ?>
             <hr>
             <div class="row center">
                 <h2>Partenaires</h2>

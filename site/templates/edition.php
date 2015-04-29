@@ -77,10 +77,10 @@
 
 <!-- Timer -->
 <?php if ($thedate <= $thisdate) : ?>
-<div class="pt bpb bmb" style="background-image:url('<?php echo $site->url() ?>/assets/images/timer-banner.png');">
+<div id="countdown" class="bpt bpb bmb stretched-bg" style="background-image: url('<?php echo $page->images()->sortBy('sort', 'asc')->offset(1)->first()->url() ?>');">
     <div class="container">
         <div class="row center">
-            <h3>Prochaine édition dans : </h3>
+            <h3>Rendez-vous dans : </h3>
         </div>
         <div class="row center" id="clock">
         </div>
@@ -105,6 +105,38 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
     </div>
 </div>
 
+<!-- Team --> 
+<?php if ($page->children('team') != '') : ?>
+<div class="container bmt">
+    <div class="row center">
+        <h2>Équipe</h2>
+    </div>
+    <div class="row">
+    <?php foreach ($page->children('team') as $team) : ?>
+        <div class="col-md-2 col-sm-3 col-xs-4 team">
+            <?php if ($team->images() != '') : ?>
+                <?php echo thumb($team->images()->first(), array('width'=>400, 'height'=>400, 'crop'=>true)) ?>
+            <?php endif ?>
+            <div class="team-text">
+                <strong><?php echo $team->title() ?> <?php echo $team->nom() ?></strong>
+                <p>
+                    <?php if ($team->role() != '') : ?>
+                        <?php echo $team->role() ?><br>
+                    <?php endif ?>
+                    <?php if ($team->tw() != '') : ?>
+                        <?php echo twitter($team->tw()) ?>
+                    <?php endif ?> 
+                    <?php if ($team->mail() != '') : ?>
+                        <a href="mailto:<?php echo $team->mail() ?>"><i class="fa fa-envelope"></i></a>
+                    <?php endif ?>
+                    </p>
+            </div>
+        </div>
+    <?php endforeach ?>
+    </div>
+</div>
+<?php endif ?>
+
 <!-- Contacts -->
 <div class="container center contacts mt mb">
     <?php if ($page->contact() != '') : ?>
@@ -122,7 +154,6 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 </div>
 
 <!-- Partenaires -->
-<hr>
 <?php snippet('partners') ?>
 
  <!-- Devenir partenaire -->

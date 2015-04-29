@@ -2,8 +2,12 @@
 
 title: Edition
 pages: 
-  template: partenaire
-files: true
+  template: 
+    - partenaire
+    - team
+  sortable: true
+files: 
+  sortable: true
 fields:
   title:
     label: Titre
