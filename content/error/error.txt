@@ -1,9 +1,5 @@
-Title: Error.
+Title: Error
 
 ----
 
-Text: 
-
-Bravo. Vous avez tout cassé. 
-How did you manage to get here ? 
-<iframe src="//giphy.com/embed/oF9oK03BB9Xc4?html5=true" width="480" height="372" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+Text: The page has not been found.

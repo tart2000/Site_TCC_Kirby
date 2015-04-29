@@ -1,4 +1,4 @@
-Title: Chromatic Kids - crazy Gif Machina
+Title: Chromatic Kids
 
 ----
 
@@ -10,11 +10,11 @@ Enddate:
 
 ----
 
-Starttime: 12:00
+Starttime: 11:00
 
 ----
 
-Endtime: 18:00
+Endtime: 19:00
 
 ----
 
@@ -22,11 +22,11 @@ Registrationlink:
 
 ----
 
-Tags: #gif #massivart #gifmachina #mozzarellabs
+Tags: 
 
 ----
 
-Text: Durant la journée Chromatic Kids, venez poser devant une curieuse caméra, et repartez avec votre Gif animé /  For Chromatic Kids day, come and pose for a curious camera, then leave with your own animated Gif.
+Text: Bacon ipsum dolor amet pork chop venison shoulder, strip steak beef ribs meatball t-bone porchetta pork loin andouille boudin frankfurter beef ham hock ball tip. Ball tip jowl hamburger beef ribs boudin short loin pancetta ground round picanha beef meatloaf t-bone porchetta prosciutto rump.
 
 ----
 
@@ -34,7 +34,7 @@ Venuename: Chalet du Mont-Royal
 
 ----
 
-Venuelink: http://festivalchromatic.com/
+Venuelink: http://plouf.com
 
 ----
 

@@ -8,6 +8,7 @@ Header
 
 .logo img {
     max-height: 46px;
+    max-width: 200px;
 }
 .logo {
     position: relative;
@@ -77,6 +78,12 @@ h2 {
 .bmt {
   margin-top: 30px;
 }
+.bmb {
+  margin-bottom: 30px;
+}
+.header-marg {
+  margin-top: 70px;
+}
 .mb {
   margin-bottom: 15px;
 }
@@ -94,6 +101,12 @@ h2 {
 }
 .pb {
   padding-bottom: 15px;
+}
+.bpb {
+  padding-bottom: 45px;
+}
+.bpt {
+  padding-top: 45px;
 }
 .lg {
   font-size: 1.3em;
@@ -175,6 +188,13 @@ a:focus {
     padding-bottom: 50px;
     margin-top: 30px;
 }
+.stretched-bg {
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 #nymphe h1, #aboutwrap h1 {
   color: white; 
   background-color: rgba(0,0,0,0.5);
@@ -243,6 +263,96 @@ Project page
   padding: 10px;
   max-width: 50px;
 }
+
+.fa-play-circle-o {
+  font-size: 10em;
+}
+.plog img {
+  max-height: 22px;
+}
+.partner img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.partner img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+.partners h4 {
+  color: grey;
+}
+.partner {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.team-text {
+  padding-top: 5px;
+  text-transform: capitalize;
+}
+.team img {
+  width: 100%;
+  border-radius: 10px;
+}
+/* ################################################################
+Callouts
+################################################################### */
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
 /* ################################################################
 Footer 
 ################################################################### */ 
@@ -258,4 +368,9 @@ Footer
   right: 10px;
   top: 10px;
 }
-
+.old {
+  color: #efefef;
+}
+.btn .disabled {
+  opacity: 0.25 !important; 
+}
