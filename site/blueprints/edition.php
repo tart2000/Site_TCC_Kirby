@@ -51,4 +51,23 @@ fields:
     label: Texte de l'appel (compatible HTML)
     type: textarea
 
+  contacts:
+    label: Contacts
+    type: headline
+  contact:
+    label: Contact
+    type: email
+    width:1/2
+  presse:
+    label: Presse
+    type: Url
+    width:1/2
+  benevoles:
+    label: Bénévoles
+    type: Url
+    width: 1/2
+  partenaires:
+    label: Partenaires
+    type: Url
+    width: 1/2
   

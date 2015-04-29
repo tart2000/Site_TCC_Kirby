@@ -97,19 +97,43 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1 center"> 
             <h3><?php echo $page->text()->kirbytext() ?></h3>
-            <a href="<?php $page->parent()->url() ?>" class="btn btn-theme">En savoir plus sur <?php echo $page->parent()->title() ?></a>
+            <a href="<?php echo $page->parent()->url() ?>" class="btn btn-theme">En savoir plus sur <?php echo $page->parent()->title() ?></a>
         </div>
     </div>
 </div>
 
-<!--- Partenaires --> 
+<!-- Contacts -->
+<div class="container center contacts mt mb">
+    <?php if ($page->contact() != '') : ?>
+        <a href="mailto:<?php echo $page->contact() ?>" target="_blank">Contact</a> | 
+    <?php endif ?>
+    <?php if ($page->presse() != '') : ?>
+        <a href="<?php echo $page->presse() ?>" target="_blank">Presse</a> | 
+    <?php endif ?>
+    <?php if ($page->benevoles() != '') : ?>
+        <a href="<?php echo $page->benevoles() ?>" target="_blank">Bénévoles</a> | 
+    <?php endif ?>
+    <?php if ($page->partenaires() != '') : ?>
+        <a href="<?php echo $page->partenaires() ?>" target="_blank">Partenaires</a>
+    <?php endif ?>
+</div>
 
 <!-- Partenaires -->
+<hr>
+Ici, la liste des partenaires
 <?php snippet('partners') ?>
 
  <!-- Devenir partenaire -->
-
-
+<div class="container center">
+    <a class="btn btn-theme center" data-toggle="collapse" href="#collapsePartner" aria-expanded="false" aria-controls="collapsePartner">
+      Devenir partenaire
+    </a>
+    <div class="collapse" id="collapsePartner">
+      <div class="well mt">
+        <h4>Pourquoi devenir partenaire de <?php echo $page->parent()->title() ?> ?</h4>
+      </div>
+    </div>
+</div>
 
 <!-- infolettre --> 
 

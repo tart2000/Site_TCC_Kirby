@@ -18,6 +18,9 @@
                             <?php endif ?>
                         </div>
                     <?php endforeach ?>
+                    <div class="col-sm-2 partner">
+                        <a href="<?php echo $site->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/logo_TCC_M.png" class="img-responsive"></a>
+                    </div>
                 <?php endif ?>
                 <div class="clearfix"></div>
 
