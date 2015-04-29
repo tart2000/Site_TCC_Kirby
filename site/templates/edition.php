@@ -1,10 +1,19 @@
 
+
+
 <?php snippet('head') ?>
 
 <!-- counter info -->
 
 <?php $thedate =  time() ?>
 <?php $thisdate = $page->date('','startDate') ?>
+<?php setlocale(LC_ALL, 'fr_FR') ?>
+
+
+<!-- redirect if after event -->
+<?php if ($thedate > $thisdate) : ?>
+    <?php go($page->parent()->url()) ?>
+<?php endif ?>
 
 <!-- Header --> 
 
@@ -23,6 +32,7 @@
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
+        <li><a href="" class="navdate hide"><strong><?php echo $page->dateText() ?></strong></a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -96,13 +106,37 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 });
 </script>
 
+
+<!-- Texte de l'édition -->
 <div class="container">
     <div class="row">
-        <div class="col-sm-10 col-sm-offset-1 center"> 
-            <h3><?php echo $page->text()->kirbytext() ?></h3>
+        <div class="col-sm-8 col-sm-offset-2 center lg"> 
+            <p><?php echo $page->text()->kirbytext() ?></p>
             
         </div>
     </div>
+</div>
+
+<!-- Appel à participants -->
+<?php $aapStart = $page->date('','debutCall') ?>
+<?php $aapEnd = $page->date('','endCall') ?>
+
+<div class="container center">
+<?php if ($thedate < $aapEnd) : ?>
+    <?php if ($thedate > $aapStart) : ?>
+    <!-- Pendant AàP -->
+        <div class="lg">
+            <?php echo $page->call4p()->kirbytext() ?>
+        </div>
+    <?php else : ?>
+    <!-- Avant AàP -->
+        <h2>Participer</h2>
+        <p class="lg">Rendez-vous le <?php echo strftime("%e %B",$aapStart) ?> pour l'ouverture des places !</p>
+    <?php endif ?>
+<?php else : ?>
+<!-- Après AàP -->
+
+<?php endif ?>
 </div>
 
 <!-- Team --> 
@@ -138,7 +172,8 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 <?php endif ?>
 
 <!-- Contacts -->
-<div class="container center contacts mt mb">
+<div class="container center contacts bmt mb lg">
+    <p>
     <?php if ($page->contact() != '') : ?>
         <a href="mailto:<?php echo $page->contact() ?>" target="_blank">Contact</a> | 
     <?php endif ?>
@@ -151,6 +186,7 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
     <?php if ($page->partenaires() != '') : ?>
         <a href="<?php echo $page->partenaires() ?>" target="_blank">Partenaires</a>
     <?php endif ?>
+    </p>
 </div>
 
 <!-- Partenaires -->
@@ -158,12 +194,13 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 
  <!-- Devenir partenaire -->
 <div class="container center">
-    <a class="btn btn-theme center" data-toggle="collapse" href="#collapsePartner" aria-expanded="false" aria-controls="collapsePartner">
+    <a class="btn btn-theme btn-lg center" data-toggle="collapse" href="#collapsePartner" aria-expanded="false" aria-controls="collapsePartner">
       Devenir partenaire
     </a>
     <div class="collapse" id="collapsePartner">
       <div class="well mt">
         <h4>Pourquoi devenir partenaire de <?php echo $page->parent()->title() ?> ?</h4>
+        <div class="lg"><?php echo $page->partenaire()->kirbytext() ?></div>
       </div>
     </div>
 </div>

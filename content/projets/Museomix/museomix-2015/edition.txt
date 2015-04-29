@@ -26,15 +26,15 @@ Endcall: 2015-07-15
 
 ----
 
-Registrationlink: 
+Registrationlink: http://plouf.com
 
 ----
 
-Registrationtext: 
+Registrationtext: Inscriptions
 
 ----
 
-Call4p: 
+Call4p: L'appel à participant est ouvert !
 
 ----
 
@@ -59,3 +59,7 @@ Benevoles: http://bene.com
 ----
 
 Partenaires: http://part.com
+
+----
+
+Partenaire: Un bla bla ici sur pourquoi c'est épique d'être partenaire...

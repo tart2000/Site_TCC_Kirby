@@ -8,9 +8,9 @@ language: fr
 role: admin
 token: b2cb10e19e9941d18063006c5f49278c355c3aae
 history:
+  - projets/Museomix/museomix-2015
+  - projets/Museomix/museomix-2015/lucie
   - projets/Museomix/museomix-2015/justine
   - projets/Museomix/museomix-2015/arthur
-  - projets/Museomix/museomix-2015
   - >
     retours/la-deuxieme-edition-de-space-apps-a-montreal/csa
-  - news/encore-une-nouvelle

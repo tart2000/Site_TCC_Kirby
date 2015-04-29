@@ -14,6 +14,7 @@
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="<?php echo $site->url() ?>/assets/js/jquery.countdown.min.js"></script>
+  <script src="<?php echo $site->url() ?>/assets/js/main.js"></script>
   <link rel="icon" type="image/ico" href="/assets/images/favicon.ico" />
   <?php echo css('assets/css/style.css') ?>
 

@@ -30,7 +30,10 @@ fields:
     width: 1/2
   text:
     label: Texte
-    type:  textarea
+    type: textarea
+  partenaire:
+    label: Pourquoi devenir partenaire ? 
+    type: textarea
 
   call4Participants: 
     label: Appel à Participants 
