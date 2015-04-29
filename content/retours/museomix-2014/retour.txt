@@ -22,6 +22,10 @@ Vimeolink: 116911536
 
 ----
 
+Tags: museomix
+
+----
+
 Text: 
 
 Cette première édition de Museomix à Montréal a réuni 12 équipes de 6 personnes, avec chacune un facilitateur dédié, pour 72h de créativité intense.
@@ -35,11 +39,3 @@ Merci encore au musée, aux participants, aux partenaires et tous ceux qui ont r
 ----
 
 Participants: 72
-
-----
-
-Connect: Museomix
-
-----
-
-Nbprojets: 12

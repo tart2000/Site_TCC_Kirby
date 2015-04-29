@@ -30,8 +30,4 @@ Participants: 30
 
 ----
 
-Connect: Space-apps
-
-----
-
-Nbprojets: 6
+Tags: space-apps

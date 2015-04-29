@@ -5,7 +5,7 @@
     <h2>Evénements à venir</h2>
   </div>
   <?php foreach(page('evenements')->children()->sortBy('startDate') as $event): ?>
-    <?php $thedate = time() ?>
+    <?php $thedate=strtotime(date("Y-m-d"))?>
     <?php $thisdate = $event->date('','startDate') ?>
     <?php if ($thedate <= $thisdate) : ?>
     <div class="row">

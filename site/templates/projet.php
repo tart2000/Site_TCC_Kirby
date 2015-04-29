@@ -14,9 +14,8 @@
   <a href="<?php echo $site->url() ?>" title="Retour"><img src="<?php echo $site->url() ?>/assets/images/logo_TCC_sign_S.png" class="img-responsive"></a>
 </div>
 
-<?php $thetag=$page->projectTag() ?>
-<?php $theTag2 = $page->dirname() ?>
-<?php $thedate = time() ?>
+<?php $thetag=$page->projectTag(); ?>
+<?php $thedate = strtotime(date("Y-m-d")); ?>
 
 <div class="container mt">
     <?php foreach(page('news')->children()->filterBy('sticky','1')->filterBy('tags',$thetag,',')->flip() as $new): ?>
@@ -27,7 +26,7 @@
               <strong><?php echo $new->title() ?></strong> 
                     <?php if ($new->newsLink() != '') : ?>
                         <a href="<?php echo $new->newsLink() ?>"><i class="fa fa-external-link sml"></i></a>
-                    <?php endif ?>
+                    <?php endif ?><br>
                 <?php echo $new->text() ?>
             </div>
         <?php endif ?>
@@ -83,52 +82,28 @@
       <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right">Site du projet <i class="fa fa-external-link"></i></a>
       <div class="clearfix"></div>
       
-      <!-- retours -->
-      <?php if (page('retours')->children()->filterBy('connect',$theTag2,',') != '') : ?>
+      <?php if (page('retours')->children()->filterBy('tags',$thetag,',') != '') : ?>
         <hr>
         <strong>Editions précédentes</strong></br>
-          <?php foreach (page('retours')->children()->filterBy('connect',$theTag2,',') as $retour) : ?>
+          <?php foreach (page('retours')->children()->filterBy('tags',$thetag,',') as $retour) : ?>
               <a href="<?php echo $retour->Url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
               <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
-              <a href="<?php echo $retour->Url() ?>" class="right">Voir <i class="fa fa-arrow-right"></i></a>
               <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>
+              <a href="<?php echo $retour->Url() ?>" class="right">Voir <i class="fa fa-arrow-right"></i></a>
               <div class="clearfix"></div>
           <?php endforeach ?>
       <?php endif ?> 
 
-      <!-- next edition -->
-      <?php if ($page->children('edition') != '') : ?>
-        <?php $nextDate = $page->children('edition')->first()->date('','startDate') ?>
-        <?php if ($thedate <= $nextDate) : ?>
-          <hr>
-          <strong>Prochaine édition</strong></br>
-          <?php foreach ($page->children('edition') as $e) : ?>
-            <a href="<?php echo $e->url() ?>"><?php echo $e->title() ?> - <?php echo $e->dateText() ?></a>
+      <?php if (page('news')->children()->filterBy('tags',$thetag,',') != '') : ?>
+        <hr>
+        <strong>Nouvelles</strong></br>
+          <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->sortBy('newsDate')->limit(5) as $news) : ?>
+            <?php $theNewsDate=$news->date('','newsDate') ?>
+              <?php if ($theNewsDate >= $thedate) : ?>
+                <a href="<?php echo $news->Url() ?>"><?php echo $news->title() ?></a></br>
+              <?php endif ?>
           <?php endforeach ?>
-        <?php endif ?>
       <?php endif ?>
-
-      <!-- news -->
-
-        
-      
-      <?php $counter = 0; ?>
-      <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->sortBy('newsDate')->limit(5) as $news) : ?>
-        <?php $theNewsDate=$news->date('','newsEnd') ?>
-          <?php if ($theNewsDate >= $thedate) : ?>
-            <?php if ($counter == '0') : ?>
-              <hr>
-              <strong>Nouvelles</strong></br>
-            <?php endif ?>
-            <?php $counter++ ?>
-            <strong><?php echo $news->title() ?></strong>
-            <?php if ($news->newsLink() != '') : ?>
-              <a href="<?php echo $news->newsLink() ?>"><i class="fa fa-external-link"></i></a>
-            <?php endif ?>
-            <?php echo $news->text() ?><br> 
-          <?php endif ?>
-      <?php endforeach ?>
-
       
       <?php if (page('evenements')->children()->filterBy('tags',$thetag,',') != '') : ?>
         <hr>
@@ -152,21 +127,14 @@
   </div>
   <!-- end 2ème colonne -->
 
-    <!-- navigation -->
-    <div class="row mt">
-        <div class="col-md-10 col-md-offset-1">
-          <nav class="" role="navigation">
-            <ul class="pager">
-              <?php if($prev = $page->prev()): ?>
-              <li class="previous"><a href="<?php echo $prev->url() ?>">&larr; Précédent</a></li>
-              <?php endif ?>
-              <?php if($next = $page->next()): ?>
-              <li class="next"><a href="<?php echo $next->url() ?>">Suivant &rarr;</a></li>
-              <?php endif ?>
-            </ul>
-          </nav>
-      </div>
-    </div>
+  <nav class="nextprev cf" role="navigation">
+    <?php if($prev = $page->prevVisible()): ?>
+    <a class="prev" href="<?php echo $prev->url() ?>">&larr; previous</a>
+    <?php endif ?>
+    <?php if($next = $page->nextVisible()): ?>
+    <a class="next" href="<?php echo $next->url() ?>">next &rarr;</a>
+    <?php endif ?>
+  </nav>
 
 </main>
 
