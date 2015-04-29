@@ -35,9 +35,9 @@
 <div id="projects" class="bmt pt pb">
     <div class="container">
         <div clas="row">
-            <div class="col-md-10 col-md-offset-1 bmb">
+            <div class="col-md-12 bmb">
                 <h3>Projets</h3>
-                <p><?php echo page('projets')->text() ?></p>
+                <p class="lg"><?php echo page('projets')->text() ?></p>
             </div>
             <div class="col-md-3 col-xs-4">
                 <ul class="nav nav-tabs tabs-left">
