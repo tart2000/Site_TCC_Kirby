@@ -66,22 +66,26 @@
 
 </div>
 
-<div class="container">
+<div class="container bpb">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2 center">
             <h3><?php echo $page->parent()->short()->kirbytext() ?></h3>
+            <a href="<?php echo $page->parent()->url() ?>" class="btn btn-theme">En savoir plus sur <?php echo $page->parent()->title() ?></a>
         </div>
     </div>
 </div>
 
 <!-- Timer -->
 <?php if ($thedate <= $thisdate) : ?>
-    <div class="">
-        <div class="container">
-            <div class="row center" id="clock">
-            </div>
+<div class="pt bpb bmb" style="background-image:url('<?php echo $site->url() ?>/assets/images/timer-banner.png');">
+    <div class="container">
+        <div class="row center">
+            <h3>Prochaine édition dans : </h3>
         </div>
-    </div>  
+        <div class="row center" id="clock">
+        </div>
+    </div>
+</div>
 <?php endif ?>
 
 <script type="text/javascript">
@@ -90,14 +94,13 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
     + '<h2>%D jours : %H heures : %m minutes : %S secondes</h2>'
     ));
 });
-
 </script>
 
 <div class="container">
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1 center"> 
             <h3><?php echo $page->text()->kirbytext() ?></h3>
-            <a href="<?php echo $page->parent()->url() ?>" class="btn btn-theme">En savoir plus sur <?php echo $page->parent()->title() ?></a>
+            
         </div>
     </div>
 </div>
@@ -120,7 +123,6 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 
 <!-- Partenaires -->
 <hr>
-Ici, la liste des partenaires
 <?php snippet('partners') ?>
 
  <!-- Devenir partenaire -->
