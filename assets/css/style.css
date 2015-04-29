@@ -78,6 +78,9 @@ h2 {
 .bmt {
   margin-top: 30px;
 }
+.bmb {
+  margin-bottom: 30px;
+}
 .header-marg {
   margin-top: 70px;
 }
@@ -268,11 +271,12 @@ Project page
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
 }
-.partners h3 {
+.partners h4 {
   color: grey;
 }
 .partner {
-  min-height: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 /* ################################################################
 Footer 

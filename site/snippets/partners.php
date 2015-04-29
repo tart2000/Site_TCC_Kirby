@@ -6,7 +6,7 @@
             <div class="row pb partners">
                 <!-- Co-organisateurs -->
                 <?php if ($page->children()->filterBy('category','co',',') != '') : ?>
-                    <div class="col-sm-2 partner"><h3>Co-organisateurs</h3></div>
+                    <div class="col-sm-12"><h4>Co-organisateurs</h4></div>
                     <?php foreach ($page->children()->filterBy('category','co',',') as $p) : ?>
                         <?php $size = html($p->superWidth()) ?>
                         <?php $size2 = $size * 2 ; ?>
@@ -23,7 +23,7 @@
 
                 <!-- Sponsors -->
                 <?php if ($page->children()->filterBy('category','sponsor',',') != '') : ?>
-                    <div class="col-sm-2 partner"><h3>Commanditaires</h3></div>
+                    <div class="col-sm-12"><h4>Commanditaires</h4></div>
                     <?php foreach ($page->children()->filterBy('category','sponsor',',') as $p) : ?>
                         <?php $size = html($p->superWidth()) ?>
                         <?php $size2 = $size * 2 ; ?>
@@ -40,7 +40,7 @@
 
                 <!-- Service -->
                 <?php if ($page->children()->filterBy('category','service',',') != '') : ?>
-                    <div class="col-sm-2 partner"><h3>Partenaires de service</h3></div>
+                    <div class="col-sm-12"><h4>Partenaires de service</h4></div>
                     <?php foreach ($page->children()->filterBy('category','service',',') as $p) : ?>
                         <?php $size = html($p->superWidth()) ?>
                         <?php $size2 = $size * 2 ; ?>
@@ -57,7 +57,7 @@
 
                 <!-- Technique -->
                 <?php if ($page->children()->filterBy('category','technical',',') != '') : ?>
-                    <div class="col-sm-2 partner"><h3>Partenaires techniques</h3></div>
+                    <div class="col-sm-12"><h4>Partenaires techniques</h4></div>
                     <?php foreach ($page->children()->filterBy('category','technical',',') as $p) : ?>
                         <?php $size = html($p->superWidth()) ?>
                         <?php $size2 = $size * 2 ; ?>
@@ -75,7 +75,7 @@
 
                 <!-- Partenaires communauté -->
                 <?php if ($page->children()->filterBy('category','community',',') != '') : ?>
-                    <div class="col-sm-2 partner"><h3>Partenaires communauté</h3></div>
+                    <div class="col-sm-12"><h4>Partenaires communauté</h4></div>
                     <?php foreach ($page->children()->filterBy('category','community',',') as $p) : ?>
                         <?php $size = html($p->superWidth()) ?>
                         <?php $size2 = $size * 2 ; ?>
@@ -92,7 +92,7 @@
 
                 <!-- Partenaires diffusion -->
                 <?php if ($page->children()->filterBy('category','diffusion',',') != '') : ?>
-                    <div class="col-sm-2 partner"><h3>Partenaires de diffusion</h3></div>
+                    <div class="col-sm-12"><h4>Partenaires de diffusion</h4></div>
                     <?php foreach ($page->children()->filterBy('category','diffusion',',') as $p) : ?>
                         <?php $size = html($p->superWidth()) ?>
                         <?php $size2 = $size * 2 ; ?>
