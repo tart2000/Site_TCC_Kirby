@@ -30,7 +30,7 @@
 
 <hr class="bmt">
 
-<?php snippet('events') ?>
+<?php snippet('evenements') ?>
 
 <div id="projects" class="bmt pt pb">
     <div class="container">
@@ -55,7 +55,7 @@
                     <?php foreach (page('projets')->children() as $project) : ?>
                         <div class="tab-pane  <?php if($project == $first) echo 'active' ?>" id="<?php echo $project->projectTag() ?>">
                             <div class="col-md-6">
-                                <p><?php echo $project->short() ?></p>
+                                <p class="lg"><?php echo $project->short() ?></p>
                                 <a href="<?php echo $project->Url() ?>" class="btn btn-theme">En savoir plus</a>
                                 <?php echo $key ?>
                             </div>

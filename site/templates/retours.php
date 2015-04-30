@@ -7,7 +7,7 @@
         <div class="row center">
         <h2><a href="<?php echo $retour->url() ?>">Retour sur <?php echo $retour->title()->html() ?></a></h2>
             <div class="col-md-5 left">
-                <h3><?php echo $retour->place() ?> - <?php echo $retour->dates() ?> <?php echo $retour->year() ?></h3>
+                <h3  class="nomt"><?php echo $retour->place() ?> - <?php echo $retour->dates() ?> <?php echo $retour->year() ?></h3>
                 <p><?php echo $retour->text()->kirbytext() ?></p>
             </div>
             <div class="col-md-7">

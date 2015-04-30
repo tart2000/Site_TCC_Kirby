@@ -7,7 +7,7 @@
         </div>
         <div class="row center">
             <div class="col-md-5 left">
-                <h3><?php echo $page->place() ?> - <?php echo $page->dates() ?> <?php echo $page->year() ?></h3>
+                <h3 class="nomt"><?php echo $page->place() ?> - <?php echo $page->dates() ?> <?php echo $page->year() ?></h3>
                 <em><?php echo $page->participants() ?> participants</em> - 
                 <em><?php echo $page->nbprojets() ?> projets</em>
                 <p><?php echo $page->text()->kirbytext() ?></p>

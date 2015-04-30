@@ -111,6 +111,9 @@ h2 {
 .lg {
   font-size: 1.3em;
 }
+.nomt {
+  margin-top: 0px;
+}
 .responsive-video {
     position: relative;
     padding-bottom: 56.25%;
@@ -292,6 +295,9 @@ Project page
 .team img {
   width: 100%;
   border-radius: 10px;
+}
+.events h3 {
+  display: inline-block;
 }
 /* ################################################################
 Callouts
