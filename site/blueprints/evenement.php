@@ -32,12 +32,12 @@ fields:
     type: Url
     width: 1/2
   registrationLink:     
-    label: Lien pour inscription
+    label: Lien 'call to action'
     type: Url
     width: 1/2
   infoLink: 
-    label: Lien vers plus d'infos
-    type: Url
+    label: Intitulé du 'call to action' (ex. Inscriptions)
+    type: text
     width: 1/2
   tags: 
     label: Tags  

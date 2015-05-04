@@ -26,10 +26,10 @@
         
         <?php if ($event->registrationLink() != '') : ?>
           <div class="register">
-            <a href="<?php echo $event->registrationLink() ?>" class="btn btn-theme" target="_blank">Inscriptions</a>
+            <a href="<?php echo $event->registrationLink() ?>" class="btn btn-theme" target="_blank"><?php if ($event->infoLink() != '') : ?><?php echo $event->infoLink() ?><?php else : ?>Informations<?php endif ?></a>
           </div>
         <?php endif ?>
         
-        <p><?php echo $event->text() ?></p>
+        <p><?php echo $event->text()->kirbytext() ?></p>
       </div>
     </div>

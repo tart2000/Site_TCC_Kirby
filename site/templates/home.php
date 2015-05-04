@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 center">
-                <h1>Bienvenue au techno culture club !</h1>
+                <h1>Bienvenue au Techno Culture Club !</h1>
                 <h1>Au croisement de la culture et de la technologie.</h1>
             </div>
         </div>
@@ -42,7 +42,7 @@
             <div class="col-md-3 col-xs-4">
                 <ul class="nav nav-tabs tabs-left">
                     <?php $first = page('projets')->children()->first() ?>
-                    <?php foreach (page('projets')->children() as $project) : ?>
+                    <?php foreach (page('projets')->children()->visible() as $project) : ?>
                     <li <?php if($project == $first) echo 'class="active"' ?>>
                         <a href="#<?php echo $project->projectTag() ?>" data-toggle="tab"><?php echo $project->title() ?></a>
                     </li>
@@ -52,9 +52,9 @@
             <div class="col-md-9 col-xs-8">
                 <!-- Tab panes -->
                 <div class="tab-content pt">
-                    <?php foreach (page('projets')->children() as $project) : ?>
+                    <?php foreach (page('projets')->children()->visible() as $project) : ?>
                         <div class="tab-pane  <?php if($project == $first) echo 'active' ?>" id="<?php echo $project->projectTag() ?>">
-                            <div class="col-md-6">
+                            <div class="col-md-6 mb">
                                 <p class="lg"><?php echo $project->short() ?></p>
                                 <a href="<?php echo $project->Url() ?>" class="btn btn-theme">En savoir plus</a>
                                 <?php echo $key ?>

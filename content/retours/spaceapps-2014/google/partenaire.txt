@@ -1,0 +1,17 @@
+Title: Google
+
+----
+
+Lien: http://google.com
+
+----
+
+Superwidth: 2
+
+----
+
+Category: sponsor
+
+----
+
+Text: 
