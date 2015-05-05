@@ -2,6 +2,8 @@
 
 
 <?php snippet('head') ?>
+<script src="<?php echo $site->url() ?>/assets/js/svg.min.js"></script>
+<script src="<?php echo $site->url() ?>/assets/js/helpers.js"></script>
 
 <!-- counter info -->
 
@@ -40,6 +42,8 @@
 
 <!-- end navbar -->
 
+<div id="lines"></div>
+<script src="<?php echo $site->url() ?>/assets/js/lines.js"></script>
 
 <!-- Splash -->
 <div class="project-header header-marg" style="background-image: url('<?php echo $page->images()->sortBy('sort', 'asc')->first()->url() ?>');">

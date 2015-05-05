@@ -1,7 +1,7 @@
 
 var _colors= true;
 var front, back;
-var width = document.getElementById('intro').offsetWidth; 
+var width = document.getElementById('lines').offsetWidth; 
 var height = 1000;
 console.log(height);
 
