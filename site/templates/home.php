@@ -11,7 +11,7 @@
             <div class="col-md-3 col-sm-4  col-sm-offset-1">
                 <img src="/assets/images/logo_TCC_M.png" class="img-responsive">
             </div>
-            <div class="col-md-6 col-md-offset-1 col-sm-6 left bmt white-bg">
+            <div class="col-md-6 col-md-offset-1 col-sm-6 left bmt white">
                 <h3><?php echo $page->text()->kirbytext() ?></h3>
                 <a href="/a-propos/" class="btn btn-lg btn-theme">En savoir plus...</a>
             </div>

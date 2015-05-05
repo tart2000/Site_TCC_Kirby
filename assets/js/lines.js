@@ -2,7 +2,7 @@
 var _colors= false;
 var front, back;
 var width = document.getElementById('intro').offsetWidth; 
-var height = 600;
+var height = 1000;
 console.log(height);
 
 
@@ -25,6 +25,6 @@ function lines (value) {
     }
 }
 
-lines (20);
+lines (32);
 
 })

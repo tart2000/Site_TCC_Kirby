@@ -1,7 +1,7 @@
 <?php setlocale(LC_ALL, 'fr_FR') ?>
 
     <div class="row">
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-10 col-md-offset-1 white">
           <!-- si c'est sur plusieurs jours -->
           <?php if ($event->endDate() != '') : ?>
           <?php $sDate = $event->date('U','startDate') ?>
