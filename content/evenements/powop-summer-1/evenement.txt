@@ -26,23 +26,4 @@ Tags: powop
 
 ----
 
-Text: 
-
-POWOP is go ! Venez présenter un projet, soutenir un ami, rencontrer des gens, ou juste boire une bière ! Après un an de silence, le chapitre Montréalais de la Awesome Foundation reprend du service. Une personne repartira avec une enveloppe de 1000$ pour faire avancer son projet... Peut-être vous ? 
-Si vous voulez préseter un projet, n'oubliez pas de vous (link: http://www.awesomefoundation.org/en/chapters/montreal text: inscrire) en amont.
-
-----
-
-Venuename: 
-
-----
-
-Venuelink: 
-
-----
-
-Infolink: 
-
-----
-
-Giflink: http://i.giphy.com/IDATGYUIBokM0.gif
+Text: Ham cow pancetta hamburger meatball. Filet mignon pork chop venison pancetta hamburger cow, ham hock pork t-bone corned beef. Jowl pig venison flank beef ribs strip steak drumstick bacon cow pancetta ground round meatloaf spare ribs.

@@ -51,7 +51,3 @@ Connect: Space-apps
 ----
 
 Nbprojets: 8
-
-----
-
-Projectlink: https://2015.spaceappschallenge.org/location/montreal/#projects

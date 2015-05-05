@@ -5,7 +5,7 @@
             <div class="col-md-4">
                 <strong>Projets</strong></br>
                 <?php foreach (page('projets')->children() as $project): ?>
-                    <a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a></br>
+                    <a href="<?php $project->projectLink() ?>"><?php echo $project->title() ?></a></br>
                 <?php endforeach ?>
             </div>
             <div class="col-md-2 col-md-offset-1">
@@ -23,10 +23,10 @@
                 Montréal, QC</p>
                 <div class="clearfix"></div>
                 <strong>Code</strong><br>
-                <p>fait avec <a href="http://getkirby.com">Kirby</a>
-                <a href="https://github.com/tart2000/Site_TCC_Kirby" target="_blank"><i class="fa fa-github"></i></a></p>
+                <p>fait avec <a href="http://getkirby.com">Kirby</a></p>
                 <p>Dernière mise à jour :<br> 
                 <?php echo $site->modified('d/m/Y H:i') ?></p>
+                <a href="https://github.com/tart2000/Site_TCC_Kirby" target="_blank"><i class="fa fa-github fa-2x"></i></a>
             </div>
         </div>
     </div>

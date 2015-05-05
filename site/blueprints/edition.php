@@ -77,5 +77,4 @@ fields:
     label: Partenaires
     type: Url
     width: 1/2
-
   
