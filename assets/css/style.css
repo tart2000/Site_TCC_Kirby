@@ -82,6 +82,9 @@ h2 {
 .mt {
   margin-top: 15px;
 }
+.gmt {
+  margin-top: 20px;
+}
 .smb {
   margin-bottom: 5px;
 }
@@ -345,7 +348,7 @@ Project page
   border-radius: 10px;
 }
 .events h3 {
-  display: inline-block;
+  margin-bottom: -10px;
 }
 /* ################################################################
 Callouts
@@ -418,9 +421,9 @@ Footer
   color: #bfc9d3;
 }
 .register {
-  position: absolute;
-  right: 10px;
-  top: 10px;
+  float: right;
+  position: relative;
+  top: 15px;
 }
 .old {
   color: #efefef;

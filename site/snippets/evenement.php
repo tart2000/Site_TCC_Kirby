@@ -1,7 +1,22 @@
 <?php setlocale(LC_ALL, 'fr_FR') ?>
 
     <div class="row">
+      <?php if ($event->gifLink() != '') : ?>
+      <!-- Si il y a un GIF lien -->
+      <div class="col-md-offset-1 col-md-2 col-sm-2 col-xs-2 gmt">
+        <!-- le GIF -->
+        <img src="<?php echo $event->gifLink() ?>" class="img-responsive">
+      </div>
+      <div class="col-md-8 col-sm-10 col-xs-10">
+      <?php else : ?>
+      <!-- Si il n'y a pas de GIF lien --> 
       <div class="col-md-10 col-md-offset-1">
+      <?php endif ?>
+        <?php if ($event->registrationLink() != '') : ?>
+          <div class="register">
+            <a href="<?php echo $event->registrationLink() ?>" class="btn btn-theme" target="_blank"><?php if ($event->infoLink() != '') : ?><?php echo $event->infoLink() ?><?php else : ?>Informations<?php endif ?></a>
+          </div>
+        <?php endif ?>
           <!-- si c'est sur plusieurs jours -->
           <?php if ($event->endDate() != '') : ?>
           <?php $sDate = $event->date('U','startDate') ?>
@@ -29,11 +44,7 @@
             </strong>
           <?php endif ?>
         
-        <?php if ($event->registrationLink() != '') : ?>
-          <div class="register">
-            <a href="<?php echo $event->registrationLink() ?>" class="btn btn-theme" target="_blank"><?php if ($event->infoLink() != '') : ?><?php echo $event->infoLink() ?><?php else : ?>Informations<?php endif ?></a>
-          </div>
-        <?php endif ?>
+
         
         <p><?php echo $event->text()->kirbytext() ?></p>
       </div>
