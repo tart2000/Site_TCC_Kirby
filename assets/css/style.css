@@ -1,7 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 
-
+@font-face {
+    font-family: handwriting;
+    src: url('../fonts/xtreem.ttf');
+}
+.hand {
+  font-family: handwriting; 
+  font-size: 80px;
+}
 /* ################################################################
 Header  
 ################################################################### */ 
@@ -180,7 +187,8 @@ a:focus {
     filter: gray;
     margin-top: 30px;
     padding-top: 100px;
-    margin-bottom: 20px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
 }
 #intro {
     background-image: url("/assets/images/geometric.jpg"); 

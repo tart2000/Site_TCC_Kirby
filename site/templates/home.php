@@ -26,7 +26,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 center">
-                <h1>Technologie X Culture</h1>
+                <h1 class="hand">Technologie X  Culture</h1>
             </div>
         </div>
     </div>
@@ -35,8 +35,10 @@
 <div id="projects" class="bmt pt pb">
     <div class="container">
         <div clas="row">
+            <div class="col-md-12 center">
+                <a href="/projets"><h2>Projets</h2></a>
+            </div>
             <div class="col-md-12 bmb">
-                <h3>Projets</h3>
                 <p class="lg"><?php echo page('projets')->text() ?></p>
             </div>
             <div class="col-md-3 col-xs-4">
