@@ -26,7 +26,7 @@ Tags: space-apps
 
 ----
 
-Text: Filet mignon kielbasa salami ham biltong. Pancetta ham hock jerky boudin andouille shoulder cupim, alcatra shank pastrami. Tenderloin salami venison ribeye ground round, ham hamburger turducken pork chop. Shoulder pork shankle, doner jerky cupim pig beef swine.
+Text: Space Apps Challenge est un hackathon international de deux jours où des équipes de techniciens, scientifiques, designers, artistes, éducateurs, entrepreneurs, développeurs, et étudiants collaborent à travers le monde, en utilisant les données publiques afin de concevoir des solutions innovantes à des défis globaux en matière de développement logiciel, science citoyenne, hardware ou visualisation de données.
 
 ----
 
@@ -35,3 +35,7 @@ Venuename: Planétarium Rio Tinto Alcan
 ----
 
 Venuelink: 
+
+----
+
+Infolink: 
