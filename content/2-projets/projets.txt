@@ -2,4 +2,7 @@ Title: Projets
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+Text: 
+
+Techno Culture Club est né pour créer, supporter, diffuser, organiser des projets magnifiques et formidables à l’intersection de la culture et de la technologie. Chaque projet est minutieusement étudié et ensuite orchestré et porté par les membres de la communauté. Certains projets sont des éditions montréalaises d’événements internationaux, d’autres sont des événements-signatures imaginés spécialement par le Techno Culture Club. 
+*Oh! et nous sommes toujours prêts à collaborer à de nouveaux projets extraordinaires!*
