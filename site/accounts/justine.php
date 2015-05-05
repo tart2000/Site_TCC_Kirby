@@ -8,10 +8,10 @@ password: >
   $2a$10$19203WpYGLKPOL4zTYCjo.70arTGevQ/rgRRE3BqfgxHi5v8LlwXq
 language: fr
 role: admin
-token: 0fdf99468156565afca575d08f295a8c708560a3
+token: 9752dce1476a6ae3ba048813dd7514b4dcdf7d03
 history:
   - evenements/lancement-de-powop-et-tcc
-  - home
-  - evenements/chromatic-kids
+  - projets/Museomix/museomix-2015/catherine
   - evenements/lancement-de-museomix-2015
-  - evenements
+  - projets/Museomix/museomix-2015
+  - projets/Museomix/museomix-2015/arthur

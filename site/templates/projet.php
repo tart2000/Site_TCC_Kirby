@@ -15,7 +15,7 @@
 </div>
 
 <?php $thetag=$page->projectTag() ?>
-<?php $theTag2 = $page->uid() ?>
+<?php $theTag2 = $page->dirname() ?>
 <?php $thedate = time() ?>
 
 <div class="container mt">
@@ -128,17 +128,14 @@
             <?php echo $news->text() ?><br> 
           <?php endif ?>
       <?php endforeach ?>
+
       
       <?php if (page('evenements')->children()->filterBy('tags',$thetag,',') != '') : ?>
-          <?php $count = 0 ?>
+        <hr>
+        <strong>Prochains événements</strong></br>
           <?php foreach (page('evenements')->children()->filterBy('tags',$thetag,',')->sortBy('startDate')->limit(5) as $event) : ?>
             <?php $eventDate=$event->date('','startDate') ?>
               <?php if ($eventDate >= $thedate) : ?>
-                <?php if ($count == 0) : ?>
-                  <hr>
-                  <strong>Prochains événements</strong></br>
-                <?php endif ?>
-                <?php $count++ ?>
                 <?php echo $event->date('d M','startDate') ?> - <a href="<?php echo $event->Url() ?>"><?php echo $event->title() ?></a></br>
               <?php endif ?>
           <?php endforeach ?>

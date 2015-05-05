@@ -15,17 +15,8 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <?php foreach($pages->visible() as $p): ?>
-        <li <?php e($p->hasVisibleChildren(), ' class="dropdown" ') ?>>
-          <a <?php e($p->isOpen(), ' class="active"') ?><?php e($p->hasVisibleChildren(), 'class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-          <?php if ($p->hasVisibleChildren()) : ?>
-            <ul class="dropdown-menu" role="menu">
-              <?php foreach ($p->children()->visible() as $p) : ?>
-                <li>
-                  <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-                </li>
-              <?php endforeach ?>
-            </ul>
-          <?php endif ?>
+        <li>
+          <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
         </li>
         <?php endforeach ?>
       </ul>
