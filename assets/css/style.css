@@ -191,7 +191,6 @@ a:focus {
     margin-bottom: 30px;
 }
 #intro {
-    background-image: url("/assets/images/geometric.jpg"); 
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -230,6 +229,12 @@ a:focus {
 .white-bg {
   background-color: rgba(255,255,255,0.8);
   padding-bottom: 20px;
+}
+svg:not(:root) {
+  overflow: visible;
+}
+#lines {
+  position: absolute;
 }
 /* ################################################################
 Sticky 

@@ -1,5 +1,9 @@
 <?php snippet('head') ?>
 <?php snippet('header') ?>
+<script src="<?php echo $site->url() ?>/assets/js/svg.min.js"></script>
+<script src="<?php echo $site->url() ?>/assets/js/helpers.js"></script>
+
+<div id="lines"></div>
 
 <div id="intro">
     <main class="container bmt">
@@ -16,6 +20,8 @@
 </div>
 
 
+
+<script src="<?php echo $site->url() ?>/assets/js/lines.js"></script>
 
 <?php snippet('sticky2') ?>
 
