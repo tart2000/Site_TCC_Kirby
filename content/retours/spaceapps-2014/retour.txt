@@ -4,6 +4,14 @@ Title: la première édition de Space Apps 2014
 
 Text: 
 
+Techno Culture Club a fait atterrir le hackathon international Space Apps à Montréal pour la première fois ! Le résultat : 2 jours de fun autour de l’exploration spatiale !
+
+Nous avions réuni une bonne quantité d’équipement pour permettre aux participants d’imaginer des choses les plus folles possibles. Une imprimante 3D, un Oculus Rift, des Arduinos, des Kinects, et même une paire de Google Glasses !
+
+Nous avons d’abord fait une soirée de lancement le vendredi soir chez OLAM, sur St Laurent pour commencer à former les équipes.
+
+Merci à tous ceux qui ont participé, à Google et Dynavision pour leur soutien, au Planétarium pour leur engagement, à Ile Sans Fil pour le WIFI, à Montréal New Tech pour leur couverture de l’événement et à Portraits de Montréal pour leurs photos ! A l’année prochaine pour une nouvelle édition !
+
 ----
 
 Year: 2014
@@ -35,3 +43,7 @@ Connect: Space-apps
 ----
 
 Nbprojets: 6
+
+----
+
+Projectlink: 

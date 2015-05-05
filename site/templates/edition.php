@@ -2,6 +2,8 @@
 
 
 <?php snippet('head') ?>
+<script src="<?php echo $site->url() ?>/assets/js/svg.min.js"></script>
+<script src="<?php echo $site->url() ?>/assets/js/helpers.js"></script>
 
 <!-- counter info -->
 
@@ -40,6 +42,8 @@
 
 <!-- end navbar -->
 
+<div id="lines"></div>
+<script src="<?php echo $site->url() ?>/assets/js/lines.js"></script>
 
 <!-- Splash -->
 <div class="project-header header-marg" style="background-image: url('<?php echo $page->images()->sortBy('sort', 'asc')->first()->url() ?>');">
@@ -160,6 +164,8 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
         <div class="col-md-2 col-sm-3 col-xs-4 team">
             <?php if ($team->images() != '') : ?>
                 <?php echo thumb($team->images()->first(), array('width'=>400, 'height'=>400, 'crop'=>true)) ?>
+            <?php else : ?>
+                <img src="<?php echo $site->url() ?>/assets/images/avatar.png" class="img-responsive">
             <?php endif ?>
             <div class="team-text">
                 <strong><?php echo $team->title() ?> <?php echo $team->nom() ?></strong>
@@ -203,10 +209,13 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 <?php snippet('partners') ?>
 
  <!-- Devenir partenaire -->
-<div class="container center">
-    <a class="btn btn-theme btn-lg center" data-toggle="collapse" href="#collapsePartner" aria-expanded="false" aria-controls="collapsePartner">
-      Devenir partenaire
-    </a>
+<div class="container">
+    <div class="row center">
+        <a class="" data-toggle="collapse" href="#collapsePartner" aria-expanded="false" aria-controls="collapsePartner">
+          Devenir partenaire<br>
+          <i class="fa fa-caret-down"></i>
+        </a>
+    </div>
     <div class="collapse" id="collapsePartner">
       <div class="well mt">
         <h4>Pourquoi devenir partenaire de <?php echo $page->parent()->title() ?> ?</h4>

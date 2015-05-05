@@ -18,7 +18,7 @@ Endtime: 23:00
 
 ----
 
-Registrationlink: 
+Registrationlink: http://plouf.com
 
 ----
 
@@ -26,7 +26,7 @@ Tags: powop
 
 ----
 
-Text: You've got the POWOP ? we've got the (link: https://www.youtube.com/watch?v=_BRv9wGf5pk text: POWOP) ! Venez célébrer l'été et le début d'un nouveau projet appelé POWOP! en compagnie du Techno Culture Club. Autour d'une bière + d'un BBQ + de belles gens, venez découvrir ce projet merveilleux élaboré en collaboration avec la Fondation Awesome et qui permet à des projets technoculturels de recevoir une bourse de 1000$ pour la réalisation ce celui-ci ! Bière + BBQ + 1000$ = POWOP !
+Text: Boudin short ribs shankle corned beef beef tri-tip. Shoulder salami kevin, bacon pastrami boudin beef ribs chuck short loin jowl strip steak. Bresaola beef bacon brisket landjaeger flank pork chop ball tip ham hock turducken salami sirloin tri-tip tenderloin jerky. Ball tip pork belly meatloaf k
 
 ----
 
@@ -39,3 +39,7 @@ Venuelink:
 ----
 
 Infolink: 
+
+----
+
+Giflink: http://i.giphy.com/V0BIjUQRfl8tO.gif

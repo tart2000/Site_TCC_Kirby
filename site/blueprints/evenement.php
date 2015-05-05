@@ -39,6 +39,9 @@ fields:
     label: Intitulé du 'call to action' (ex. Inscriptions)
     type: text
     width: 1/2
+  gifLink: 
+    label: Un lien vers un GIF qui va bien ? 
+    type: Url
   tags: 
     label: Tags  
     type: text

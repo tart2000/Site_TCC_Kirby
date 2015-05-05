@@ -1,0 +1,21 @@
+Title: Museomix
+
+----
+
+Tags: musée,sprint,hackathon,prototypes,public,collaboratif,international
+
+----
+
+Projecttag: museomix
+
+----
+
+Projectlink: http://museomixmtl.com
+
+----
+
+Short: Museomix est un sprint créatif de 3 jours au coeur d'un musée. Plus de 70 participants aux profils variés se réunissent en équipes pluri-disciplinaires pour concevoir et prototyper de nouvelles utilisation du numérique en milieu muséal.
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
