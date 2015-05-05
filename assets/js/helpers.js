@@ -28,6 +28,11 @@ function randomHeight (height) {
     var a = Math.floor(Math.random() * height);
     return a;
 }
+/*************/
+function randomNumber () {
+    var a = Math.floor(Math.random() * 1000 -500);
+    return a; 
+}
 
 /*************/
 function setCustom () {

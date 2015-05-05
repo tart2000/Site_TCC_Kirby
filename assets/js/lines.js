@@ -1,5 +1,5 @@
 
-var _colors= false;
+var _colors= true;
 var front, back;
 var width = document.getElementById('intro').offsetWidth; 
 var height = 1000;
@@ -14,17 +14,20 @@ function lines (value) {
     var group = backgrnd.group();
     group.back();            
     for (var i = qty; i < value; i++, qty++) {
-            var str = Math.floor((Math.random()*4)+1);
+            var str = Math.floor((Math.random()*10)+1);
         if (_colors) {
             var color = randomColor();
         } else {
             var color = '#000';
         };
-        var line = backgrnd.line(randomWidth(width), randomHeight(height), randomWidth(width), randomHeight(height)).stroke({ width: str , color: color});
+        var rHeight = randomHeight(height); 
+        var rWidth = randomWidth(width);
+        var rLength = randomNumber();
+        var line = backgrnd.line(rWidth, rHeight, rWidth+rLength, rHeight).stroke({ width: str , color: color});
         group.add(line);
     }
 }
 
-lines (32);
+lines (40);
 
 })
