@@ -25,6 +25,10 @@ fields:
     label: Nombre de projets
     type: number
     width:1/2
+  projectLink:
+    label: Lien vers les projets
+    type: url
+    width: 1/2
   dates: 
     label: Dates
     type: text

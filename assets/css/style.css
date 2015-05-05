@@ -1,7 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 
-
+@font-face {
+    font-family: handwriting;
+    src: url('../fonts/xtreem.ttf');
+}
+.hand {
+  font-family: handwriting; 
+  font-size: 80px;
+}
 /* ################################################################
 Header  
 ################################################################### */ 
@@ -13,6 +20,9 @@ Header
 .logo {
     position: relative;
     top: -15px;
+}
+.logo2 {
+  width: 150px;
 }
 .navbar {
     min-height: 70px;
@@ -71,6 +81,9 @@ h2 {
 }
 .mt {
   margin-top: 15px;
+}
+.gmt {
+  margin-top: 20px;
 }
 .smb {
   margin-bottom: 5px;
@@ -177,7 +190,16 @@ a:focus {
     filter: gray;
     margin-top: 30px;
     padding-top: 100px;
-    margin-bottom: 20px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+}
+#intro {
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 30px;
 }
 #aboutwrap {
     background-image: url("/assets/images/museomix_pleniere.jpg");
@@ -202,9 +224,24 @@ a:focus {
   color: white; 
   background-color: rgba(0,0,0,0.5);
   padding: 5px;
+  display: inline-table;
 }
 .grey {
   background-color: #f9f9f9;
+}
+.white {
+  background-color: white;
+}
+.white-bg {
+  background-color: rgba(255,255,255,0.8);
+  padding-bottom: 20px;
+}
+svg:not(:root) {
+  overflow: visible;
+}
+#lines {
+  position: absolute;
+  width: 100%;
 }
 /* ################################################################
 Sticky 
@@ -249,6 +286,21 @@ Project page
   padding-right: 10px;
   padding-left: 10px;
   display: inline-table;
+}
+.project-header-s {
+  position: absolute;
+  top: 0px;
+}
+.project-header-s h1 {
+  color: white; 
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.text-proj {
+  position: relative;
+  top: -10px;
 }
 .atag {
   display: inline-block;
@@ -297,7 +349,7 @@ Project page
   border-radius: 10px;
 }
 .events h3 {
-  display: inline-block;
+  margin-bottom: -10px;
 }
 /* ################################################################
 Callouts
@@ -370,13 +422,16 @@ Footer
   color: #bfc9d3;
 }
 .register {
-  position: absolute;
-  right: 10px;
-  top: 10px;
+  float: right;
+  position: relative;
+  top: 15px;
 }
 .old {
   color: #efefef;
 }
 .btn .disabled {
   opacity: 0.25 !important; 
+}
+.carousel-image {
+  
 }
