@@ -14,6 +14,9 @@ Header
     position: relative;
     top: -15px;
 }
+.logo2 {
+  width: 150px;
+}
 .navbar {
     min-height: 70px;
     padding-top: 10px;
@@ -179,6 +182,15 @@ a:focus {
     padding-top: 100px;
     margin-bottom: 20px;
 }
+#intro {
+    background-image: url("/assets/images/geometric.jpg"); 
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 30px;
+}
 #aboutwrap {
     background-image: url("/assets/images/museomix_pleniere.jpg");
     background-position: center;
@@ -206,6 +218,10 @@ a:focus {
 }
 .grey {
   background-color: #f9f9f9;
+}
+.white-bg {
+  background-color: rgba(255,255,255,0.8);
+  padding-bottom: 20px;
 }
 /* ################################################################
 Sticky 
@@ -395,4 +411,7 @@ Footer
 }
 .btn .disabled {
   opacity: 0.25 !important; 
+}
+.carousel-image {
+  
 }
