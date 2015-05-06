@@ -8,8 +8,8 @@ language: fr
 role: admin
 token: ce724267eaa58a59af0ab93949151a56766cc3b4
 history:
-  - evenements/powop-summer-1
+  - evenements/lancement-de-museomix-2015
   - evenements/lancement-de-powop-et-tcc
   - evenements/chromatic-kids
+  - evenements/powop-summer-1
   - retours/spaceapps-2014
-  - projets/RDR
