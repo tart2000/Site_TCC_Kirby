@@ -45,7 +45,7 @@
                 <a href="/projets"><h2>Projets</h2></a>
             </div>
             <div class="col-md-12 bmb">
-                <p class="lg"><?php echo page('projets')->text() ?></p>
+                <div class="lg"><?php echo page('projets')->text()->kirbytext() ?></div>
             </div>
             <div class="col-md-3 col-xs-4">
                 <ul class="nav nav-tabs tabs-left">
