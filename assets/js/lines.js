@@ -43,7 +43,8 @@ var paralines = document.getElementById('lines');
 
 function parallaxlines(){
  var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically 
- paralines.style.top = -scrolltop * .5 + 'px' // move lines at 20% of scroll rate
+ scrolltop = scrolltop - 70
+ paralines.style.top = -scrolltop * .5 + 'px' // move lines at 50% of scroll rate
 }
 
 window.addEventListener('scroll', function(){ // on page scroll

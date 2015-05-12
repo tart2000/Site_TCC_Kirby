@@ -2,7 +2,7 @@
 
 title: Projets
 pages:
-  template: project
+  template: projet
 files: false
 fields:
   title:

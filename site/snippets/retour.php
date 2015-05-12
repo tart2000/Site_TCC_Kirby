@@ -1,6 +1,6 @@
-<div class="row center mt">
+<div class="row center bmt">
     <?php foreach(page('retours')->children()->limit(1) as $retour): ?>
-    <h2><a href="<?php echo $retour->url() ?>">Retour sur <?php echo $retour->title()->html() ?></a></h2>
+    <h3><a href="<?php echo $retour->url() ?>">Retour sur <?php echo $retour->title()->html() ?></a></h3>
         <div class="col-md-5 left">
             <h3 class="nomt"><?php echo $retour->place() ?> - <?php echo $retour->dates() ?> <?php echo $retour->year() ?></h3>
             <p><?php echo $retour->text()->kirbytext() ?></p>

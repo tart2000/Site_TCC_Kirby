@@ -1,4 +1,4 @@
-<div id="newsletter" class="bmt">
+<div id="newsletter" class="">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">

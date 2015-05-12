@@ -5,3 +5,7 @@ $(window).scroll(function() {
     $('.navdate').addClass('hide');
   }
 });
+
+$(document).ready(function() {
+    $('#carousel-projects').carousel()
+})

@@ -38,47 +38,7 @@
     </div>
 </div>
 
-<div id="projects" class="bmt pt pb">
-    <div class="container">
-        <div clas="row">
-            <div class="col-md-12 center">
-                <a href="/projets"><h2>Projets</h2></a>
-            </div>
-            <div class="col-md-12 bmb">
-                <div class="lg"><?php echo page('projets')->text()->kirbytext() ?></div>
-            </div>
-            <div class="col-md-3 col-xs-4">
-                <ul class="nav nav-tabs tabs-left">
-                    <?php $first = page('projets')->children()->first() ?>
-                    <?php foreach (page('projets')->children()->visible() as $project) : ?>
-                    <li <?php if($project == $first) echo 'class="active"' ?>>
-                        <a href="#<?php echo $project->projectTag() ?>" data-toggle="tab"><?php echo $project->title() ?></a>
-                    </li>
-                    <?php endforeach ?>
-                </ul>
-            </div>
-            <div class="col-md-9 col-xs-8">
-                <!-- Tab panes -->
-                <div class="tab-content pt">
-                    <?php foreach (page('projets')->children()->visible() as $project) : ?>
-                        <div class="tab-pane  <?php if($project == $first) echo 'active' ?>" id="<?php echo $project->projectTag() ?>">
-                            <div class="col-md-6 mb">
-                                <p class="lg"><?php echo $project->short() ?></p>
-                                <a href="<?php echo $project->Url() ?>" class="btn btn-theme">En savoir plus</a>
-                                <?php echo $key ?>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="../assets/images/banner-<?php echo $project->projectTag() ?>.jpg" class="img-responsive">
-                            </div>
-                        </div>
-                    <?php endforeach ?>
-                </div>
-            </div>  
-        </div>
-    </div>
-</div>
-
-
+<?php snippet('projets') ?>
 
 <?php snippet('newsletter') ?>
 

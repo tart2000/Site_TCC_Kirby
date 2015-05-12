@@ -220,7 +220,7 @@ a:focus {
   -o-background-size: cover;
   background-size: cover;
 }
-#nymphe h1, #aboutwrap h1 {
+#nymphe h1, #aboutwrap h1, .item h1 {
   color: white; 
   background-color: rgba(0,0,0,0.5);
   padding: 5px;
@@ -242,6 +242,14 @@ svg:not(:root) {
 #lines {
   position: absolute;
   width: 100%;
+}
+.carousel .item {
+  height: auto;
+  min-height: 500px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 15px;
 }
 /* ################################################################
 Sticky 
@@ -273,7 +281,7 @@ Project page
   background-size: cover;
   min-height: 400px;
 }
-.project-header h3 {
+.project-header h3, .item h3 {
   color: white; 
   background-color: rgba(0,0,0,0.5);
   padding: 5px;
