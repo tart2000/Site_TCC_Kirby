@@ -6,7 +6,7 @@ password: >
   $2a$10$7TTFNVNrXXoX08TuPk4ffeWim37c6S4o7Nbin/XAaR64v/VDDh7WK
 language: fr
 role: admin
-token: ce724267eaa58a59af0ab93949151a56766cc3b4
+token: 2b0ec836ab9abe5514d79db13d91ecb6a48d845b
 history:
   - evenements/lancement-de-museomix-2015
   - evenements/lancement-de-powop-et-tcc

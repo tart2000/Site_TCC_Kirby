@@ -72,6 +72,7 @@
         <!-- end carousel -->
       <?php endif ?>
 
+      <!-- Texte de la page -->
       <div class="pt lg">
         <?php echo $page->text()->kirbytext() ?>
       </div>
@@ -80,7 +81,9 @@
     <!-- 2ème colonne -->
     <div class="col-md-4">
       <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="/assets/images/<?php echo $page->projectTag() ?>.png" class="img-responsive pb"></a>
-      <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right">Site du projet <i class="fa fa-external-link"></i></a>
+      <?php if ($page->projectLink() != '') : ?>
+        <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right">Site du projet <i class="fa fa-external-link"></i></a>
+      <?php endif ?>
       <div class="clearfix"></div>
       
       <!-- retours -->
@@ -109,8 +112,6 @@
       <?php endif ?>
 
       <!-- news -->
-
-        
       
       <?php $counter = 0; ?>
       <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->sortBy('newsDate')->limit(5) as $news) : ?>
@@ -129,6 +130,7 @@
           <?php endif ?>
       <?php endforeach ?>
       
+      <!-- events -->
       <?php if (page('evenements')->children()->filterBy('tags',$thetag,',') != '') : ?>
           <?php $count = 0 ?>
           <?php foreach (page('evenements')->children()->filterBy('tags',$thetag,',')->sortBy('startDate')->limit(5) as $event) : ?>
@@ -144,32 +146,52 @@
           <?php endforeach ?>
       <?php endif ?>
 
+      <!-- tags -->
       <?php if ($page->tags() != '') : ?>
         <hr>
-        <b>Tags:</b><br> 
+        <b>Tags</b><br> 
         <?php foreach ($page->tags()->split(',') as $atag) : ?>
           <div class="atag grey"><?php echo $atag ?></div>
         <?php endforeach ?>
       <?php endif ?>
+
+      <!-- docs -->
+      <?php if ($page->hasDocuments()) : ?>
+        <hr>
+        <b>Documents</b><br>
+        <ul>
+          <?php foreach ($page->documents() as $doc) : ?>
+          <li><a href="<?php echo $doc->url() ?>" download><?php echo $doc->filename() ?> (<?php echo $doc->niceSize() ?>)</a></li>
+          <?php endforeach ?>
+        </ul>
+      <?php endif ?>
+
+      <!-- mailchimp integration --> 
+      <?php if ($page->mailchimp() != '') : ?>
+        <?php $listID = $page->mailchimp() ?>
+        <!-- <?php snippet('Mailchimp') ?>
+        <?php snippet('mailingList', array('listID' => $listID)) ?> -->
+      <?php endif ?>
+
+    </div> <!-- end 2ème colonne -->
+  </div> <!-- end row -->
+  
+
+  <!-- navigation -->
+  <div class="row mt">
+      <div class="col-md-10 col-md-offset-1">
+        <nav class="" role="navigation">
+          <ul class="pager">
+            <?php if($prev = $page->prev()): ?>
+            <li class="previous"><a href="<?php echo $prev->url() ?>">&larr; Précédent</a></li>
+            <?php endif ?>
+            <?php if($next = $page->next()): ?>
+            <li class="next"><a href="<?php echo $next->url() ?>">Suivant &rarr;</a></li>
+            <?php endif ?>
+          </ul>
+        </nav>
     </div>
   </div>
-  <!-- end 2ème colonne -->
-
-    <!-- navigation -->
-    <div class="row mt">
-        <div class="col-md-10 col-md-offset-1">
-          <nav class="" role="navigation">
-            <ul class="pager">
-              <?php if($prev = $page->prev()): ?>
-              <li class="previous"><a href="<?php echo $prev->url() ?>">&larr; Précédent</a></li>
-              <?php endif ?>
-              <?php if($next = $page->next()): ?>
-              <li class="next"><a href="<?php echo $next->url() ?>">Suivant &rarr;</a></li>
-              <?php endif ?>
-            </ul>
-          </nav>
-      </div>
-    </div>
 
 </main>
 

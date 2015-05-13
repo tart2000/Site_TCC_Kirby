@@ -1,5 +1,5 @@
 <?php snippet('head') ?>
-<?php snippet('header') ?>
+<?php snippet('menu') ?>
 
 <img src="<?php echo $site->url() ?>/assets/images/contact.png" class="img-responsive" style="width:100%">
 

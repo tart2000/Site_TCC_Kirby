@@ -1,6 +1,5 @@
 <?php snippet('head') ?>
-
-<?php snippet('header') ?>
+<?php snippet('menu') ?>
 
 <div id="aboutwrap">
     <div class="container">

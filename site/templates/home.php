@@ -1,5 +1,6 @@
 <?php snippet('head') ?>
-<?php snippet('header') ?>
+<?php snippet('menu') ?>
+
 <script src="<?php echo $site->url() ?>/assets/js/svg.min.js"></script>
 <script src="<?php echo $site->url() ?>/assets/js/helpers.js"></script>
 

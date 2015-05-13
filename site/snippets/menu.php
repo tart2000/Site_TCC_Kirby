@@ -1,6 +1,6 @@
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <a class="navbar-brand logo" href="<?php echo $site->url ?>"><img src="/assets/images/logo_TCC_sign_S.png" class="img-responsive"></a>
+  <a class="navbar-brand logo" href="<?php echo $site->url ?>"><img src="<?php echo $site->url() ?>/assets/images/logo.svg" class="img-responsive"></a>
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,6 +33,7 @@
   </div>
 </div>
 
+<div class="menu-spacer"></div>
 
 
 

@@ -18,4 +18,8 @@ Projecttag: radar
 
 ----
 
+mailchimp: 6211bc9028
+
+----
+
 Short: RDR est le site de veille collaborative autour de la techno-culture mis en place par Techno Culture Club

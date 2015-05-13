@@ -7,7 +7,12 @@
 }
 .hand {
   font-family: handwriting; 
-  font-size: 80px;
+  font-size: 50px;
+}
+@media (min-width:768px) { 
+  .hand {
+    font-size: 80px;
+  }
 }
 /* ################################################################
 Header  
@@ -19,7 +24,7 @@ Header
 }
 .logo {
     position: relative;
-    top: -15px;
+    top: -12px;
 }
 .logo2 {
   width: 150px;
@@ -30,7 +35,6 @@ Header
     margin-bottom: 0px;
     border-bottom: 1px solid #F4F4F4 !important;
 }
-
 .navbar-brand {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -55,6 +59,10 @@ Header
 }
 .nav li {
     text-transform: uppercase;
+}
+.menu-spacer {
+  margin-top: 70px; 
+  width: 100%;
 }
 /* ################################################################
 Global
@@ -220,10 +228,15 @@ a:focus {
   -o-background-size: cover;
   background-size: cover;
 }
-#nymphe h1, #aboutwrap h1, .item h1 {
+#aboutwrap h1, .item h1 {
   color: white; 
   background-color: rgba(0,0,0,0.5);
   padding: 5px;
+  display: inline-table;
+}
+#nymphe h1 {
+  color: white; 
+  padding: 50px;
   display: inline-table;
 }
 .grey {
@@ -248,8 +261,11 @@ svg:not(:root) {
   min-height: 500px;
 }
 .carousel-caption {
-  position: absolute;
-  top: 15px;
+  position: inherit;
+  right: auto;
+  left: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 /* ################################################################
 Sticky 
@@ -440,6 +456,4 @@ Footer
 .btn .disabled {
   opacity: 0.25 !important; 
 }
-.carousel-image {
-  
-}
+

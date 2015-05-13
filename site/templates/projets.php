@@ -1,5 +1,5 @@
 <?php snippet('head') ?>
-<?php snippet('header') ?>
+<?php snippet('menu') ?>
 
   <main class="container bmt">
 

@@ -22,11 +22,17 @@
   <div class="carousel-inner" role="listbox">
     <?php $counter = 0 ?>
     <?php foreach (page('projets')->children()->visible() as $project) : ?>
-    <div class="item <?php e($counter==0, 'active') ?>" style="background: url('<?php echo $site->url() ?>/assets/images/banner-<?php echo $project->projectTag() ?>.jpg') no-repeat left center; background-size: cover;">
-      <div class="carousel-caption bpb">
-        <h1><?php echo $project->title() ?></h1>
-        <h3><?php echo $project->short() ?></h3>
-        <a href="<?php echo $project->url() ?>" class="btn btn-theme">En savoir plus</a>
+    <div class="item <?php e($counter==0, 'active') ?>" style="background: url('<?php echo $site->url() ?>/assets/images/banner-<?php echo $project->projectTag() ?>.jpg') no-repeat center; background-size: cover;">
+      <div class="carousel-caption">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <h1><?php echo $project->title() ?></h1>
+              <h3><?php echo $project->short() ?></h3>
+              <a href="<?php echo $project->url() ?>" class="btn btn-theme">En savoir plus</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <?php $counter++ ?>
