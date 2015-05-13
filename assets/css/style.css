@@ -68,7 +68,8 @@ Header
 Global
 ################################################################### */ 
 h2 {
-  background-color: #FFFF00;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
   display: inline-block;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -76,6 +77,9 @@ h2 {
   padding-right: 12px;
   line-height: 40px;
   margin-bottom: 25px;
+}
+.btn, .input-lg {
+  border-radius: 0px;
 }
 .center {
   text-align: center;
@@ -375,6 +379,12 @@ Project page
 .events h3 {
   margin-bottom: -10px;
 }
+.gallery-thumb img {
+  width: 100%; 
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /* ################################################################
 Callouts
 ################################################################### */

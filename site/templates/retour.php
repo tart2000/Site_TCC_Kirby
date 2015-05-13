@@ -11,7 +11,7 @@
                 <em><?php echo $page->participants() ?> participants</em> - 
                 <em><?php echo $page->nbprojets() ?> 
                   <?php if ($page->projectLink() != '' ) : ?>
-                    <a href="<?php echo $page->projectLink ?>" target="_blank"> projets</a>
+                    <a href="<?php echo $page->projectLink() ?>" target="_blank"> projets</a>
                   <?php else : ?>
                     projets
                   <?php endif ?>
@@ -34,9 +34,9 @@
         <?php if ($page->images() != '') : ?>
           <div id="links" class="row">
             <?php foreach ($page->images()->sortBy('sort', 'asc') as $image) : ?>
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-3 col-xs-6 gallery-thumb">
               <a href="<?php echo $image->url() ?>" class="carousel-image" data-gallery>
-                <img src="<?php echo $image->url() ?>" class="img-responsive mt mb">
+                <?php echo thumb($image, array('width'=>400, 'height'=>300, 'crop'=>true)) ?>
               </a>  
             </div>
             <?php endforeach ?>
