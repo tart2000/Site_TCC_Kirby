@@ -8,8 +8,8 @@ language: fr
 role: admin
 token: 56fbb7950a8aee1b523818a1fa729704768816cd
 history:
+  - calls/aap-museomix-juin-2015/en
+  - calls/aap-museomix-juin-2015
   - evenements/lancement-de-museomix-2015
   - evenements/lancement-de-powop-et-tcc
   - evenements/chromatic-kids
-  - evenements/powop-summer-1
-  - retours/spaceapps-2014

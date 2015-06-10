@@ -9,5 +9,5 @@ fields:
     label: Titre
     type:  text
   text:
-    label: Text
+    label: Texte
     type:  textarea

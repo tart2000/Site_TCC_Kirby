@@ -1,20 +1,21 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Call
-pages: false
+pages: 
+  template: callen
 files: true
 fields:
   title:
     label: Title
     type:  text
-  cta-text: 
+  ctatext: 
     label: Texte de bouton call to action 
     type: text
-    width: 1/4
-  cta-link:
+    width: 1/2
+  ctalink:
     label: Lien 
     type: Url
     width: 1/2
   text:
-    label: Text
+    label: Texte
     type:  textarea
