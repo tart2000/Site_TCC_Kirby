@@ -10,7 +10,7 @@
     	<div class="col-sm-8 col-sm-offset-2">
     		<?php if ($page->hasChildren()) : ?>
 	      		<div class="flag">
-	      			<a href="<?php echo $page->children()->first()->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/flag_en.gif"></a>
+	      			<a href="<?php echo $page->children()->first()->url() ?>">EN</a>
 	      		</div>
 	  		<?php endif ?>
 	      <h1><?php echo $page->title()->html() ?></h1>

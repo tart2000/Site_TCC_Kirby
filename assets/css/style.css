@@ -275,6 +275,10 @@ svg:not(:root) {
   position: absolute;
   right: 20px;
   top: 25px;
+  background-color: yellow;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 /* ################################################################

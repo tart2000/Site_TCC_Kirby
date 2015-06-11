@@ -11,6 +11,10 @@ fields:
     label: Texte du bouton (en) 
     type: text
     width: 1/2
+  ctalink:
+    label: Lien du bouton
+    type: Url
+    width: 1/2
   text:
-    label: Text (en)
+    label: Texte (en)
     type:  textarea
