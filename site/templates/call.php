@@ -1,13 +1,17 @@
 <?php snippet('head') ?>
 <?php snippet('menu') ?>
 
-<?php if ($page->hasImages()) : ?>
-	<?php echo $page->images()->first() ?>
-<?php endif ?>
-  <main class="container">
 
+  <main class="container">
     <div class="row">
     	<div class="col-sm-8 col-sm-offset-2">
+    		<?php if ($page->hasImages()) : ?>
+				<div class="center">
+					<img src="<?php echo $page->images()->first()->url() ?>" class="img-responsive">
+				</div>
+			<?php endif ?>
+		</div>
+      	<div class="col-sm-8 col-sm-offset-2">
     		<?php if ($page->hasChildren()) : ?>
 	      		<div class="flag">
 	      			<a href="<?php echo $page->children()->first()->url() ?>">EN</a>

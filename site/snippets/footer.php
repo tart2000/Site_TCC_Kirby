@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-4">
                 <strong>Projets</strong></br>
-                <?php foreach (page('projets')->children() as $project): ?>
+                <?php foreach (page('projets')->children()->visible() as $project): ?>
                     <a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a></br>
                 <?php endforeach ?>
             </div>

@@ -1,24 +1,11 @@
 <?php snippet('head') ?>
-<div class="project-header" style="background-image: url('../assets/images/banner-<?php echo $page->projectTag() ?>.jpg');">
-    <div class="container center">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <h1><?php echo $page->title()->html() ?></h1>
-          <h3><?php echo $page->short() ?></h3>
-        </div>
-      </div>
-    </div>
-</div>
-
-<div class="back-link">
-  <a href="<?php echo $site->url() ?>" title="Retour"><img src="<?php echo $site->url() ?>/assets/images/logo_TCC_sign_S.png" class="img-responsive"></a>
-</div>
+<?php snippet('menu') ?>
 
 <?php $thetag=$page->projectTag() ?>
 <?php $theTag2 = $page->uid() ?>
 <?php $thedate = time() ?>
 
-<div class="container mt">
+<div class="container project-page mt">
     <?php foreach(page('news')->children()->filterBy('sticky','1')->filterBy('tags',$thetag,',')->flip() as $new): ?>
     <?php $thisEndDate =  $new->date('','newsEnd') ?>
         <?php if ($thisEndDate > $thedate) : ?>
@@ -73,7 +60,8 @@
       <?php endif ?>
 
       <!-- Texte de la page -->
-      <div class="pt lg">
+      <div class="pt">
+        <h3><?php echo $page->short() ?></h3>
         <?php echo $page->text()->kirbytext() ?>
       </div>
     </div>
@@ -86,25 +74,12 @@
       <?php endif ?>
       <div class="clearfix"></div>
       
-      <!-- retours -->
-      <?php if (page('retours')->children()->filterBy('connect',$theTag2,',') != '') : ?>
-        <hr>
-        <strong>Editions précédentes</strong></br>
-          <?php foreach (page('retours')->children()->filterBy('connect',$theTag2,',') as $retour) : ?>
-              <a href="<?php echo $retour->Url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
-              <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
-              <a href="<?php echo $retour->Url() ?>" class="right">Voir <i class="fa fa-arrow-right"></i></a>
-              <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>
-              <div class="clearfix"></div>
-          <?php endforeach ?>
-      <?php endif ?> 
-
       <!-- next edition -->
       <?php if ($page->children('edition') != '') : ?>
         <?php $nextDate = $page->children('edition')->first()->date('','startDate') ?>
         <?php if ($thedate <= $nextDate) : ?>
           <hr>
-          <strong>Prochaine édition</strong></br>
+          <strong>Édition à venir</strong></br>
           <?php foreach ($page->children('edition') as $e) : ?>
             <a href="<?php echo $e->url() ?>"><?php echo $e->title() ?> - <?php echo $e->dateText() ?></a>
           <?php endforeach ?>
@@ -112,7 +87,6 @@
       <?php endif ?>
 
       <!-- news -->
-      
       <?php $counter = 0; ?>
       <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->sortBy('newsDate')->limit(5) as $news) : ?>
         <?php $theNewsDate=$news->date('','newsEnd') ?>
@@ -138,13 +112,27 @@
               <?php if ($eventDate >= $thedate) : ?>
                 <?php if ($count == 0) : ?>
                   <hr>
-                  <strong>Prochains événements</strong></br>
+                  <strong>Événements à venir</strong></br>
                 <?php endif ?>
                 <?php $count++ ?>
                 <?php echo $event->date('d M','startDate') ?> - <a href="<?php echo $event->Url() ?>"><?php echo $event->title() ?></a></br>
               <?php endif ?>
           <?php endforeach ?>
       <?php endif ?>
+
+      <!-- retours -->
+      <?php if (page('retours')->children()->filterBy('connect',$theTag2,',') != '') : ?>
+        <hr>
+        <strong>Archives</strong></br>
+          <?php foreach (page('retours')->children()->filterBy('connect',$theTag2,',') as $retour) : ?>
+              <a href="<?php echo $retour->Url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
+              <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
+              <a href="<?php echo $retour->Url() ?>" class="right">Voir <i class="fa fa-arrow-right"></i></a>
+              <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>
+              <div class="clearfix"></div>
+          <?php endforeach ?>
+      <?php endif ?> 
+
 
       <!-- tags -->
       <?php if ($page->tags() != '') : ?>

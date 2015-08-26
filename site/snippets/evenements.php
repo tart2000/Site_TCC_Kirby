@@ -2,7 +2,7 @@
 
 <div class="container events">
   <div class="row center">
-    <h2>Evénements à venir</h2>
+    <h2>Événements à venir</h2>
   </div>
   <?php foreach(page('evenements')->children()->sortBy('startDate') as $event): ?>
     <?php $thedate = time() ?>

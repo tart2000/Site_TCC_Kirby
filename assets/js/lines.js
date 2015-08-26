@@ -23,7 +23,7 @@ function lines (value) {
         var rHeight = randomHeight(height); 
         var rWidth = randomWidth(width);
         var rLength = randomNumber();
-        var line = backgrnd.line(rWidth, rHeight, rWidth+rLength, rHeight).stroke({ width: str , color: color});
+        var line = backgrnd.line(rWidth, rHeight, rWidth+rLength, rHeight).stroke({ width: str , color: '#FFFF00'});
         group.add(line);
     }
 }

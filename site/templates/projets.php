@@ -10,7 +10,7 @@
 
     <hr>
     <div class="row">
-    <?php foreach ($page->children() as $project) : ?>
+    <?php foreach ($page->children()->visible() as $project) : ?>
         <div class="col-md-4 col-sm-6 pb">
             <div>
                 <a href="<?php echo $project->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/banner-<?php echo $project->projectTag() ?>.jpg" class="img-responsive"></a>
