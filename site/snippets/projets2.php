@@ -1,9 +1,6 @@
+<div class="yellow-spacer bmt bmb center"><h1><?php echo page('projets')->title() ?></h1></div>
+
 <div class="container bmb">
-	<div class="row">
-		<div class="col-md-12 center">
-        	<a href="/projets"><h2><?php echo page('projets')->title() ?></h2></a>
-    	</div>
-	</div>
 	<div clas="row">
 	  	<?php foreach (page('projets')->children()->visible()->limit(3) as $p) : ?>
 	  		<div class="col-md-4 col-sm-6">

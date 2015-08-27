@@ -2,7 +2,9 @@
 
 title: Projet
 pages: 
-  template: edition
+  template: 
+    - edition
+    - poste
 files:
   sortable: true
 fields:
@@ -34,3 +36,14 @@ fields:
   tags:
     label: Tags
     type:  tags
+  lien: 
+    label: Lien vers projet global
+    type: Url
+    width: 1/2
+  titreLien: 
+    label: Titre du lien 
+    type: text
+    width: 1/2
+  textLien: 
+    label: Texte intro lien
+    type: textarea

@@ -281,6 +281,13 @@ svg:not(:root) {
   padding: 10px;
   border-radius: 50%;
 }
+.yellow-spacer {
+  width: 100%;
+  padding: 15px;
+  background-color: #FFFF00;
+  font-size: 30px;
+}
+
 
 /* ################################################################
 Sticky 

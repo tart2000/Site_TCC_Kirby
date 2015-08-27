@@ -72,24 +72,24 @@
       <!-- icones sociales du projet -->
       <div class="mt">
         <?php if ($page->fb() != '') : ?>
-          <a href="<?php echo $page->fb() ?>" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+          <a href="<?php echo $page->fb() ?>" target="_blank"><i class="fa fa-2x fa-facebook right mr"></i></a>
         <?php endif ?>
         <?php if ($page->tw() != '') : ?>
-          <a href="<?php echo $page->tw() ?>" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+          <a href="<?php echo $page->tw() ?>" target="_blank"><i class="fa fa-2x fa-twitter right mr"></i></a>
         <?php endif ?>
         <?php if ($page->projectLink() != '') : ?>
-          <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right"><i class="fa fa-external-link fa-2x"></i></a>
+          <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right"><i class="fa fa-external-link fa-2x mr"></i></a>
         <?php endif ?>
       </div>
       <div class="clearfix"></div>
       
       <!-- next edition -->
-      <?php if ($page->children('edition') != '') : ?>
-        <?php $nextDate = $page->children('edition')->first()->date('','startDate') ?>
+      <?php if ($page->children()->filterBy('template','edition') != '') : ?>
+        <?php $nextDate = $page->children()->filterBy('template','edition')->first()->date('','startDate') ?>
         <?php if ($thedate <= $nextDate) : ?>
         <hr>
           <strong>Édition à venir</strong></br>
-          <?php foreach ($page->children('edition') as $e) : ?>
+          <?php foreach ($page->children()->filterBy('template','edition') as $e) : ?>
             <a href="<?php echo $e->url() ?>" target="_blank" class="yellow"><?php echo $e->title() ?> - <?php echo $e->dateText() ?></a>
           <?php endforeach ?>
         <?php endif ?>
@@ -129,6 +129,15 @@
           <?php endforeach ?>
       <?php endif ?>
 
+      <!-- Postes -->
+      <?php if ($page->children()->filterBy('template','poste') != '') : ?>
+        <hr>
+        <strong>Rejoignez l'équipe !</strong></br>
+          <?php foreach ($page->children()->filterBy('template','poste') as $p) : ?>
+            <a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></br>
+          <?php endforeach ?>
+      <?php endif ?>
+
       <!-- retours -->
       <?php if (page('retours')->children()->filterBy('connect',$theTag2,',') != '') : ?>
         <hr>
@@ -143,7 +152,11 @@
       <?php endif ?> 
 
       <!-- lien vers projet global -->
-
+      <?php if ($page->textLien() != '') : ?>
+        <hr>
+        <?php echo $page->textLien()->kirbytext() ?>
+        <a href="<?php echo $page->lien() ?>" target="_blank" class="btn btn-theme"><?php echo $page->titreLien() ?></a>
+      <?php endif ?>
 
       <!-- tags -->
       <?php if ($page->tags() != '') : ?>
