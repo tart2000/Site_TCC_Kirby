@@ -340,7 +340,9 @@ Project page
 .project-page {
   padding-top: 30px;
 }
-
+.yellow {
+  background-color: #ffff00;
+}
 .text-proj {
   position: relative;
   top: -10px;
@@ -385,11 +387,21 @@ Project page
 }
 .team-text {
   padding-top: 5px;
+  text-transform: lowercase;
+}
+.team-text strong {
   text-transform: capitalize;
 }
 .team img {
   width: 100%;
   border-radius: 10px;
+  filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%);
+}
+.team img:hover {
+  filter: grayscale(0%); 
+  -webkit-filter: grayscale(0%);
+  transition-duration: 1s;
 }
 .events h3 {
   margin-bottom: -10px;

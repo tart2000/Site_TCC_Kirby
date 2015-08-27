@@ -29,7 +29,7 @@
 
 <?php snippet('evenements') ?> 
 
-<?php snippet('projets') ?>
+<?php snippet('projets2') ?>
 
 <?php snippet('newsletter') ?>
 

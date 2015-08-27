@@ -2,6 +2,7 @@
 
 
 <?php snippet('head') ?>
+
 <script src="<?php echo $site->url() ?>/assets/js/svg.min.js"></script>
 <script src="<?php echo $site->url() ?>/assets/js/helpers.js"></script>
 
@@ -20,7 +21,7 @@
 <!-- Header --> 
 
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <a class="navbar-brand plog" href="<?php echo $page->parent()->projectLink() ?>" target="_blank"><img src="/assets/images/<?php echo $page->parent()->projectTag() ?>.png" class="img-responsive"></a>
+  <a class="navbar-brand plog" href="<?php echo $page->parent()->projectLink() ?>"><img src="/assets/images/<?php echo $page->parent()->projectTag() ?>.png" class="img-responsive"></a>
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -197,10 +198,7 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
         <a href="<?php echo $page->presse() ?>" target="_blank">Presse</a> | 
     <?php endif ?>
     <?php if ($page->benevoles() != '') : ?>
-        <a href="<?php echo $page->benevoles() ?>" target="_blank">Bénévoles</a> | 
-    <?php endif ?>
-    <?php if ($page->partenaires() != '') : ?>
-        <a href="<?php echo $page->partenaires() ?>" target="_blank">Partenaires</a>
+        <a href="<?php echo $page->benevoles() ?>" target="_blank">Devenir bénévole</a>
     <?php endif ?>
     </p>
 </div>

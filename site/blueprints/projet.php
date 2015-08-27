@@ -17,6 +17,14 @@ fields:
     label: Tag pour connecter les news et événements
     type: text
     width: 1/2
+  fb: 
+    label: Facebook 
+    type: Url 
+    width: 1/2
+  tw: 
+    label: Twitter
+    type: Url
+    width: 1/2
   short: 
     label: Description courte
     type: text

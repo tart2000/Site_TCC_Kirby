@@ -69,19 +69,28 @@
     <!-- 2ème colonne -->
     <div class="col-md-4">
       <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="/assets/images/<?php echo $page->projectTag() ?>.png" class="img-responsive pb"></a>
-      <?php if ($page->projectLink() != '') : ?>
-        <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right">Site du projet <i class="fa fa-external-link"></i></a>
-      <?php endif ?>
+      <!-- icones sociales du projet -->
+      <div class="mt">
+        <?php if ($page->fb() != '') : ?>
+          <a href="<?php echo $page->fb() ?>" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+        <?php endif ?>
+        <?php if ($page->tw() != '') : ?>
+          <a href="<?php echo $page->tw() ?>" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+        <?php endif ?>
+        <?php if ($page->projectLink() != '') : ?>
+          <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right"><i class="fa fa-external-link fa-2x"></i></a>
+        <?php endif ?>
+      </div>
       <div class="clearfix"></div>
       
       <!-- next edition -->
       <?php if ($page->children('edition') != '') : ?>
         <?php $nextDate = $page->children('edition')->first()->date('','startDate') ?>
         <?php if ($thedate <= $nextDate) : ?>
-          <hr>
+        <hr>
           <strong>Édition à venir</strong></br>
           <?php foreach ($page->children('edition') as $e) : ?>
-            <a href="<?php echo $e->url() ?>"><?php echo $e->title() ?> - <?php echo $e->dateText() ?></a>
+            <a href="<?php echo $e->url() ?>" target="_blank" class="yellow"><?php echo $e->title() ?> - <?php echo $e->dateText() ?></a>
           <?php endforeach ?>
         <?php endif ?>
       <?php endif ?>
@@ -133,6 +142,8 @@
           <?php endforeach ?>
       <?php endif ?> 
 
+      <!-- lien vers projet global -->
+
 
       <!-- tags -->
       <?php if ($page->tags() != '') : ?>
@@ -165,21 +176,7 @@
   </div> <!-- end row -->
   
 
-  <!-- navigation -->
-  <div class="row mt">
-      <div class="col-md-10 col-md-offset-1">
-        <nav class="" role="navigation">
-          <ul class="pager">
-            <?php if($prev = $page->prev()): ?>
-            <li class="previous"><a href="<?php echo $prev->url() ?>">&larr; Précédent</a></li>
-            <?php endif ?>
-            <?php if($next = $page->next()): ?>
-            <li class="next"><a href="<?php echo $next->url() ?>">Suivant &rarr;</a></li>
-            <?php endif ?>
-          </ul>
-        </nav>
-    </div>
-  </div>
+
 
 </main>
 
