@@ -354,6 +354,19 @@ Project page
   position: relative;
   top: -10px;
 }
+
+div.countdown h3 {
+  color: #000000; 
+}
+
+div.countdown h2 {
+  color: white; 
+background-color: rgba(0,0,0,0.5);
+padding: 5px;
+padding-right: 10px;
+padding-left: 10px;
+}
+
 .atag {
   display: inline-block;
   padding-top: 5px;

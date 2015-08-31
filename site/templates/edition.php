@@ -94,10 +94,10 @@
 <?php if ($thedate <= $thisdate) : ?>
 <div id="countdown" class="bpt bpb bmb stretched-bg" style="background-image: url('<?php echo $page->images()->sortBy('sort', 'asc')->offset(1)->first()->url() ?>');">
     <div class="container">
-        <div class="row center">
+        <div class="row center countdown">
             <h3>Rendez-vous dans : </h3>
         </div>
-        <div class="row center" id="clock">
+        <div class="row center countdown" id="clock">
         </div>
     </div>
 </div>
