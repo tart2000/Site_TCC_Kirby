@@ -220,7 +220,8 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
     <?php foreach ($page->children('team') as $team) : ?>
         <div class="col-md-2 col-sm-3 col-xs-4 team">
             <?php if ($team->images() != '') : ?>
-                <?php echo thumb($team->images()->first(), array('width'=>400, 'height'=>400, 'crop'=>true)) ?>
+                <?php echo thumb($team->images()->first(), array('width'=>400, 'height'=>550, 'crop'=>array( 'bottom', 'center'))) ?>
+                
             <?php else : ?>
                 <img src="<?php echo $site->url() ?>/assets/images/avatar.png" class="img-responsive">
             <?php endif ?>
