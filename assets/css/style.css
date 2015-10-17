@@ -392,6 +392,9 @@ Project page
   padding-left: 25px;
   padding-right: 25px;
 }
+.team {
+  min-height: 265px;
+}
 .team-text {
   padding-top: 5px;
   text-transform: lowercase;

@@ -3,7 +3,8 @@
 title: Call
 pages: 
   template: callen
-files: true
+files: 
+  sortable: true
 fields:
   title:
     label: Title

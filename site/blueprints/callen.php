@@ -2,7 +2,8 @@
 
 title: Callen
 pages: false
-files: true
+files: 
+  sortable: true
 fields:
   title:
     label: Title (en)

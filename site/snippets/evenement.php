@@ -43,6 +43,6 @@
         
 
         
-        <p><?php echo $event->text()->kirbytext()->excerpt(200) ?></p>
+        <p><?php echo $event->text()->excerpt(300) ?></p>
       </div>
     </div>

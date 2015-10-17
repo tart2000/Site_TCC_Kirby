@@ -6,9 +6,16 @@
   </div>
   <?php foreach(page('evenements')->children()->sortBy('startDate') as $event): ?>
     <?php $thedate = time() ?>
-    <?php $thisdate = $event->date('','startDate') ?>
-    <?php if ($thedate <= $thisdate) : ?>
-      <?php snippet('evenement', array('event' => $event)) ?>
+    <?php $startdate = $event->date('','startDate') ?>
+    <?php if ($event->endDate() != '') : ?>
+      <?php $enddate = $event->date('','endDate') ?>
+      <?php if ($thedate <= $enddate) : ?>
+        <?php snippet('evenement', array('event' => $event)) ?>
+      <?php endif ?>
+    <?php else : ?> 
+      <?php if ($thedate <= $startdate) : ?>
+        <?php snippet('evenement', array('event' => $event)) ?>
+      <?php endif ?>
     <?php endif ?>
   <?php endforeach ?>
 
