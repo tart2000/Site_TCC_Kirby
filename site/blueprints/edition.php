@@ -58,6 +58,45 @@ fields:
     label: Texte de l'appel (compatible HTML)
     type: textarea
 
+  videos: 
+    label: Vidéos 
+    type: headline
+  videoDesc1: 
+    label: Description de la vidéo 1 (obligatoire pour que la section apparaisse)
+    type: text
+  vimeoCode1: 
+    label: Code Vimeo (ex. 111678678)
+    type: text
+    width:1/2
+  youtubeCode1: 
+    label: Code Youtube (ex. B6Ptl_LL0i4)
+    type: text
+    width:1/2
+
+  videoDesc2: 
+    label: Description de la vidéo 2
+    type: text
+  vimeoCode2: 
+    label: Code Vimeo (ex. 111678678)
+    type: text
+    width:1/2
+  youtubeCode2: 
+    label: Code Youtube (ex. B6Ptl_LL0i4)
+    type: text
+    width:1/2
+
+  videoDesc3: 
+    label: Description de la vidéo 3
+    type: text
+  vimeoCode3: 
+    label: Code Vimeo (ex. 111678678)
+    type: text
+    width:1/2
+  youtubeCode3: 
+    label: Code Youtube (ex. B6Ptl_LL0i4)
+    type: text
+    width:1/2
+  
   contacts:
     label: Contacts
     type: headline

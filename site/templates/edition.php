@@ -122,6 +122,62 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
     </div>
 </div>
 
+<!-- Vidéos -->
+
+<?php if ($page->videoDesc1() != '') : ?>
+<div class="project-video bpt bpb bmb stretched-bg" style="background-image: url('<?php echo $page->images()->sortBy('sort', 'asc')->offset(2)->first()->url() ?>');">
+<div class="container bmt">
+    <div class="row center">
+            <div class="col-xs-8 col-sm-4">
+                <p class="videodesc"><?php echo $page->videoDesc1() ?></p>
+                <?php if ($page->vimeoCode1() != '') : ?>
+                <iframe src="https://player.vimeo.com/video/<?php echo $page->vimeoCode1() ?>?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <?php else : ?>
+                <?php endif ?>
+                <?php if ($page->youtubeCode1() != '') : ?>
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/<?php echo $page->youtubeCode1() ?>" frameborder="0" allowfullscreen></iframe>
+                <?php else : ?>
+                <?php endif ?>
+            </div>
+                
+                <?php if ($page->videoDesc2() != '') : ?>
+            <div class="col-xs-8 col-sm-4">
+                <p class="videodesc"><?php echo $page->videoDesc2() ?></p>
+                <?php if ($page->vimeoCode2() != '') : ?>
+                <iframe src="https://player.vimeo.com/video/<?php echo $page->vimeoCode2() ?>?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <?php else : ?>
+                <?php endif ?>
+                <?php if ($page->youtubeCode2() != '') : ?>
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/<?php echo $page->youtubeCode2() ?>" frameborder="0" allowfullscreen></iframe>
+                <?php else : ?>
+                <?php endif ?>
+            </div>
+            <?php else : ?>
+                <?php endif ?>
+                
+                <?php if ($page->videoDesc3() != '') : ?>
+            <div class="col-xs-8 col-sm-4">
+                <p class="videodesc"><?php echo $page->videoDesc3() ?></p>
+                <?php if ($page->vimeoCode3() != '') : ?>
+                <iframe src="https://player.vimeo.com/video/<?php echo $page->vimeoCode3() ?>?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <?php else : ?>
+                <?php endif ?>
+                <?php if ($page->youtubeCode3() != '') : ?>
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/<?php echo $page->youtubeCode3() ?>" frameborder="0" allowfullscreen></iframe>
+                <?php else : ?>
+                <?php endif ?>
+            </div>
+            <?php else : ?>
+                <?php endif ?>   
+        
+        </div>
+    </div>
+</div>
+<?php else : ?>
+                <?php endif ?>
+                
+        <!-- Fin vidéos -->
+
 <!-- Appel à participants -->
 <?php $aapStart = $page->date('','debutCall') ?>
 <?php $aapEnd = $page->date('','endCall') ?>
