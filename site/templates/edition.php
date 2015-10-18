@@ -85,7 +85,7 @@
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2 center">
             <h3><?php echo $page->parent()->short()->kirbytext() ?></h3>
-            <a href="<?php echo $page->parent()->url() ?>" class="btn btn-theme">En savoir plus sur <?php echo $page->parent()->title() ?></a>
+            <a href="http://www.museomix.org" class="btn btn-theme">En savoir plus sur le concept de Museomix</a> <a href="<?php echo $page->parent()->url() ?>" class="btn btn-theme">En savoir plus sur <?php echo $page->parent()->title() ?></a>
         </div>
     </div>
 </div>
