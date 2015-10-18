@@ -441,7 +441,7 @@ padding-left: 10px;
   padding-right: 25px;
 }
 .team {
-  min-height: 325px;
+  min-height: 327px;
 }
 .team-text {
   padding-top: 5px;
@@ -450,15 +450,29 @@ padding-left: 10px;
 .team-text strong {
   text-transform: capitalize;
 }
+ .thumbnail {
+  position: relative;
+  width: 170px;
+  height: 210px;
+  overflow: hidden;
+  border-radius: 10px;
+  border:none;
+	 }
 .team img {
   width: 100%;
-  border-radius: 10px;
-  filter: grayscale(100%); 
-  -webkit-filter: grayscale(100%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  -webkit-transform: translate(-50%,-58%);
+      -ms-transform: translate(-50%,-58%);
+          transform: translate(-50%,-58%);
+  /*filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%);*/
 }
 .team img:hover {
-  filter: grayscale(0%); 
-  -webkit-filter: grayscale(0%);
+  /*filter: grayscale(0%); 
+  -webkit-filter: grayscale(0%);*/
   transition-duration: 1s;
 }
 .events h3 {
