@@ -52,7 +52,7 @@
     <div class="container">
         <div class="row bpt bpb">
             <div class="col-sm-1 col-sm-offset-2">
-                <a type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-play-circle-o"></i></a>
+                <a type="button" data-toggle="modal" data-target="#myModal" class="play"><i class="fa fa-play-circle-o"></i></a>
             </div>
             <div class="col-sm-6 col-sm-offset-1">
                 <h1><?php echo $page->dateText() ?></h1>
@@ -128,7 +128,7 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 <div class="project-video bpt bpb bmb stretched-bg" style="background-image: url('<?php echo $page->images()->sortBy('sort', 'asc')->offset(2)->first()->url() ?>');">
 <div class="container bmt">
     <div class="row center">
-            <div class="col-xs-8 col-xs-offset-2 col-sm-4">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-4">
                 <p class="videodesc"><?php echo $page->videoDesc1() ?></p>
                 <?php if ($page->vimeoCode1() != '') : ?>
                 <iframe src="https://player.vimeo.com/video/<?php echo $page->vimeoCode1() ?>?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -141,7 +141,7 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
             </div>
                 
                 <?php if ($page->videoDesc2() != '') : ?>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-4">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-4">
                 <p class="videodesc"><?php echo $page->videoDesc2() ?></p>
                 <?php if ($page->vimeoCode2() != '') : ?>
                 <iframe src="https://player.vimeo.com/video/<?php echo $page->vimeoCode2() ?>?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -156,7 +156,7 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
                 <?php endif ?>
                 
                 <?php if ($page->videoDesc3() != '') : ?>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-4">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-4">
                 <p class="videodesc"><?php echo $page->videoDesc3() ?></p>
                 <?php if ($page->vimeoCode3() != '') : ?>
                 <iframe src="https://player.vimeo.com/video/<?php echo $page->vimeoCode3() ?>?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

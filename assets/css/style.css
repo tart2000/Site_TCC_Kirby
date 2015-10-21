@@ -348,6 +348,10 @@ Project page
   padding-top: 30px;
 }
 
+.play {
+	color: #FFFF00;
+
+}
 div.countdown h3 {
   color: #000000; 
 }
