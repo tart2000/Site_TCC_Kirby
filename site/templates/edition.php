@@ -218,15 +218,14 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
     </div>
     <div class="row">
     <?php foreach ($page->children('team') as $team) : ?>
+        <?php if ($team->images() != '') : ?>
         <div class="col-md-2 col-sm-3 col-xs-4 team">
         <div class="thumbnail">
-            <?php if ($team->images() != '') : ?>
+            
                 
                 <img src="<?php echo $team->images()->first()->url() ?>" onmouseover="this.src='<?php echo $team->images()->sortBy('sort', 'asc')->offset(1)->first()->url() ?>'" onmouseout="this.src='<?php echo $team->images()->first()->url() ?>'" />
                 </div>
-            <?php else : ?>
-                <img src="<?php echo $site->url() ?>/assets/images/avatar.png" class="img-responsive">
-            <?php endif ?>
+            
             <div class="team-text">
                 <strong><?php echo $team->title() ?> <?php echo $team->nom() ?></strong>
                 <p>
@@ -241,7 +240,12 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
                     <?php endif ?>
                     </p>
             </div>
+            
         </div>
+        <?php else : ?>
+                <!--<img src="<?php echo $site->url() ?>/assets/images/avatar.png" class="img-responsive">-->
+            
+            <?php endif ?>
     <?php endforeach ?>
     </div>
 </div>
