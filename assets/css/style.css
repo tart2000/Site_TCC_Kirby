@@ -461,10 +461,10 @@ padding-left: 10px;
 	 
 	 @media screen and (max-width: 480px) {
   .thumbnail {
-    height: 130px;
+    height: 120px;
   }
   .team {
-  min-height: 270px;
+  min-height: 290px;
 }
 .team-text {
   padding-top: 5px;
