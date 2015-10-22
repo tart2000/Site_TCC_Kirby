@@ -91,6 +91,11 @@ h2 {
   text-align: right;
   float: right;
 }
+
+.justify {
+	text-align: justify;
+}
+
 .mt {
   margin-top: 15px;
 }

@@ -115,7 +115,7 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 <!-- Texte de l'édition -->
 <div class="container">
     <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 center lg"> 
+        <div class="col-sm-8 col-sm-offset-2 justify">
             <p><?php echo $page->text()->kirbytext() ?></p>
             
         </div>
