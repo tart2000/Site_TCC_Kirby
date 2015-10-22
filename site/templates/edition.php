@@ -10,13 +10,12 @@
 
 <?php $thedate =  time() ?>
 <?php $thisdate = $page->date('','startDate') ?>
+<?php $theend = $page->date('','endDate') ?>
 <?php setlocale(LC_ALL, 'fr_FR') ?>
 
 
 <!-- redirect if after event -->
-<?php if ($thedate > $thisdate) : ?>
-    <?php go($page->parent()->url()) ?>
-<?php endif ?>
+
 
 <!-- Header --> 
 
@@ -211,20 +210,19 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 </div>
 
 <!-- Team --> 
-<?php if ($page->children('team') != '') : ?>
+<?php $theteam = $page->children()->filterBy('template','*=','team') ?>
+<?php if ($theteam != '') : ?>
 <div class="container bmt">
     <div class="row center">
         <h2>Équipe</h2>
     </div>
     <div class="row">
-    <?php foreach ($page->children('team') as $team) : ?>
+    <?php foreach ($theteam as $team) : ?>
         <?php if ($team->images() != '') : ?>
         <div class="col-md-2 col-sm-3 col-xs-4 team">
-        <div class="thumbnail">
-            
-                
+            <div class="thumbnail">
                 <img src="<?php echo $team->images()->first()->url() ?>" onmouseover="this.src='<?php echo $team->images()->sortBy('sort', 'asc')->offset(1)->first()->url() ?>'" onmouseout="this.src='<?php echo $team->images()->first()->url() ?>'" />
-                </div>
+            </div>  
             
             <div class="team-text">
                 <strong><?php echo $team->title() ?> <?php echo $team->nom() ?></strong>
@@ -238,7 +236,7 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
                     <?php if ($team->mail() != '') : ?>
                         <a href="mailto:<?php echo $team->mail() ?>"><i class="fa fa-envelope"></i></a>
                     <?php endif ?>
-                    </p>
+                </p>
             </div>
             
         </div>
@@ -267,7 +265,9 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 </div>
 
 <!-- Partenaires -->
-<?php snippet('partners') ?>
+<div class="container">
+    <?php snippet('partners') ?>
+</div>
 
  <!-- Devenir partenaire -->
 <div class="container">
