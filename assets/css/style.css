@@ -349,9 +349,14 @@ Project page
 }
 
 .play {
-	color: #FFFF00;
+	color: #1fb3fb;
 
 }
+.play:hover {
+	color: #b6ffff;
+
+}
+
 div.countdown h3 {
   color: #000000; 
 }
