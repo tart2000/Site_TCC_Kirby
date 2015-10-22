@@ -293,6 +293,17 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 
 
 <div class="footer center">
+<div class="social center mt">
+                    <?php if ($page->facebookProjet() != '') : ?>
+                    <a href="<?php echo $page->facebookProjet() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
+                    <?php endif ?>
+                    
+					<?php if ($page->twitterProjet() != '') : ?>
+                    <a href="<?php echo $page->twitterProjet() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>
+                    <?php endif ?>
+
+                </div>
+                <p><br />
     Un projet Techno Culture Club <br>
     <a href="<?php echo $site->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/logo_TCC_M.png" style="max-width:10%;"></a>
 </div>

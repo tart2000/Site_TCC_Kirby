@@ -28,6 +28,14 @@ fields:
     label: Code Vimeo (ex. 111678678)
     type: text
     width: 1/2
+  facebookProjet:
+    label: Facebook du projet
+    type: text
+    width: 1/2
+  twitterProjet:
+    label: Twitter du projet
+    type: text
+    width: 1/2
   text:
     label: Texte
     type: textarea
