@@ -116,3 +116,21 @@ Vimeocode3: 116911536
 ----
 
 Youtubecode3: 
+
+----
+
+Facebookprojet: http://google.com
+
+----
+
+Twitterprojet: http://google.com
+
+----
+
+Ctas: 
+
+- 
+  titre: Visites guidées
+  texte: "Laissez-nous vous montrer Museomix de l'intérieur ! Nombre de places très limité..."
+  btntitle: Inscriptions
+  alink: http://google.com

@@ -36,6 +36,26 @@ fields:
     label: Twitter du projet
     type: text
     width: 1/2
+  ctas:
+    label: Call(s) to action
+    type: structure
+    help: Don't forget to save after (bottom of the page)
+    entry: >
+      {{titre}}<br/>
+      {{btntitle}}
+    fields:
+      titre:
+        label: Titre
+        type: text
+      texte:
+        label: Texte
+        type: textarea
+      btntitle:
+        label: Button title
+        type: text
+      alink:
+        label: Button link
+        type: url
   text:
     label: Texte
     type: textarea

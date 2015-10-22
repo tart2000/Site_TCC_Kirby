@@ -401,6 +401,10 @@ padding-left: 10px;
 .fa-play-circle-o {
   font-size: 10em;
 }
+.fa-stack {
+  padding: 10px;
+  margin-right: 2px;
+}
 .plog img {
   max-height: 22px;
 }

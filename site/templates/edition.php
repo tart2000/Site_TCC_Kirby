@@ -35,6 +35,26 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="" class="navdate hide"><strong><?php echo $page->dateText() ?> - <?php echo $page->venue() ?></strong></a></li>
+        <?php if ($page->facebookProjet() != '') : ?>
+            <li>  
+                <span class="fa-stack">
+                    <a href="<?php echo $page->facebookProjet() ?>" target="_blank">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    </a>
+                </span>
+            </li>
+        <?php endif ?>
+        <?php if ($page->twitterProjet() != '') : ?>
+            <li>
+                <span class="fa-stack">
+                    <a href="<?php echo $page->twitterProjet() ?>" target="_blank">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </a>
+                </span>
+            </li>
+        <?php endif ?>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -89,6 +109,34 @@
     </div>
 </div>
 
+
+<!-- Calls to action -->
+<div class="container bmt bmb">
+    <div class="row">
+        <?php $ctas=$page->ctas()->yaml(); $ctan=count($ctas) ?>
+        <?php if ($ctan == 1) : ?>
+            <?php $offset = 'col-sm-6 col-sm-offset-3' ?>
+        <?php elseif ($ctan == 2) : ?>
+            <?php $offset = 'col-sm-4 col-sm-offset-2' ?>
+        <?php else : ?>
+            <?php $offset = 'col-sm-4' ?>
+        <?php endif ?>
+        <?php $ctacounter = 0 ?>
+        <?php if ($ctan>0) : ?>
+            <?php foreach($page->ctas()->yaml() as $cta): ?>
+                <div class="<?php e($ctacounter == '0', $offset) ?>">
+                    <h4><?php echo $cta['titre'] ?></h4>
+                    <p><?php echo $cta['texte'] ?></p>
+                    <a href="<?php echo $cta['alink'] ?>" class="btn btn-theme" target="_blank"><?php echo $cta['btntitle'] ?></a>
+                </div>
+                <?php $ctacounter++ ?>
+            <?php endforeach ?>
+        <?php endif ?>
+        
+    </div>
+</div>
+
+
 <!-- Timer -->
 <?php if ($thedate <= $thisdate) : ?>
 <div id="countdown" class="bpt bpb bmb stretched-bg" style="background-image: url('<?php echo $page->images()->sortBy('sort', 'asc')->offset(1)->first()->url() ?>');">
@@ -101,7 +149,6 @@
     </div>
 </div>
 <?php endif ?>
-
 <script type="text/javascript">
 $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function(event) {
   var $this = $(this).html(event.strftime(''
@@ -122,7 +169,6 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 </div>
 
 <!-- Vidéos -->
-
 <?php if ($page->videoDesc1() != '') : ?>
 <div class="project-video bpt bpb bmb stretched-bg" style="background-image: url('<?php echo $page->images()->sortBy('sort', 'asc')->offset(2)->first()->url() ?>');">
 <div class="container bmt">
@@ -293,17 +339,17 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 
 
 <div class="footer center">
-<div class="social center mt">
-                    <?php if ($page->facebookProjet() != '') : ?>
-                    <a href="<?php echo $page->facebookProjet() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
-                    <?php endif ?>
+    <div class="social center mt">
+        <?php if ($page->facebookProjet() != '') : ?>
+            <a href="<?php echo $page->facebookProjet() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
+        <?php endif ?>
                     
-					<?php if ($page->twitterProjet() != '') : ?>
-                    <a href="<?php echo $page->twitterProjet() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>
-                    <?php endif ?>
+		<?php if ($page->twitterProjet() != '') : ?>
+            <a href="<?php echo $page->twitterProjet() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>
+        <?php endif ?>
 
-                </div>
-                <p><br />
+    </div>
+    <p><br />
     Un projet Techno Culture Club <br>
     <a href="<?php echo $site->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/logo_TCC_M.png" style="max-width:10%;"></a>
 </div>
