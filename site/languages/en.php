@@ -6,5 +6,10 @@ l::set('all-events','See all events');
 l::set('all-projects','See all projects');
 l::set('submit','Submit');
 l::set('made','Made with');
+l::set('contact','Contact us');
+l::set('meet','Meet us');
+l::set('in','See you in:');
+l::set('team','Team');
+l::set('past-evts','Past events');
 
 ?>

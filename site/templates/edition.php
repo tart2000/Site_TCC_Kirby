@@ -142,7 +142,7 @@
 <div id="countdown" class="bpt bpb bmb stretched-bg" style="background-image: url('<?php echo $page->images()->sortBy('sort', 'asc')->offset(1)->first()->url() ?>');">
     <div class="container">
         <div class="row center countdown">
-            <h3>Rendez-vous dans : </h3>
+            <h3><?php echo l::get('in') ?></h3>
         </div>
         <div class="row center countdown" id="clock">
         </div>
@@ -260,7 +260,7 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
 <?php if ($theteam != '') : ?>
 <div class="container bmt">
     <div class="row center">
-        <h2>Équipe</h2>
+        <h2><?php l::get('team') ?></h2>
     </div>
     <div class="row">
     <?php foreach ($theteam as $team) : ?>
