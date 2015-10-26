@@ -14,7 +14,7 @@
             </div>
             <div class="col-md-6 col-md-offset-1 col-sm-6 left bmt">
                 <h3><?php echo $page->text()->kirbytext() ?></h3>
-                <a href="/a-propos/" class="btn btn-theme">En savoir plus...</a>
+                <a href="/a-propos/" class="btn btn-theme"><?php echo l::get('plus') ?></a>
             </div>
         </div><!-- /row -->
     </main>

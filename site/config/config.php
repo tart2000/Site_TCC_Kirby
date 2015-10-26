@@ -29,3 +29,22 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
+/* Définition des langues */
+c::set('languages', array(
+  array(
+    'code'    => 'fr',
+    'name'    => 'Français',
+    'default' => true,
+    'locale'  => 'fr_FR',
+    'url'     => '/',
+  ),
+  array(
+    'code'    => 'en',
+    'name'    => 'English',
+    'locale'  => 'en_EN',
+    'url'     => '/en',
+  ),
+));
+
+/* Détection de la langue */
+c::set('language.detect', true);

@@ -268,7 +268,6 @@ svg:not(:root) {
 }
 .carousel .item {
   height: auto;
-  min-height: 500px;
 }
 .carousel-caption {
   position: inherit;

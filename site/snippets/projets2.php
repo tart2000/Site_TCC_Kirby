@@ -18,6 +18,6 @@
 	</div>
 	<div class="clearfix"></div>
 	<div class="row center">
-		<a href="/projets" class="btn btn-theme">Voir tous les projets</a>
+		<a href="/projets" class="btn btn-theme"><?php echo l::get('all-projects') ?></a>
 	</div>
 </div>

@@ -13,4 +13,7 @@ fields:
     label: Text
     type:  textarea
     size:  large
+  newsletter:
+    label: Newsletter text
+    type: text 
   

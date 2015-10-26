@@ -2,7 +2,7 @@
 
 <div class="container events">
   <div class="row center">
-    <h2>Événements à venir</h2>
+    <h2><?php echo l::get('coming-up') ?></h2>
   </div>
   <?php foreach(page('evenements')->children()->sortBy('startDate') as $event): ?>
     <?php $thedate = time() ?>
@@ -20,6 +20,6 @@
   <?php endforeach ?>
 
   <div class="row center bmt">
-    <a href="/evenements" class="btn btn-theme">Voir tous les événements</a>
+    <a href="/evenements" class="btn btn-theme"><?php echo l::get('all-events') ?></a>
   </div>
 </div>
