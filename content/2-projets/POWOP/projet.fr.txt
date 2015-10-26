@@ -1,0 +1,56 @@
+Title: POWOP
+
+----
+
+Tags: socio-financement,local,accélération
+
+----
+
+Text: 
+
+### POWOP est un accélérateur de projet basé sur le socio-financement local. 
+
+Bonus : le projet qui réussit à gagner les coeurs du public repart avec une bourse de 1000$*!
+
+Des micro-donateurs (trustees) contribuent tous les 3 mois à une bourse, qui est ensuite donnée à un **projet formidable** pour aider sa réalisation. 
+
+À chaque saison, la communauté du Techno Culture Club se réunit pour présenter des projets formidables et désigner celui qui gagnera la bourse à $$. Celle-ci est simplement donnée aux porteurs du projet élu, sans aucune condition particulière (*no strings attached*).
+
+(★) *Le montant de la bourse peut varier en fonction du nombre de donateurs, mais notre but est de toujours le garder supérieur à 1000$. Le montant exact est annoncé avant chaque édition.*
+
+### Comment ça marche ?
+1. Soumettez votre projet extraordinaire grâce au (link: http://www.awesomefoundation.org/fr/submissions/new?chapter=montreal text: formulaire de participation en ligne)
+1. Le comité organisateur choisit 8 projets extraordinaires selon les critères de sélection établis
+1. Les porteurs des projets sélectionnés viennent présenter leurs idées à la communauté pendant un 5@7
+1. Pendant la soirée, le public vote pour son projet préféré
+1. Réalisation du projet !
+
+### Critères 
+
+Tous les projets sont les bienvenus. Ils peuvent toucher, sans limitation, aux champs suivants : 
+- urbanisme tactique et innovation sociale 
+- technologie positive et solutions low-tech
+- voisinage réseauté et ville résiliente
+- installations interactives et approches narratives créatives
+- data-sorcellerie et boîtes à outils open-source
+
+Nous encourageons les projets :
+- collaboratifs et inter-disciplinaires
+- qui bénéficient à la communauté technoculturelle
+- qui sont en étape de development (plus reel qu'une idée)
+- à réalisation rapide (idéalement, moins de 3 mois. Avant la saison suivante de POWOP)
+- dont la bourse aura un impact significatif sur le budget de réalisation.
+
+POWOP s'appuie sur la Fondation Formidable ((link: http://www.awesomefoundation.org text: Awesome Foundation)).
+
+----
+
+Projectlink: http://www.awesomefoundation.org/en/chapters/montreal
+
+----
+
+Projecttag: powop
+
+----
+
+Short: Proposez un projet extraordinaire à la communauté et vous aurez peut-être la chance de partir avec de bons conseils, des nouveaux amis aux nombreux talents ou bien même du CA$$H !
