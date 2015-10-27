@@ -28,6 +28,22 @@
           <?php endif ?>
         </li>
         <?php endforeach ?>
+
+        <li><a>|</a></li>
+        <!-- Languages -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#"><?php echo $site->language()->code() ?></a>
+          <ul class="dropdown-menu" role="menu">
+              <?php foreach($site->languages() as $language): ?>
+              <li<?php e($site->language() == $language, ' class="active"') ?>>
+                  <a href="<?php echo $page->url($language->code()) ?>">
+                    <?php echo html($language->name()) ?>
+                  </a>
+              </li>
+              <?php endforeach ?>
+           </ul>
+        </li>
+
       </ul>
     </div><!--/.nav-collapse -->
   </div>

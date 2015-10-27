@@ -88,7 +88,7 @@
         <?php $nextDate = $page->children()->filterBy('template','edition')->first()->date('','startDate') ?>
         <?php if ($thedate <= $nextDate) : ?>
         <hr>
-          <strong>Édition à venir</strong></br>
+          <strong><?php echo l::get('coming-edition') ?></strong></br>
           <?php foreach ($page->children()->filterBy('template','edition') as $e) : ?>
             <a href="<?php echo $e->url() ?>" target="_blank" class="yellow"><?php echo $e->title() ?> - <?php echo $e->dateText() ?></a>
           <?php endforeach ?>
@@ -102,7 +102,7 @@
           <?php if ($theNewsDate >= $thedate) : ?>
             <?php if ($counter == '0') : ?>
               <hr>
-              <strong>Nouvelles</strong></br>
+              <strong><?php echo l::get('news') ?></strong></br>
             <?php endif ?>
             <?php $counter++ ?>
             <strong><?php echo $news->title() ?></strong>
@@ -121,7 +121,7 @@
               <?php if ($eventDate >= $thedate) : ?>
                 <?php if ($count == 0) : ?>
                   <hr>
-                  <strong>Événements à venir</strong></br>
+                  <strong><?php echo l::get('coming-up') ?></strong></br>
                 <?php endif ?>
                 <?php $count++ ?>
                 <?php echo $event->date('d M','startDate') ?> - <a href="<?php echo $event->Url() ?>"><?php echo $event->title() ?></a></br>
@@ -132,7 +132,7 @@
       <!-- Postes -->
       <?php if ($page->children()->filterBy('template','poste') != '') : ?>
         <hr>
-        <strong>Rejoignez l'équipe !</strong></br>
+        <strong><?php echo l::get('join-team') ?></strong></br>
           <?php foreach ($page->children()->filterBy('template','poste') as $p) : ?>
             <a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></br>
           <?php endforeach ?>
@@ -145,7 +145,7 @@
           <?php foreach (page('retours')->children()->filterBy('connect',$theTag2,',') as $retour) : ?>
               <a href="<?php echo $retour->Url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
               <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
-              <a href="<?php echo $retour->Url() ?>" class="right">Voir <i class="fa fa-arrow-right"></i></a>
+              <a href="<?php echo $retour->Url() ?>" class="right"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
               <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>
               <div class="clearfix"></div>
           <?php endforeach ?>

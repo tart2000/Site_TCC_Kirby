@@ -11,5 +11,10 @@ l::set('meet','Meet us');
 l::set('in','See you in:');
 l::set('team','Team');
 l::set('past-evts','Past events');
+l::set('coming-edition','Next edition');
+l::set('news', 'news');
+l::set('join-team','Join our team!');
+l::set('see','See');
+
 
 ?>
