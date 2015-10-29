@@ -124,9 +124,9 @@
         <?php $ctacounter = 0 ?>
         <?php if ($ctan>0) : ?>
             <?php foreach($page->ctas()->yaml() as $cta): ?>
-                <div class="<?php e($ctacounter == '0', $offset) ?>">
+                <div class="<?php e($ctacounter == '0', $offset) ?> <?php e($ctacounter > 0, 'col-sm-4') ?>">
                     <h4><?php echo $cta['titre'] ?></h4>
-                    <p><?php echo $cta['texte'] ?></p>
+                    <p><?php echo kirbytext($cta['texte']) ?></p>
                     <a href="<?php echo $cta['alink'] ?>" class="btn btn-theme" target="_blank"><?php echo $cta['btntitle'] ?></a>
                 </div>
                 <?php $ctacounter++ ?>
