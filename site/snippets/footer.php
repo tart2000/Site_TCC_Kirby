@@ -11,9 +11,9 @@
             <div class="col-sm-2 col-sm-offset-1">
                 <a href="http://technoculture.club" target="_blank"><img src="/assets/images/logo_TCC_M.png" class="img-responsive"></a>
                 <div class="social center mt">
-                    <a href="<?php $site->facebook() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
-                    <a href="<?php $site->twitter() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>
-                    <a href="<?php $site->linkedin() ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
+                    <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>
+                    <a href="<?php echo $site->linkedin() ?>"><i class="fa fa-linkedin fa-2x"></i></a>
                 </div>
             </div>
             <div class="col-sm-4 col-sm-offset-1 right">
