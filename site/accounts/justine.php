@@ -8,10 +8,11 @@ password: >
   $2a$10$19203WpYGLKPOL4zTYCjo.70arTGevQ/rgRRE3BqfgxHi5v8LlwXq
 language: fr
 role: admin
-token: 0fdf99468156565afca575d08f295a8c708560a3
+token: fe41b17699275426a90e43cbfb3ad97cf3e6e69f
 history:
-  - evenements/lancement-de-powop-et-tcc
-  - home
-  - evenements/chromatic-kids
-  - evenements/lancement-de-museomix-2015
-  - evenements
+  - projets/Museomix/museomixmtl-2016
+  - >
+    evenements/party-de-noel-techno-culture-c
+  - retours/museomixmtl2015
+  - projets/Museomix/museomix-2015
+  - projets/Museomix/museomix-2015/camille

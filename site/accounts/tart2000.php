@@ -6,10 +6,11 @@ password: >
   $2a$10$7TTFNVNrXXoX08TuPk4ffeWim37c6S4o7Nbin/XAaR64v/VDDh7WK
 language: fr
 role: admin
-token: a7645cae23e7da8af38d694aae9fdfd8b5d3bf49
+token: e2e609df84597b6b0b05457517c30f17a6deef80
 history:
-  - projets/Museomix/museomix-2015
-  - projets/Museomix
-  - projets/Museomix/responsable-com
-  - calls/aap-museomix-juin-2015/en
-  - calls/aap-museomix-juin-2015
+  - projets/abc3d
+  - projets/Museomix/museomix-2015/version10
+  - >
+    projets/Museomix/museomix-2015/musee-d-art-contemporain
+  - projets/Museomix/museomix-2015/banff
+  - projets/Museomix/museomix-2015/Simbioz
