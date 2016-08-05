@@ -20,7 +20,6 @@ fields:
     default: sponsor
     options: 
       co: Co-organisateur
-      org: Partenaire d'organisation
       sponsor: Commanditaire
       service: Partenaire de service
       technical: Partenaire technique
