@@ -31,8 +31,7 @@ ABC3D est un projet exploratoire qui vise à concevoir et expérimenter une diza
 - Plus généralement, elles permettent de développer la ‘litéracie’ numérique (compréhension, connaissance et compétences permettant l’utilisation des outils numériques), plus que jamais nécessaire au grand public. 
 ### Mais… 
 - Parmi les bibliothèques qui se sont équipées d'imprimantes 3D, les ateliers proposés aux citoyens sont de niveau débutant. Ils suscitent un véritable engouement chez les citoyens. Toutefois ils consistent principalement en des ateliers de découverte et d'impression à la demande. Au fur et à mesure de la démocratisation des imprimantes 3D, notre projet permettra de renouveler et d'enrichir l'expérience des Bibliolabs. 
-- Malgré leur popularité, les FabLabs et autres makerspaces restent peu utilisés par le grand public. On y retrouve principalement des gens aux profils similaires.
-D’autre part, les financements liés au numérique en bibliothèque sont bien souvent réservés à la seule numérisation et il est très difficile de financer des projet exploratoires autour de l’impression 3D. 
+- Malgré leur développement, les FabLabs et autres makerspaces peinent parfois à rejoindre le grand public. Ils restent souvent utilisés par une communauté d'utilisateurs avertis.
 
 Nous pensons donc qu’il est nécessaire d’explorer les possibilités de l’impression 3D en bibliothèque de manière expérimentale et ouverte, afin de développer les bonnes pratiques, et d’en démocratiser l’usage et l’accès. 
 
@@ -43,3 +42,23 @@ Il contribue au programme de Ville Intelligente de Montréal et au programme des
 ----
 
 Tags: impression 3D,bilbiothèques,atelier,découverte,apprentissage,expérimentation
+
+----
+
+Fb: 
+
+----
+
+Tw: 
+
+----
+
+Lien: 
+
+----
+
+Titrelien: 
+
+----
+
+Textlien: 

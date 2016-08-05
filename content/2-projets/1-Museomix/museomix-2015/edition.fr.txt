@@ -11,11 +11,9 @@ Text:
 <h3>MuseomixMTL AU MAC !</h3>
 <h3 style="text-align:left;">WEEK-END TECHNOCRÉATIF : DES MUSEOMIXEURS AU SERVICE  DE L’ART CONTEMPORAIN</h3>
 
-Du 6 au 8 novembre prochains, le Musée d’art contemporain de Montréal (MAC) sera le théâtre de l’événement MuseomixMTL, un laboratoire de recherche et développement où les participants auront pour mission d’enrichir l’expérience muséale grâce à l’utilisation des nouvelles technologies. Ainsi, le MAC se transformera en véritable laboratoire de création où créativité, art et technologie seront à l’honneur. 
+Du 6 au 8 novembre prochains, le Musée d’art contemporain de Montréal (MAC) sera le théâtre de l’événement MuseomixMTL, un laboratoire de recherche et développement où plus d'une centaine de participants auront pour mission d’enrichir l’expérience muséale grâce à l’utilisation des nouvelles technologies. Ainsi, le MAC se transformera en véritable laboratoire de création où créativité, art et technologie seront à l’honneur. 
 
-Lors de ce week-end technocréatif, plus d’une centaine de professionnels passionnés du web, des technologies, de la culture et de la muséologie investiront le MAC. Regroupés en équipes multidisciplinaires, ces créateurs (appuyés par des mentors) concevront des prototypes de toutes sortes – allant des applications web et mobiles à des installations interactives – permettant d’appréhender autrement l’expérience muséale. Il s’agit de la première fois qu’un musée d’art contemporain accueille l’événement Museomix et le directeur général et conservateur en chef du MAC, John Zeppetelli, se dit « ravi qu’en offrant les espaces et l’accès à la collection permanente du Musée aux museomixeurs, il sera possible de développer des prototypes pédagogiques inventifs destinés à réinterpréter les œuvres et à réinventer l’expérience muséale ». 
-
- 
+  <p> </p>
 **UNE RUCHE TECHNO AU MAC**
 
 Pendant trois jours, dix équipes de six personnes, sélectionnées pour la complémentarité de leurs expertises, éliront ainsi domicile au MAC. Les museomixeurs sont issus des communautés suivantes :
@@ -28,9 +26,24 @@ Pendant trois jours, dix équipes de six personnes, sélectionnées pour la comp
 **- Graphisme et mise en forme :** graphisme, dessin / illustration, création, site internet.
 **- Design d’espace et aménagement :** scénographie, architecture, design urbain.
 
- <p> </p>
+
 <a href="http://us3.campaign-archive1.com/?u=031aada7dda3a38c6ea1cb5c7&id=b742b64bbe" class="btn btn-theme">Lire le communiqué de presse complet</a>
  <p> </p>
+
+**LES CONVERSATIONS MUSEOMIXMTL**
+
+En parallèle de l'effervescence du travail des équipes, c’est avec un immense plaisir que MuseomixMTL et Techno Culture Club vous invitent à leurs Conversations MuseomixMtl, le samedi 7 novembre prochain à 14h au Musée d’art contemporain. Réservées aux professionnels, ces conversations passionnantes porteront sur une problématique centrale des institutions culturelles d’aujourd’hui : les publics.
+
+
+<a href="http://us3.campaign-archive1.com/?u=031aada7dda3a38c6ea1cb5c7&id=ffd632bc04&e=f301dc5425" class="btn btn-theme">En savoir plus</a>
+ <p> </p>
+
+**LA TOURNÉE DES ATELIERS**
+
+Vous n'êtes pas participant, mais vous êtes curieux de l'effervescence de MuseomixMTL en pleine action ? Venez découvrir les coulisses de l'événement du 6 au 8 novembre 2015.
+
+<a href="https://www.weezevent.com/museomixmtl-tour" class="btn btn-theme">Je réserve</a>
+<p></p>
 
 ----
 
@@ -147,10 +160,32 @@ Twitterprojet: https://twitter.com/museomixmtl
 Ctas: 
 
 - 
-  titre: Visite guidée
+  titre: MuseomixMTL en direct
+  texte: >
+    Vous vous demandez ce qui se passe en ce
+    moment à MuseomixMTL? Des articles, des
+    entrevues, des portraits et autres
+    vidéos des coulisses vous attendent sur
+    notre blog.
+  btntitle: "J'y vais"
+  alink: http://museomixmtl.tumblr.com
+- 
+  titre: Expérimentation publique
   texte: |
-    Vous n'êtes pas participants mais vous êtes curieux de l'effervescence de MuseomixMTL en pleine action ? Venez découvrir les coulisses de l'événement du 6 au 8 novembre 2015. Comment est né Museomix ? Qu’est-ce que la Bébelle Box avec ses outils, ses technologies et autres machines ? Comment travaillent les équipes ? Qu’est-ce qu’un prototype ? Quelles sont les oeuvres muséomixées ?
-    Rencontrez les équipes en découvrant leurs espaces de travail ! Posez toutes vos questions à un médiateur et à un membre de l’équipe qui vous accompagnent.
-  btntitle: Je réserve !
+    Venez découvrir et tester les prototypes créés par les équipes de Museomix !
+     **RDV Dimanche 8 novembre 14h**
+    Entrée libre
+  btntitle: Événement Facebook
   alink: >
-    https://www.weezevent.com/museomixmtl-tour
+    https://www.facebook.com/events/1259974394028291/
+- 
+  titre: Jetlag Diary
+  texte: >
+    MuseomixMTL s’envole à Mexico. Pour
+    souligner le coup, deux équipes de
+    reporteurs échangent de villes pour une
+    semaine! Suivez le blog Jetlag Diary,
+    pour voir leurs vadrouilles culturelles
+    et créatives !
+  btntitle: Lire
+  alink: http://jetlagdiary.club
