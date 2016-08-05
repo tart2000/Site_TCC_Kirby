@@ -5,7 +5,9 @@
 
 <div class="container bmt">
     <div class="row">
-        <div class="col-sm-7 col-sm-offset-1">  
+        <div class="col-sm-7 col-sm-offset-1">
+            <h3><?php echo $page->title() ?></h3>
+
             <h3><?php echo l::get('contact') ?></h3>
             <?php echo $page->text()->kirbytext() ?>
 
@@ -32,13 +34,14 @@
             </form>
         </div>
         <div class="col-sm-3">
-            <h3><?php echo l::get('meet') ?></h3>
+            <h3><?php echo $page->sideTitle() ?></h3>
+
             <p>Techno Culture Club<br> 
             7255 Alexandra #203<br> 
             Montréal, QC</p>
 
             <p><strong>Email</strong><br>
-            <a href="mailto:boygeorge@technoculture.club" target="_blank">boygeorge [dedans le] technoculture.club</a></p>
+            <a href="mailto:boygeorge@technoculture.club" target="_blank"><?php echo $page->email() ?></a></p>
 
         </div>
     </div>

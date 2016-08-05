@@ -10,16 +10,21 @@ fields:
   text:
     label: Text
     type:  textarea
-  name: 
-  	label: Champ Nom
+  name:
+  	label: Champ Nom / Name field
   	type: text
   	width: 1/2
   themail:
-  	label: Champ Email
+  	label: Champ Email / Email field
   	type: text
   	width: 1/2
   subject: 
-  	label: Champ Sujet
+  	label: Champ Sujet / Subject field
   	type: text
   	width: 1/2
-  
+  sideTitle:
+    label: Sidebar title
+    type: text
+  email:
+    label: Displayed email / Courriel affiché
+    type: text

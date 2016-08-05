@@ -1,0 +1,28 @@
+Title: Contact Us
+
+----
+
+Name: Your name
+
+----
+
+themail: Your email
+
+----
+
+subject: Subject
+
+----
+
+Text: 
+You may use this form to get in touch with us.
+We'll get back to you very soon.
+Thanks ;)
+
+----
+
+sideTitle: Meet us
+
+----
+
+email: boygeorge [at the] technoculture.club

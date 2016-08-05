@@ -1,4 +1,16 @@
-Title: Contact
+Title: Nous contacter
+
+----
+
+Name: Votre nom
+
+----
+
+themail: Votre courriel
+
+----
+
+subject: Sujet
 
 ----
 
@@ -7,3 +19,11 @@ Text:
 Vous pouvez utiliser le formulaire ci-dessous pour nous contacter. 
 Nous vous répondrons dans les plus brefs délais. 
 Merci ;)
+
+----
+
+sideTitle: Nous rencontrer
+
+----
+
+email: boygeorge [dedans le] technoculture.club
