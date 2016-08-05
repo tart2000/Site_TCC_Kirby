@@ -1,30 +1,46 @@
-<?php if(!defined('KIRBY')) exit ?>
+// /site/blueprints/contact.yml
 
 title: Contact
 pages: false
 files: false
 fields:
   title:
-    label: Title
-    type:  text
+    label:
+      en: Title
+      fr: Titre
+    type: text
   text:
-    label: Text
-    type:  textarea
+    label:
+      en: Text
+      fr: Texte
+    type: textarea
   name:
-  	label: Champ Nom / Name field
-  	type: text
-  	width: 1/2
+    label: 
+      en: Name field
+      fr: Champ Nom
+    type: text
+    width: 1/2
   themail:
-  	label: Champ Email / Email field
-  	type: text
-  	width: 1/2
+    label:
+      en: Email field
+      fr: Champ Email
+    type: text
+    width: 1/2
   subject: 
-  	label: Champ Sujet / Subject field
-  	type: text
-  	width: 1/2
+    label:
+      en: Subject field
+      fr: Champ Sujet
+    type: text
+    width: 1/2
   sideTitle:
-    label: Sidebar title
+    label: 
+      en: Sidebar title
+      fr: Titre barre latérale
     type: text
+    width: 1/2
   email:
-    label: Displayed email / Courriel affiché
+    label: 
+      en: Displayed email
+      fr: Courriel affiché
     type: text
+    width: 1/2
