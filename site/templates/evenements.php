@@ -20,7 +20,7 @@
 
   <hr>
   <div class="row center bmt">
-    <h3>Evénements passés</h3> 
+    <h3><?php echo l::get('past-evts') ?></h3> 
   </div>
     <?php foreach(page()->children()->sortBy('startDate')->flip() as $event): ?>
     <?php $thedate=strtotime(date("Y-m-d"))?>

@@ -1,3 +1,4 @@
+// /site/blueprints/news.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: News
@@ -6,8 +7,12 @@ pages:
 files: true
 fields:
   title:
-    label: Titre
+    label:
+      en: Title
+      fr: Titre
     type:  text
   text:
-    label: Text
+    label: 
+      en: Text
+      fr: Texte
     type:  textarea

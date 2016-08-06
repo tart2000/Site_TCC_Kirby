@@ -1,3 +1,5 @@
+// /site/blueprints/a-propos.php
+
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Page
@@ -5,11 +7,17 @@ pages: false
 files: false
 fields:
   title:
-    label: Title
+    label:
+      en: Title
+      fr: Titre
     type:  text
   header:
-    label: Texte header
+    label:
+      fr: Texte header
+      en: Header text
     type: textarea
   text:
-    label: Text
+    label:
+      en: Text
+      fr: Text
     type:  textarea

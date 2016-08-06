@@ -1,21 +1,30 @@
+// /site/blueprints/partenaire.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: partenaire
 pages: false
 fields:
   title:
-    label: Nom
+    label: 
+      en: Name
+      fr: Nom
     type:  text
   lien: 
-    label: Url du partenaire
+    label: 
+      en: Partner's url
+      fr: Url du partenaire
     type: Url
     width: 1/2
   superWidth: 
-    label: Largeur (1, 2 ou 3)
+    label: 
+      en: Width (1, 2, or 3)
+      fr: Largeur (1, 2 ou 3)
     type: number
     width: 1/2
   category:
-    label: Catégorie 
+    label: 
+      en: Category
+      fr: Catégorie 
     type: select
     default: sponsor
     options: 
@@ -26,7 +35,9 @@ fields:
       community: Partenaire de communauté 
       diffusion: Partenaire de diffusion  
   text:
-    label: Text
+    label: 
+      en: Text
+      fr: Texte
     type:  textarea
     size:  large
   

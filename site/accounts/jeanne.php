@@ -8,7 +8,14 @@ password: >
   $2a$10$GgLNBQc.ql4r0yD8FxXod.I2MdrkMxiC9BLgSMp6er2IqT1lv8nue
 language: fr
 role: admin
-token: 12fc04032b14b751f94a8aef1efcff400e245dd3
+token: 6a08c80d63c89fd4d23e71b002b6e3732ef863d2
 history:
   - projets/Museomix/museomix-2015
-  - calls/fiche-de-poste-attache-de-presse
+  - >
+    projets/Museomix/museomix-2015/ville-de-montreal
+  - >
+    projets/Museomix/museomix-2015/patrimoine-canada
+  - >
+    projets/Museomix/museomix-2015/ecole-nationale-du-meuble
+  - >
+    projets/Museomix/museomix-2015/reelyactive

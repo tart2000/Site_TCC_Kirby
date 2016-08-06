@@ -2,12 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h4>Pour ne manquer aucun événement, inscrivez-vous à notre newsletter !</h4>
+                <h4><?php echo page('home')->newsletter() ?></h4>
                 <form action="//club.us10.list-manage.com/subscribe/post?u=07d4a1946601337b401efc135&amp;id=747a549f08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                   <div class="form-group">
                     <input type="email" value="" name="EMAIL" class="form-control input-lg" id="mce-EMAIL" placeholder="johngood@website.com">
                   </div>
-                  <input type="submit" value="Hop !" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
+                  <input type="submit" value="<?php echo l::get('signup') ?>" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
                 </form>
             </div>
             <div id="mce-responses" class="clear">

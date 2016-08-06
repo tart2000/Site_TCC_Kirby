@@ -1,3 +1,4 @@
+// /site/blueprints/poste.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Poste
@@ -5,26 +6,42 @@ pages: false
 files: true
 fields:
 	title:
-    	label: Titre
+    label:
+      en: Title
+      fr: Titre
     	type:  text
 	periode: 
-   		label: Période
+   		label: 
+        en: Period
+        fr: Période
    		type: text 
 	heures: 
-   		label: Nombre d'heures 
+   		label: 
+        en: Number of hours
+        fr: Nombre d'heures 
    		type: text 
 	nous:
-   		label: Nous sommes 
+   		label: 
+        en: We are
+        fr: Nous sommes 
    		type: textarea
 	toi: 
-   		label: Tu es
+   		label: 
+        en: You are
+        fr: Tu es
    		type: textarea
 	mission: 
-   		label: Mission 
+   		label: 
+        en: Mission 
+        fr: Mission 
    		type: textarea
 	pouvoirs: 
-   		label: Super pouvoirs
+   		label: 
+        en: Super powers
+        fr: Super pouvoirs
    		type: textarea
 	contact: 
-   		label: Contact email 
+   		label: 
+        en: Contact email 
+        fr: Courriel contact
    		type: email 

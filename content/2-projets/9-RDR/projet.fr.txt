@@ -1,0 +1,26 @@
+Title: RADAR
+
+----
+
+Tags: veille,collaborative,plateforme
+
+----
+
+Text: 
+
+RADAR est né de l'envie de pouvoir partager des  liens autour de la technoculture. 
+Techno Culture Club a donc mis en place une plateforme de veille ouverte. 
+Vous voulez rejoindre l'équipe de rédaction ? 
+Rien de plus facile : écrivez à radar [au] technoculture.club
+
+----
+
+Projectlink: http://radar.technoculture.club
+
+----
+
+Projecttag: radar
+
+----
+
+Short: RDR est le site de veille collaborative autour de la techno-culture mis en place par Techno Culture Club

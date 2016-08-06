@@ -1,3 +1,4 @@
+// /site/blueprints/projet.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Projet
@@ -9,41 +10,61 @@ files:
   sortable: true
 fields:
   title:
-    label: Title
+    label:
+      en: Title
+      fr: Titre
     type:  text
   projectLink:
-    label: Lien vers le site du projet
+    label: 
+      en: Link to the project site
+      fr: Lien vers le site du projet
     type: Url 
     width: 1/2 
   projectTag:
-    label: Tag pour connecter les news et événements
+    label: 
+      en: Tag to connect news and events
+      fr: Tag pour connecter les news et événements
     type: text
     width: 1/2
   fb: 
-    label: Facebook 
+    label: 
+      en: Facebook link
+      fr: Lien Facebook
     type: Url 
     width: 1/2
   tw: 
-    label: Twitter
+    label: 
+      en: Twitter link
+      fr: Lien Twitter
     type: Url
     width: 1/2
   short: 
     label: Description courte
     type: text
   text:
-    label: Text
+    label:
+      en: Text
+      fr: Texte
     type:  textarea
   tags:
-    label: Tags
+    label: 
+      en: Tags
+      fr: Tags
     type:  tags
   lien: 
-    label: Lien vers projet global
+    label: 
+      en: Link to global project
+      fr: Lien vers projet global
     type: Url
     width: 1/2
   titreLien: 
-    label: Titre du lien 
+    label: 
+      en: Link title
+      fr: Titre du lien 
     type: text
     width: 1/2
   textLien: 
-    label: Texte intro lien
+    label: 
+      en: Intro link text
+      fr: Texte intro lien
     type: textarea

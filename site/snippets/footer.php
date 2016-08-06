@@ -1,9 +1,9 @@
-  <footer class="footer cf" role="contentinfo">
+  <footer class="footer cf bmt" role="contentinfo">
 
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <strong>Projets</strong></br>
+                <strong><?php echo page('projets')->title() ?></strong></br>
                 <?php foreach (page('projets')->children()->visible() as $project): ?>
                     <a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a></br>
                 <?php endforeach ?>
@@ -11,9 +11,9 @@
             <div class="col-sm-2 col-sm-offset-1">
                 <a href="http://technoculture.club" target="_blank"><img src="/assets/images/logo_TCC_M.png" class="img-responsive"></a>
                 <div class="social center mt">
-                    <a href="<?php $site->facebook() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
-                    <a href="<?php $site->twitter() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>
-                    <a href="<?php $site->linkedin() ?>"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
+                    <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>
+                    <a href="<?php echo $site->linkedin() ?>"><i class="fa fa-linkedin fa-2x"></i></a>
                 </div>
             </div>
             <div class="col-sm-4 col-sm-offset-1 right">
@@ -23,15 +23,18 @@
                 Montréal, QC</p>
                 <div class="clearfix"></div>
                 <strong>Code</strong><br>
-                <p>fait avec <a href="http://getkirby.com">Kirby</a>
+                <p><?php echo l::get('made') ?> <a href="http://getkirby.com">Kirby</a>
                 <a href="https://github.com/tart2000/Site_TCC_Kirby" target="_blank"><i class="fa fa-github"></i></a></p>
-                <p>Dernière mise à jour :<br> 
-                <?php echo $site->modified('d/m/Y H:i') ?></p>
             </div>
         </div>
     </div>
 
   </footer>
+
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="<?php echo $site->url() ?>/assets/js/jquery.countdown.min.js"></script>
+  <script src="<?php echo $site->url() ?>/assets/js/main.js"></script>
 
 </body>
 </html>
