@@ -14,9 +14,11 @@ C'est une communauté d'intérêts ouverte, dans laquelle n'importe qui peut pro
 Text: 
 
 ###Vision
-Nous sommes convaincus que la révolution numérique présente des opportunités incroyables pour le secteur culturel, pour peu qu’elle ne soit pas laissée uniquement entre les mains des investisseurs de la Silicon Valley. Nous pensons qu’un autre modèle de développement de projets technologiques est possible, basés sur la collaboration, l’expérimentation et le partage. Et cette nouvelle forme d’innovation est possible à l’intersection de la technologie et de la culture
+La révolution numérique n’est pas (qu’)une révolution technologique : c’est une révolution culturelle. Nous définissons la culture comme un ensemble de manifestations, créations et réalisations humaines, impliquant le savoir technologique. La démocratisation et diffusion croissante du numérique et des technologies de l’information et des communications ont modifié les usages et pratiques des individus comme celles des institutions, y compris dans la sphère culturelle et artistique. Nous assistons a un momentum où l’accès technologique demeure un enjeu majeur, au risque de voir se créer une fracture entre les communautés professionnelles, le milieu de l’industrie du numérique et des TIC et la société civile. Parmi les communautés porteuses de ce changement, Techno Culture Club s’engage à oeuvrer à l’accès et l’appropriation du numérique par tous les citoyens et citoyennes.
 
-Dans son ADN, techno culture club s'inspire :
+Au travers l’arrimage du progres technologique au champ social, Techno Culture Club (TCC) reconnaît la capacité de chacun, notamment au travers de projets innovants et transversaux tel que MUSÉOMIXmtl, à participer activement à cette révolution culturelle. Au-delà, TCC s’inscrit dans un mouvement fondé sur de nouvelles dynamiques partenariales et participe à des modèles de réalisation innovants impliquants tous les acteurs de la société : milieux corporatif et indutriel, institutionel, culturel et social.
+
+Dans son ADN, Techno Culture Club s'inspire :
 
 - des fablabs et de la communauté maker plus largement
 - des modèles d’organisation des communautés open-source web, comme Wordpress, Linux ou Drupal

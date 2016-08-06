@@ -1,0 +1,40 @@
+Title: About Us
+
+----
+
+URL-Key: about
+
+----
+
+Header:
+
+Techno Culture Club creates opportunities for exchange, creativity and experimentation at the intersection of culture and technology.
+
+It is a community open to new ideas and which welcomes anyone to propose new projects.
+
+----
+
+Text: 
+
+###Vision
+The digital revolution is more than (just) a technological revolution: it is a cultural revolution. We define culture as the collection of manifestations, creations and human achievements, thus including technology. The democratisation and growing access to digital, information and communication technolgies (ICT) have profoundly changed our activities and interactions, including within the cultural and artistic spheres. We are witnessing a moment at which technology accessibility is still a major issue, and at risk of the divide widening between the professional communities & ICT sectors, and the civil society. Among other communities bridging the divide, Techno Culture Club is committed to working towards the technological literacy and appropriation of digital skills by all citizens.
+
+Techno Culture Club (TCC) labours for societal inclusion in technological progress, particularly through innovative and multi-disciplinary projects such as MUSÉOMIXmtl. We recognize the ability of everyone to participate actively in this cultural revolution. TCC is also a movement, based on creative partnerships and innovative methods for bringing the many societal actors: the corporate and indutrial sectors, and both the cultural and social institutions.
+
+At its core, TCC is inspired by:
+
+- fablabs and the maker community at large
+- organizational models of the open-source web communities, like Wordpress, Linux or Drupal
+- the movement of the *commons*
+- tactical urbanism
+
+###Areas of interest :
+
+- cultural spaces (museums, libraries, etc.)
+- education and learning
+- the city and urban spaces
+- social innovation
+- new media and new forms of storytelling
+
+###History
+Techno Culture Club was born following the first edition of Museomix in Montreal. The participants, as well as the even organizers, were all seduced by the energy of Museomix. They were seeking more occasions to meet and collaborate on projects.
