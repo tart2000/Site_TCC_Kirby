@@ -26,10 +26,9 @@
 
 <?php snippet('sticky2') ?>
 
-
 <?php snippet('evenements') ?> 
 
-<?php snippet('projets2') ?>
+<?php snippet('projets_carousel') ?>
 
 <?php snippet('newsletter') ?>
 
