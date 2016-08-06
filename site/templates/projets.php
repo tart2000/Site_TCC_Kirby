@@ -25,7 +25,7 @@
                 <h4><?php echo $project->short() ?></h4>
                 <?php echo $project->text()->excerpt(400) ?>
                 <div class="clearfix"></div>
-                <a href="<?php echo $project->url() ?>" class="right btn btn-theme">Voir <i class="fa fa-arrow-right"></i></a>
+                <a href="<?php echo $project->url() ?>" class="right btn btn-theme"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
             </div>
         </div>
         <div class="clearfix"></div>

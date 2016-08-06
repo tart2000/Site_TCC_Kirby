@@ -29,7 +29,7 @@
             <div class="col-sm-8 col-sm-offset-2">
               <h1><?php echo $project->title() ?></h1>
               <h3><?php echo $project->short() ?></h3>
-              <a href="<?php echo $project->url() ?>" class="btn btn-theme">En savoir plus</a>
+              <a href="<?php echo $project->url() ?>" class="btn btn-theme"><?php echo l::get('plus') ?></a>
             </div>
           </div>
         </div>
