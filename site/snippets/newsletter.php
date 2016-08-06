@@ -7,7 +7,7 @@
                   <div class="form-group">
                     <input type="email" value="" name="EMAIL" class="form-control input-lg" id="mce-EMAIL" placeholder="johngood@website.com">
                   </div>
-                  <input type="submit" value="<?php echo l::get('submit') ?>" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
+                  <input type="submit" value="<?php echo l::get('signup') ?>" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
                 </form>
             </div>
             <div id="mce-responses" class="clear">
