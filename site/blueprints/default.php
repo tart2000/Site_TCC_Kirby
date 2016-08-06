@@ -1,3 +1,4 @@
+// /site/blueprints/default.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Page
@@ -5,8 +6,12 @@ pages: true
 files: true
 fields:
   title:
-    label: Title
+    label:
+      en: Title
+      fr: Titre
     type:  text
   text:
-    label: Text
+    label: 
+      en: Text
+      fr: Texte
     type:  textarea

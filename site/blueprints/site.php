@@ -1,32 +1,49 @@
+// /site/blueprints/site.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Site
 pages: default
 fields:
   title:
-    label: Title
+    label:
+      en: Title
+      fr: Titre
     type:  text
   author:
-    label: Author
-    type:  text
+    label: 
+      en: Author
+      fr: Auteur
+    type: text
   description:
-    label: Description
+    label: 
+      en: Description
+      fr: Description
     type:  textarea
   keywords:
-    label: Keywords
+    label: 
+      en: Keywords
+      fr: Mots clés
     type:  tags
   facebook: 
-    label: Facebook
+    label: 
+      en: Facebook link
+      fr: Lien Facebook
     type: Url
     width: 1/2
   twitter: 
-    label: Twitter
+    label: 
+      en: Twitter link
+      fr: Lien twitter
     type: Url
     width: 1/2
   linkedin:
-    label: Linkedin
+    label: 
+      en: LinkedIn link
+      fr: Lien LinkedIn
     type: Url
     width:1/2
   copyright:
-    label: Copyright
+    label: 
+      en: Copyright
+      fr: Droits d'auteur
     type:  textarea

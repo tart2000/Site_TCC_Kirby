@@ -1,3 +1,4 @@
+// /site/blueprints/retours.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Retours
@@ -6,8 +7,12 @@ pages:
 files: false
 fields:
   title:
-    label: Title
+    label:
+      en: Title
+      fr: Titre
     type:  text
   text:
-    label: Text
+    label: 
+      en: Text
+      fr: Texte
     type:  textarea

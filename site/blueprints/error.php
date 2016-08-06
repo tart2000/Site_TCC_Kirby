@@ -1,3 +1,4 @@
+// /site/blueprints/error.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Error
@@ -5,9 +6,13 @@ pages: false
 files: false
 fields:
   title:
-    label: Title
+    label:
+      en: Titre
+      fr: Title
     type:  text
   text:
-    label: Text
+    label: 
+      en: Text
+      fr: Texte
     type:  textarea
     size:  large

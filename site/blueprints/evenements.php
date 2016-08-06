@@ -1,3 +1,4 @@
+// /site/blueprints/evenements.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Evenements
@@ -6,8 +7,12 @@ pages:
 files: false
 fields:
   title:
-    label: Titre
+    label:
+      en: Title
+      fr: Titre
     type:  text
   text:
-    label: Texte
+    label: 
+      en: Text
+      fr: Texte
     type:  textarea

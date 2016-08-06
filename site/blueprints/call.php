@@ -1,3 +1,4 @@
+// /site/blueprints/call.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Call
@@ -7,16 +8,24 @@ files:
   sortable: true
 fields:
   title:
-    label: Title
+    label:
+      en: Title
+      fr: Titre
     type:  text
   ctatext: 
-    label: Texte de bouton call to action 
+    label: 
+      en: Text of button "Call to Action"
+      fr: Texte de bouton "Call to Action" 
     type: text
     width: 1/2
   ctalink:
-    label: Lien 
+    label: 
+      en: Link
+      fr: Lien
     type: Url
     width: 1/2
   text:
-    label: Texte
+    label: 
+      en: Text
+      fr: Texte
     type:  textarea

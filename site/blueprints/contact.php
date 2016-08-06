@@ -1,4 +1,4 @@
-// /site/blueprints/contact.yml
+// /site/blueprints/contact.php
 
 title: Contact
 pages: false

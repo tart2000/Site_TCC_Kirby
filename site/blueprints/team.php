@@ -1,3 +1,4 @@
+// /site/blueprints/team.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Team
@@ -5,26 +6,38 @@ pages: false
 files: true
 fields:
     title:
-        label: Prénom
+        label: 
+          en: First name
+          fr: Prénom
         type: text
         width: 1/2
     nom: 
-        label: Nom
+        label:
+          en: Last name
+          fr: Nom
         type: text
         width: 1/2
     boite: 
-        label: Compagnie
+        label:
+          en: Company
+          fr: Compagnie
         type text
         width: 1/2
     role: 
-        label: Rôle
+        label:
+          en: Role
+          fr: Rôle
         type: text
         width: 1/2
     tw: 
-        label: Twitter (sans le @)
+        label:
+          en: Twitter (without the @)
+          fr: Twitter (sans le @)
         type: text
         width: 1/2
     mail:
-        label: Courriel
+        label:
+          en: Email
+          fr: Courriel
         type: email
         width:1/2

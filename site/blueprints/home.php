@@ -1,19 +1,28 @@
+// /site/blueprints/home.php
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Home
 pages: false
 fields:
   title:
-    label: Title
+    label:
+      en: Title
+      fr: Titre
     type:  text
   header: 
-    label: Texte header
+    label: 
+      en: Text header
+      fr: Texte header
     type: textarea
   text:
-    label: Text
+    label: 
+      en: Text
+      fr: Texte
     type:  textarea
     size:  large
   newsletter:
-    label: Newsletter text
+    label: 
+      en: Newsletter text
+      fr: Texte newsletter
     type: text 
   
