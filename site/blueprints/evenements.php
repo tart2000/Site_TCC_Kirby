@@ -16,3 +16,8 @@ fields:
       en: Text
       fr: Texte
     type:  textarea
+  uneventful:
+    label: 
+      en: Text if there are no upcoming events 
+      fr: Texte s'il y n'a aucune événement à venir
+    type:  textarea
