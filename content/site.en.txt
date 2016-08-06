@@ -6,11 +6,11 @@ Author: Arthur Schmitt
 
 ----
 
-Description: Techno Culture Club est à l'intersection de la culture et de la technologie
+Description: Techno Culture Club is at the intersection of culture and technology
 
 ----
 
-Keywords: technologie, culture, club, museomix, Montréal, communauté, événements, musées, bibliothèques, savoir-faire technologique, impression 3d, ab3d
+Keywords: technology, culture, club, museomix, Montreal, community, events, museums, libraries, technological literacy, 3d printing, abc3d
 
 ----
 
