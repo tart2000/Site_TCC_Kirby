@@ -24,6 +24,24 @@
                 <?php endif ?>
                 <div class="clearfix"></div>
 
+			<!-- Organisateurs -->
+                <?php if ($page->children()->filterBy('category','org',',') != '') : ?>
+                    <div class="col-sm-12"><h4>Partenaires d'organisation</h4></div>
+                    <?php foreach ($page->children()->filterBy('category','org',',') as $p) : ?>
+                        <?php $size = html($p->superWidth()) ?>
+                        <?php $size2 = $size * 2 ; ?>
+                        <div class="col-sm-<?php echo $size2 ?> partner">
+                            <?php if ($p->images() != '') : ?>
+                                <a href="<?php echo $p->lien() ?>" target="_blank"><img src='<?php echo $p->images()->first()->url() ?>' class="img-responsive"></a>
+                            <?php else : ?>
+                                <a href="<?php echo $p->lien() ?>" target="_blank"><?php echo $p->title() ?></a>
+                            <?php endif ?>
+                        </div>
+                    <?php endforeach ?>
+                <?php endif ?>
+                <div class="clearfix"></div>
+                
+                
                 <!-- Sponsors -->
                 <?php if ($page->children()->filterBy('category','sponsor',',') != '') : ?>
                     <div class="col-sm-12"><h4>Commanditaires</h4></div>
