@@ -14,8 +14,8 @@ l::set('coming-edition','Next edition');
 l::set('news', 'news');
 l::set('join-team','Join our team!');
 l::set('see','Check it out');
-l::set('cookie-message','This website uses cookies to ensure you get the best experience on our website');
-l::set('cookie-dismiss','Got it!');
-l::set('cookie-learn-more','More info');
+l::set('cookie-message',"This website uses cookies to ensure you get the best experience on our website");
+l::set('cookie-dismiss',"Got it!");
+l::set('cookie-learn-more',"More info");
 
 ?>
