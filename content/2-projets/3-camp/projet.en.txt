@@ -16,11 +16,11 @@ Short: A series of collaborative, 3D printing workshops in the style of a creati
 
 Text: 
 
-(youtube: https://www.youtube.com/watch?v=M4blAdS6r3Q width: 600 height: 350)
-
 ABC3D Camp is a series of pop-up, creative-challenge, 3D printing workshops. The ultimate goal is to promote techno-cultural literacy and collaboration. Hosted open-print sessions will complement the workshops by seeding communities of practice.
 
 We will lean on the public fascination with 3D printing as a means for providing techno-cultural literacy. Activities will complement creativity and collaboration with technical learning to appeal to non-geeks. We will host workshops and practice sessions in various Montreal neighbourhoods.
+
+(youtube: https://www.youtube.com/watch?v=M4blAdS6r3Q width: 600 height: 350)
 
 ----
 
