@@ -353,3 +353,5 @@ $('#clock').countdown("<?php echo $page->date('Y/m/d','startDate') ?>", function
     Un projet Techno Culture Club <br>
     <a href="<?php echo $site->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/logo_TCC_M.png" style="max-width:10%;"></a>
 </div>
+
+<?php snippet('incl_scripts') ?>
