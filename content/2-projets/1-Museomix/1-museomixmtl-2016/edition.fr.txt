@@ -6,7 +6,7 @@ Datetext: 11_12_13 NOV 2016
 
 ----
 
-Startdate: 2016-11-11
+Startdate:
 
 ----
 
@@ -52,7 +52,7 @@ Pour toutes questions : boygeorge [dedans le] technoculture.club
 
 ----
 
-Debutcall: 
+Debutcall: 2016-11-11
 
 ----
 
@@ -108,7 +108,7 @@ Youtubecode3:
 
 ----
 
-Contact: justine@technoculture.club
+Contact: boygeorge@technoculture.club
 
 ----
 
