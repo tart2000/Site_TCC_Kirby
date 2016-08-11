@@ -30,27 +30,6 @@
     </div>
 
   </footer>
-
-  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="<?php echo $site->url() ?>/assets/js/jquery.countdown.min.js"></script>
-  <script src="<?php echo $site->url() ?>/assets/js/main.js"></script>
-<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-<script type="text/javascript">
-    window.cookieconsent_options = {"message":<?php echo l::get('cookie-message') ?>,"dismiss":<?php echo l::get('cookie-dismiss') ?>,"learnMore":<?php echo l::get('cookie-learn-more') ?>,"link":"http://technoculture.club/cookie","theme":"dark-top"};
-</script>
-
-<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-<script type="text/javascript">
-    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://technoculture.club/cookie","theme":"dark-top"};
-</script>
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-<!-- End Cookie Consent plugin -->
-
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-<!-- End Cookie Consent plugin -->
-
+  <?php snippet('incl_scripts') ?>
 </body>
 </html>
