@@ -1,8 +1,8 @@
-Title: ABC3D Evaluation 
+Title: ABC3D Evaluation
 
 ----
 
-Text: 
+Text:
 
 ##Formulaires pour les...
 
@@ -15,3 +15,7 @@ Text:
 ###Facilitateurs:
 
 [(icon:hand-spock-o 2x) bilan](https://abc3d.typeform.com/to/b9fOqC)
+
+###Bibliothécaires:
+
+[(icon:book 2x) bibliothécaires](https://abc3d.typeform.com/to/ywvjvV)

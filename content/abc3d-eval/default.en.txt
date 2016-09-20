@@ -1,8 +1,8 @@
-Title: ABC3D Evaluation 
+Title: ABC3D Evaluation
 
 ----
 
-Text: 
+Text:
 
 ##Survey forms for the...:
 
@@ -12,6 +12,10 @@ Text:
 
 [(icon:magic 2x) youth](https://abc3d.typeform.com/to/hVg7pg)
 
-###Facilitators: 
+###Facilitators:
 
 [(icon:hand-spock-o 2x) facilitators](https://abc3d.typeform.com/to/b9fOqC)
+
+###Librarians:
+
+[(icon:book 2x) librarians](https://abc3d.typeform.com/to/ywvjvV)
