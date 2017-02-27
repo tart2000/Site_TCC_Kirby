@@ -18,8 +18,8 @@
             </div>
             <div class="col-sm-4 col-sm-offset-1 right">
                 <strong>Contact</strong>
-                <p>Techno Culture Club<br> 
-                7255 Alexandra #203<br> 
+                <p>Techno Culture Club<br>
+                7255 Alexandra #203<br>
                 Montréal, QC</p>
                 <div class="clearfix"></div>
                 <strong>Code</strong><br>
@@ -44,10 +44,6 @@
 <script type="text/javascript">
     window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://technoculture.club/cookie","theme":"dark-top"};
 </script>
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-<!-- End Cookie Consent plugin -->
-
 
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
 <!-- End Cookie Consent plugin -->
