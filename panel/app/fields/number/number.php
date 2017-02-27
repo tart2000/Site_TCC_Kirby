@@ -8,7 +8,7 @@ class NumberField extends InputField {
     $this->label       = l::get('fields.number.label', 'Number');
     $this->placeholder = l::get('fields.number.placeholder', '#');
     $this->step        = 1;
-    $this->min         = 0;
+    $this->min         = false;
     $this->max         = false;
 
   }
@@ -25,8 +25,12 @@ class NumberField extends InputField {
 
     if(!v::num($this->result())) return false;
 
-    if($this->min and !v::min($this->result(), $this->min)) return false;
-    if($this->max and !v::max($this->result(), $this->max)) return false;
+    if($this->validate and is_array($this->validate)) {
+      return parent::validate();
+    } else {
+      if(is_numeric($this->min) and !v::min($this->result(), $this->min)) return false;
+      if(is_numeric($this->max) and !v::max($this->result(), $this->max)) return false;
+    }
 
     return true;
 
