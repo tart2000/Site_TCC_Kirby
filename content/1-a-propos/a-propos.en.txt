@@ -2,11 +2,11 @@ Title: About Us
 
 ----
 
-URL-Key: about
+Url-key: about
 
 ----
 
-Header:
+Header: 
 
 Techno Culture Club creates opportunities for exchange, creativity and experimentation at the intersection of culture and technology.
 
@@ -38,3 +38,8 @@ At its core, TCC is inspired by:
 
 ###History
 Techno Culture Club was born following the first edition of Museomix in Montreal. The participants, as well as the even organizers, were all seduced by the energy of Museomix. They were seeking more occasions to meet and collaborate on projects.
+
+****
+
+### Sponsors
+(image:https://www.pipedrive.com/images/logo/logo-dark-for-screen.svg link: http://pipedrive.com width:150)
