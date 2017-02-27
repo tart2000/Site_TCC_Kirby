@@ -1,16 +1,10 @@
-# Kirby install #
-#################
-kirby/*
-panel/*
-license.md
-index.php
-
 # Kirby TCC site-specific #
 ###########################
 /site/accounts
 /site/config/license.txt
 /assets/avatars
 /thumbs/*
+thumbs/*
 
 # OS generated files #
 ######################
