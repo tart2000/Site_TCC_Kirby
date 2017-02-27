@@ -11,3 +11,7 @@ C'est une communauté d'intérêts ouverte, dans laquelle n'importe qui peut pro
 ----
 
 Newsletter: La Bulletin Techno Culture Club formidable, même si irrégulière, pourrait être dans votre boîte de réception ...
+
+----
+
+Header: Some text
