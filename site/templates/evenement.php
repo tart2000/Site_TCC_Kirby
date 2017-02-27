@@ -3,13 +3,13 @@
 
   <main class="container bmt">
         <div class="row center">
-            <h2><a href="<?php echo $page->url() ?>">Retour sur <?php echo $page->title()->html() ?></a></h2>
+            <h2><a href="<?php echo $page->url() ?>"><?php echo $page->title()->html() ?></a></h2>
         </div>
         <div class="row center">
             <div class="col-md-5 left">
                 <h3 class="nomt"><?php echo $page->place() ?> - <?php echo $page->dates() ?> <?php echo $page->year() ?></h3>
-                <em><?php echo $page->participants() ?> participants</em> - 
-                <em><?php echo $page->nbprojets() ?> 
+                <em><?php echo $page->participants() ?> participants</em> -
+                <em><?php echo $page->nbprojets() ?>
                   <?php if ($page->projectLink() != '' ) : ?>
                     <a href="<?php echo $page->projectLink() ?>" target="_blank"> projets</a>
                   <?php else : ?>
@@ -37,10 +37,10 @@
             <div class="col-md-3 col-xs-6 gallery-thumb">
               <a href="<?php echo $image->url() ?>" class="carousel-image" data-gallery>
                 <?php echo thumb($image, array('width'=>400, 'height'=>300, 'crop'=>true)) ?>
-              </a>  
+              </a>
             </div>
             <?php endforeach ?>
-          </div> 
+          </div>
         <?php endif ?>
 
 
@@ -64,7 +64,7 @@
       </div>
     </div>
 
-<!-- gallery --> 
+<!-- gallery -->
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
@@ -76,10 +76,6 @@
     <ol class="indicator"></ol>
 </div>
 
-
 <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-
-
-
 
 <?php snippet('footer') ?>

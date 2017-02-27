@@ -2,7 +2,7 @@ Title: Techno Culture Club
 
 ----
 
-Author: Arthur Schmitt
+Author: Arthur Schmitt, Ariel Harlap
 
 ----
 
@@ -10,7 +10,7 @@ Description: Techno Culture Club est à l'intersection de la culture et de la te
 
 ----
 
-Keywords: technologie, culture, club, museomix, Montréal, communauté, événements, musées, bibliothèques, savoir-faire technologique, impression 3d, ab3d
+Keywords: technologie, culture, club, museomix, Montréal, communauté, événements, musées, bibliothèques, savoir-faire technologique, impression 3d, abc3d
 
 ----
 

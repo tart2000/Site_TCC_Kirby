@@ -1,9 +1,9 @@
-// /site/blueprints/evenements.php
+// /site/blueprints/retours.php
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Evenements
+title: Retours
 pages:
-  template: evenement
+  template: retour
 files: false
 fields:
   title:
@@ -15,9 +15,4 @@ fields:
     label: 
       en: Text
       fr: Texte
-    type:  textarea
-  uneventful:
-    label: 
-      en: Text if there are no upcoming events 
-      fr: Texte s'il y n'a aucune événement à venir
     type:  textarea
