@@ -2,7 +2,7 @@ Title: ABC3D
 
 ----
 
-Projectlink: 
+Projectlink: http://abc3d.technoculture.club/en
 
 ----
 
@@ -14,7 +14,7 @@ Short: A series of open-source workshops on 3D printing that are appropriate for
 
 ----
 
-Text: 
+Text:
 
 ABC3D is an exploratory project seeking to design and prototype a dozen workshops on 3D printing in libraries, based on the *living labs* model.
 
@@ -34,11 +34,11 @@ At the conclusion of the project, a detailed guide for each workshop will be sha
 - Among the libraries which are equipped with 3D printers, the workshops proposed to the public are at an introductory level. 3D printing is a craze. Most available workshops, however, are just introductory or discovery learning and 3D printing on demand. As 3D printers are increasingly democratized, our project will renew and enrich the available experiences in Bibliolabs.
 - Despite their spread, the Fablabs and makerspaces often struggle to reach the public at large. Often they are dominated by an already well-informed public.
 
-We thus believe that it is necessary to explore the potential of 3D printing in libraries in a way which is experimental and open, in order to develop ideal practices, and to democratize use and access. 
+We thus believe that it is necessary to explore the potential of 3D printing in libraries in a way which is experimental and open, in order to develop ideal practices, and to democratize use and access.
 
 This project is taking place in partnership with the network of libraries of Montreal.
 
-It contributes the program the *Montreal Smart City* and to the program *Quartiers culturels durables*. 
+It contributes the program the *Montreal Smart City* and to the program *Quartiers culturels durables*.
 
 ----
 
@@ -46,20 +46,20 @@ Tags: impression 3D,libraries,workshop,discovery,learning,experimentation
 
 ----
 
-Fb: 
+Fb:
 
 ----
 
-Tw: 
+Tw:
 
 ----
 
-Lien: 
+Lien:
 
 ----
 
-Titrelien: 
+Titrelien:
 
 ----
 
-Textlien: 
+Textlien:

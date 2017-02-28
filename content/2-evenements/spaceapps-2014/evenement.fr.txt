@@ -2,7 +2,7 @@ Title: la première édition de Space Apps 2014
 
 ----
 
-Text: 
+Text:
 
 Techno Culture Club a fait atterrir le hackathon international Space Apps à Montréal pour la première fois ! Le résultat : 2 jours de fun autour de l’exploration spatiale !
 
@@ -22,7 +22,7 @@ Place: Planétarium Rio Tinto Alcan
 
 ----
 
-Placelink: 
+Placelink:
 
 ----
 
@@ -38,7 +38,7 @@ Participants: 30
 
 ----
 
-Connect: Space-apps
+Connect: space-apps
 
 ----
 
@@ -46,4 +46,4 @@ Nbprojets: 6
 
 ----
 
-Projectlink: 
+Projectlink:

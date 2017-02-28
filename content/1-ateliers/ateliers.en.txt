@@ -1,0 +1,13 @@
+Title: Workshops
+
+----
+
+Subtitle: on emergent practices and digital literacy
+
+----
+
+svgName: icon.svg
+
+----
+
+imgName: icon.png

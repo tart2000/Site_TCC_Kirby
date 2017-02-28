@@ -1,6 +1,13 @@
-Title: Events
+Title: Epic Events
 
 ----
 
+Subtitle: for community-driven change
 
 ----
+
+svgName: icon.svg
+
+----
+
+imgName: icon.png

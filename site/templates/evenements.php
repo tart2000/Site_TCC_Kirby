@@ -3,7 +3,7 @@
 
   <main class="container bmt">
 
-    <?php foreach(page('evenements')->children() as $evenement): ?>
+    <?php foreach(page('evenements')->children()->filterBy('template','evenement') as $evenement): ?>
         <div class="row center">
         <h2><a href="<?php echo $evenement->url() ?>"><?php echo $evenement->title()->html() ?></a></h2>
             <div class="col-md-5 left">

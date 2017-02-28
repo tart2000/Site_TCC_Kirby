@@ -2,5 +2,12 @@ Title: Événements
 
 ----
 
+Subtitle: pour le changement mené par la communauté
 
 ----
+
+svgName: icon.svg
+
+----
+
+imgName: icon.png

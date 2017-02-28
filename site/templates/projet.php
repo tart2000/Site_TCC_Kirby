@@ -1,25 +1,8 @@
 <?php snippet('head') ?>
 <?php snippet('menu') ?>
 
-<?php $thetag=$page->projectTag() ?>
-<?php $theTag2 = $page->uid() ?>
+<?php $thetag = $page->projectTag() ?>
 <?php $thedate = time() ?>
-
-<div class="container project-page mt">
-    <?php foreach(page('news')->children()->filterBy('sticky','1')->filterBy('tags',$thetag,',')->flip() as $new): ?>
-    <?php $thisEndDate =  $new->date('','newsEnd') ?>
-        <?php if ($thisEndDate > $thedate) : ?>
-            <div class="alert alert-warning alert-dismissible" role="alert">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <strong><?php echo $new->title() ?></strong> 
-                    <?php if ($new->newsLink() != '') : ?>
-                        <a href="<?php echo $new->newsLink() ?>"><i class="fa fa-external-link sml"></i></a>
-                    <?php endif ?>
-                <?php echo $new->text() ?>
-            </div>
-        <?php endif ?>
-    <?php endforeach ?>
-</div>
 
 
 <main class="container">
@@ -82,7 +65,7 @@
         <?php endif ?>
       </div>
       <div class="clearfix"></div>
-      
+
       <!-- next edition -->
       <?php if ($page->children()->filterBy('template','edition') != '') : ?>
         <?php $nextDate = $page->children()->filterBy('template','edition')->first()->date('','startDate') ?>
@@ -90,43 +73,9 @@
         <hr>
           <strong><?php echo l::get('coming-edition') ?></strong></br>
           <?php foreach ($page->children()->filterBy('template','edition') as $e) : ?>
-            <a href="<?php echo $e->url() ?>" target="_blank" class="yellow"><?php echo $e->title() ?> - <?php echo $e->dateText() ?></a>
+            <a href="<?php echo $e->url() ?>" target="_blank" class="yellow-bg"><?php echo $e->title() ?> - <?php echo $e->dateText() ?></a>
           <?php endforeach ?>
         <?php endif ?>
-      <?php endif ?>
-
-      <!-- news -->
-      <?php $counter = 0; ?>
-      <?php foreach (page('news')->children()->filterBy('tags',$thetag,',')->sortBy('newsDate')->limit(5) as $news) : ?>
-        <?php $theNewsDate=$news->date('','newsEnd') ?>
-          <?php if ($theNewsDate >= $thedate) : ?>
-            <?php if ($counter == '0') : ?>
-              <hr>
-              <strong><?php echo l::get('news') ?></strong></br>
-            <?php endif ?>
-            <?php $counter++ ?>
-            <strong><?php echo $news->title() ?></strong>
-            <?php if ($news->newsLink() != '') : ?>
-              <a href="<?php echo $news->newsLink() ?>"><i class="fa fa-external-link"></i></a>
-            <?php endif ?>
-            <?php echo $news->text() ?><br> 
-          <?php endif ?>
-      <?php endforeach ?>
-      
-      <!-- events -->
-      <?php if (page('evenements')->children()->filterBy('tags',$thetag,',') != '') : ?>
-          <?php $count = 0 ?>
-          <?php foreach (page('evenements')->children()->filterBy('tags',$thetag,',')->sortBy('startDate')->limit(5) as $event) : ?>
-            <?php $eventDate=$event->date('','startDate') ?>
-              <?php if ($eventDate >= $thedate) : ?>
-                <?php if ($count == 0) : ?>
-                  <hr>
-                  <strong><?php echo l::get('coming-up') ?></strong></br>
-                <?php endif ?>
-                <?php $count++ ?>
-                <?php echo $event->date('d M','startDate') ?> - <a href="<?php echo $event->Url() ?>"><?php echo $event->title() ?></a></br>
-              <?php endif ?>
-          <?php endforeach ?>
       <?php endif ?>
 
       <!-- Postes -->
@@ -138,18 +87,18 @@
           <?php endforeach ?>
       <?php endif ?>
 
-      <!-- retours -->
-      <?php if (page('retours')->children()->filterBy('connect',$theTag2,',') != '') : ?>
+      <!-- evenements -->
+      <?php if (page('evenements')->children()->filterBy('connect',$thetag,',') != '') : ?>
         <hr>
         <strong>Archives</strong></br>
-          <?php foreach (page('retours')->children()->filterBy('connect',$theTag2,',') as $retour) : ?>
-              <a href="<?php echo $retour->Url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
-              <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
-              <a href="<?php echo $retour->Url() ?>" class="right"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
-              <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>
-              <div class="clearfix"></div>
-          <?php endforeach ?>
-      <?php endif ?> 
+        <?php foreach (page('evenements')->children()->filterBy('connect',$thetag,',') as $evenement) : ?>
+        <a href="<?php echo $evenement->url() ?>">Retour sur <?php echo $evenement->title() ?></a></br>
+        <p><?php echo $evenement->dates() ?> <?php echo $evenement->year() ?> - <?php echo $evenement->participants() ?> participants<br>
+        <a href="<?php echo $evenement->url() ?>" class="right"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
+        <a href="<?php echo $evenement->placeLink() ?>" target="_blank"><?php echo $evenement->place() ?></a></p>
+        <div class="clearfix"></div>
+        <?php endforeach ?>
+      <?php endif ?>
 
       <!-- lien vers projet global -->
       <?php if ($page->textLien() != '') : ?>
@@ -161,7 +110,7 @@
       <!-- tags -->
       <?php if ($page->tags() != '') : ?>
         <hr>
-        <b>Tags</b><br> 
+        <b>Tags</b><br>
         <?php foreach ($page->tags()->split(',') as $atag) : ?>
           <div class="atag grey"><?php echo $atag ?></div>
         <?php endforeach ?>
@@ -178,7 +127,7 @@
         </ul>
       <?php endif ?>
 
-      <!-- mailchimp integration --> 
+      <!-- mailchimp integration -->
       <?php if ($page->mailchimp() != '') : ?>
         <?php $listID = $page->mailchimp() ?>
         <!-- <?php snippet('Mailchimp') ?>
@@ -187,7 +136,7 @@
 
     </div> <!-- end 2ème colonne -->
   </div> <!-- end row -->
-  
+
 
 
 
