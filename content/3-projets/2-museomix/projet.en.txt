@@ -1,4 +1,4 @@
-Title: MuseomixMTL
+Title: MUSÉOMIXmtl
 
 ----
 
@@ -18,11 +18,11 @@ Short: Museomix is a 3-day creative sprint at the backbone of a museum. More tha
 
 ----
 
-Text: 
+Text:
 
 Museomix (MSMX) is a technological and cultural event, but foremost a laboratory of co-creative culture promoting the emergence of a museum which is open, networked and participative. Over 3 days, MSMX inaugurates the museum: in the physical reality of its constraints and proper functioning. This junction between the imaginary and real is at the heart of the challenge. It is the occasion to take action and *walk the walk*, rather than getting stuck at talking about or describing doing. In collaboration, they share their know-how to invent new museum experiences (of interaction, of attendance, of mediation, ...).
 
-Participants with diverse skills and experiences (coders, creatives, designers, museum pros, cultural mediators, teachers, innovators, tinkerers, ...) gather and prototype new devices of cultural mediation. 
+Participants with diverse skills and experiences (coders, creatives, designers, museum pros, cultural mediators, teachers, innovators, tinkerers, ...) gather and prototype new devices of cultural mediation.
 
 The spirit of Museomix is, above all, a space for the experimentation and elaboration of new forms of interacting within and in partnership with the institution. It is about collaboratively inventing new forms of action-research to improve the inclusion of the varied perspectives of professionals, of researchers and, more globally, of users.
 
@@ -61,4 +61,4 @@ Titrelien: Museomix international
 
 ----
 
-Textlien: 
+Textlien:

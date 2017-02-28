@@ -1,4 +1,4 @@
-Title: MuseomixMTL
+Title: MUSÉOMIXmtl
 
 ----
 
@@ -18,7 +18,7 @@ Short: Museomix est un sprint créatif de 3 jours au coeur d'un musée. Plus de 
 
 ----
 
-Text: 
+Text:
 
 Museomix est un événement technologique et culturel, mais avant tout un laboratoire de co-création culturelle qui veut promouvoir l’émergence d’un musée ouvert, en réseau et participatif. Pendant 3 jours, Il investit le musée, dans sa réalité physique avec ses contraintes et son fonctionnement. Ce frottement entre imagination et réalité est le cœur de son challenge. C'est l'occasion d'agir et de passer à l'action, plutôt que de se limiter à dire et décrire l'action.
 
@@ -61,4 +61,4 @@ Titrelien: Museomix international
 
 ----
 
-Textlien: 
+Textlien:
