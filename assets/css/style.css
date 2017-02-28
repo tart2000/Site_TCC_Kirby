@@ -68,17 +68,19 @@ Header
 /* ################################################################
 Global
 ################################################################### */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: 'Bitter', serif;
 }
-h1, h3, h5 {
-  font-weight: 400;
-}
-h2, h4, h6 {
+h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
 }
-
-
+h1, h3 {
+  font-weight: 400;
+}
+h2 {
+  font-weight: 700;
+}
 h2 {
   border-top: solid 1px black;
   border-bottom: solid 1px black;
@@ -298,13 +300,80 @@ svg:not(:root) {
   padding: 10px;
   border-radius: 50%;
 }
+
+/* ################################################################
+Colours, blocks or spacers
+################################################################### */
+
+.yellow-narrow-spacer {
+  width: 100%;
+  padding: 5px;
+  background-color: #FFFF00;
+}
 .yellow-spacer {
   width: 100%;
   padding: 15px;
   background-color: #FFFF00;
-  font-size: 30px;
 }
 
+.colour-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+  padding: 20px 0px;
+}
+
+.yellow-bg {
+  background-color: #FFFF00;
+}
+.cyan-bg {
+  background-color: #0DFFFF;
+}
+.orange-bg {
+  background-color: #FF530D;
+}
+.purple-bg {
+  background-color: #9500FF;
+}
+.yellow-clr {
+  color: #FFFF00;
+}
+.cyan-clr {
+  color: #0DFFFF;
+}
+.orange-clr {
+  color: #FF530D;
+}
+.purple-clr {
+  color: #9500FF;
+}
+
+/* ################################################################
+Homepage FEATURES section
+################################################################### */
+
+div.feat-div{
+  border-style: solid;
+  border-width: 10px 0px;
+  border-color: #FFFFFF;
+  padding: 15px 0 5px 0;
+}
+
+a.click-div {
+  color: #000;
+}
+
+div.feat-div:hover {
+  transition-duration: 1s;
+  border-style: solid;
+  border-width: 10px 0px;
+  padding: 15px 0 5px 0;
+  border-color: #FFFF00;
+  color: #01b2fe;
+  /*width: 200px;
+  height: 200px;*/
+}
 
 /* ################################################################
 Sticky
@@ -386,9 +455,6 @@ padding-right: 10px;
 padding-left: 10px;
 }
 
-.yellow {
-  background-color: #ffff00;
-}
 .text-proj {
   position: relative;
   top: -10px;
