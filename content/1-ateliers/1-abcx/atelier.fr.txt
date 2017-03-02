@@ -1,0 +1,47 @@
+Title: ABCx
+
+----
+
+Projectlink:
+
+----
+
+Projecttag: abcx
+
+----
+
+Short: Ateliers creatifs sur technologies emergentes.
+
+----
+
+Text:
+
+ABCx c'est une série des atelier, défis créatif, sur une diversité de technologies et pratiques emergentes. Le but ultime est de promouvoir l'alphabétisation technologique et la collaboration techno-culturelle.
+
+Nous emprofiterons de la fascination du public avec l'impression 3D comme moyen de fournir l'alphabétisation techno-culturel. Les activités sont un mix de créativité et collaboration pour que l'apprentissage technique plaira aussi aux "non-geeks." Nous organisons des ateliers et des séances de pratique dans plusieurs cartiers de Montréal.
+
+(youtube: https://www.youtube.com/watch?v=M4blAdS6r3Q width: 600 height: 350)
+
+----
+
+Tags: 3D printing,tech literacy,collaboration,creative sprint,fun,learning,experimentation
+
+----
+
+Fb:
+
+----
+
+Tw:
+
+----
+
+Lien:
+
+----
+
+Titrelien:
+
+----
+
+Textlien:
