@@ -1,4 +1,9 @@
-<div class="yellow-spacer bmt bmb center"><h1><?php echo page('projets')->title() ?></h1></div>
+<div class="colour-block purple-bg bmt"></div>
+<div class="yellow-narrow-spacer center">
+	<h1><?php echo page('projets')->title() ?></h1>
+	<h4><?php echo page('projets')->subtitle() ?></h4>
+</div>
+<div class="colour-block purple-bg bmb"></div>
 
 <div class="container bmb">
 	<div clas="row">

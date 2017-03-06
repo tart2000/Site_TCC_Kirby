@@ -1,0 +1,13 @@
+Title: Ateliers
+
+----
+
+Subtitle: sur les pratiques émergentes et l'alphabétisation numérique
+
+----
+
+svgName: icon.svg
+
+----
+
+imgName: icon.png

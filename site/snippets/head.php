@@ -14,8 +14,7 @@
   <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
   <link rel="icon" type="image/ico" href="/assets/images/favicon.ico" />
   <?php echo css('assets/css/style.css') ?>
-  <?php include_once("analyticstracking.php") ?>
-
 </head>
 
 <body>
+  <?php include_once("analyticstracking.php") ?>

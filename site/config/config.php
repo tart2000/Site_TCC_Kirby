@@ -16,6 +16,7 @@ for more information: http://getkirby.com/license
 */
 
 c::set('license', 'license in license.txt');
+c::set('debug',true);
 
 /*
 

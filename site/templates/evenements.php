@@ -3,49 +3,26 @@
 
   <main class="container bmt">
 
-    <div class="row center">
-      <h2><?php echo $page->title()->html() ?></h2>
-      <?php echo $page->text()->kirbytext() ?>
-    </div>
+    <?php foreach(page('evenements')->children()->filterBy('template','evenement') as $evenement): ?>
+        <div class="row center">
+        <h2><a href="<?php echo $evenement->url() ?>"><?php echo $evenement->title()->html() ?></a></h2>
+            <div class="col-md-5 left">
+                <h3  class="nomt"><?php echo $evenement->place() ?> - <?php echo $evenement->dates() ?> <?php echo $evenement->year() ?></h3>
+                <p><?php echo $evenement->text()->kirbytext() ?></p>
+            </div>
+            <div class="col-md-7">
+                <div class="responsive-video">
+                    <iframe src="//player.vimeo.com/video/<?php echo $evenement->vimeoLink() ?>?portrait=0" width="5" height="3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <div class="bmt right">
+                    <a href="<?php echo $evenement->url() ?>" class="btn btn-theme">Lire en entier</a>
+                </div>
+            </div>
+        </div>
 
-    <div class="events">
-      <?php foreach(page()->children()->sortBy('startDate') as $event): ?>
-        <?php $thedate = time() ?>
-        <?php $thisdate = $event->date('','startDate') ?>
-        <?php if ($thedate <= $thisdate) : ?>
-          <?php snippet('evenement', array('event' => $event)) ?>
-        <?php endif ?>
-      <?php endforeach ?>
-    </div>
+        <hr>
 
-  <hr>
-  <div class="row center bmt">
-    <h3><?php echo l::get('past-evts') ?></h3> 
-  </div>
-    <?php foreach(page()->children()->sortBy('startDate')->flip() as $event): ?>
-    <?php $thedate=strtotime(date("Y-m-d"))?>
-    <?php $thisdate = $event->date('','startDate') ?>
-    <?php $sDate = $event->date('U','startDate') ?>
-    <?php $eDate = $event->date('U', 'endDate') ?> 
-    <?php if ($thedate > $thisdate) : ?>
-    <div class="row mt">
-      <div class="col-md-10 col-md-offset-1">
-          <!-- si c'est sur plusieurs jours -->
-          <?php if ($event->endDate() != '') : ?>
-            <strong><?php echo strftime('%d', $sDate) ?>-<?php echo strftime('%d %B', $eDate) ?> - <?php echo $event->title()->html() ?> - <?php echo $event->venueName() ?></strong>
-          <?php else : ?>
-          <!-- si c'est sur un seul jour -->
-             <strong><?php echo strftime('%A %d %B', $sDate) ?> - <?php echo $event->title()->html() ?> - <?php echo $event->venueName() ?></strong>
-          <?php endif ?>
-        
-        <p><?php echo $event->text() ?></p>
-      </div>
-    </div>
-    <?php endif ?>
-  <?php endforeach ?>
-
-
-
+    <?php endforeach ?>
 
   </main>
 

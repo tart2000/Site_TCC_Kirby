@@ -2,11 +2,13 @@ Title: Home
 
 ----
 
-Text: 
+Text:
 
-Le techno culture club crée des contextes d’échange, de création et d’expérimentation au croisement de la culture et de la technologie.
+Techno Culture Club invente les pratiques culturelles du XXIème siècle avec les institutions et leur public.
 
-C'est une communauté d'intérêts ouverte, dans laquelle n'importe qui peut proposer un projet.
+----
+
+FeaturesTitle: Ce que nous faisons ...
 
 ----
 

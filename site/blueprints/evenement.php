@@ -1,75 +1,75 @@
-// /site/blueprints/evenement.php
+// /site/blueprints/retour.php
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Evenement
-pages: false
-files: false
+title: Retour
+pages: 
+  template: partenaire
+files:
+  sortable: true
 fields:
   title:
     label:
       en: Title
       fr: Titre
     type:  text
-  startDate:
+  place:
     label: 
-      en: Starting date
-      fr: Date de début
-    type: date
+      en: Location
+      fr: Place
+    type:  text
     width: 1/2
-  endDate: 
+  placeLink: 
     label:
-      en: Ending date (leave empty if only one day)
-      fr: Date de fin (laisser vide si une seule journée)
-    type: date
-    width: 1/2
-  startTime:
-    label: 
-      en: Starting time
-      fr: Heure de début
-    type: time
-    width: 1/2
-  endTime: 
-    label: 
-      en: Ending time
-      fr: Heure de fin
-    type: time
-    width: 1/2
-  venueName: 
-    label: 
-      en: Where?
-      fr: Où ?
-    type: text
-    width: 1/2
-  venueLink:
-    label: 
-      en: Link to the location?
-      fr: Lien vers le lieu ?
+      en: Location Url
+      fr: Place Url
     type: Url
     width: 1/2
-  registrationLink:     
+  participants: 
     label: 
-      en: Link "Call to Action"
-      fr: Lien 'call to action'
-    type: Url
+      en: Number of participants
+      fr: Nombre de participants
+    type: number
     width: 1/2
-  infoLink: 
+  nbprojets:
     label: 
-      en: Title of the "Call to Action" (e.g., Sign up)
-      fr: Intitulé du 'call to action' (ex. Inscriptions)
-    type: text
+      en: Number of projects
+      fr: Nombre de projets
+    type: number
+    width:1/2
+  projectLink:
+    label: 
+      en: Link to projects
+      fr: Lien vers les projets
+    type: url
     width: 1/2
-  gifLink: 
-    label: 
-      en: Link to GIF
-      fr: Un lien vers un GIF qui va bien ? 
-    type: Url
-  tags: 
+  dates: 
     label:
-      en: Tags  
-      fr: Tags
+      en: Dates
+      fr: Dates
     type: text
+    width: 1/2
+  year:
+    label: 
+      en: Year
+      fr: Année
+    type:  text
+    width: 1/2
+  vimeoLink: 
+    label: 
+      en: Vimeo link (ex. 57724509)
+      fr: Lien Vimeo (ex. 57724509)
+    type: text
+    width: 1/2
   text:
     label: 
       en: Text
       fr: Texte
     type:  textarea
+  connect: 
+    label: 
+      en: Connection to project
+      fr: Connexion à un projet
+    type: select 
+    options: query
+    query: 
+      page: projets
