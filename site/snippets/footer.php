@@ -3,11 +3,20 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <strong><?php echo page('projets')->title() ?></strong></br>
-                <?php foreach (page('projets')->children()->visible() as $project): ?>
-                    <a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a></br>
+                <strong><?php echo page('ateliers')->title() ?></strong></br>
+                <?php foreach (page('ateliers')->children()->visible() as $atelier): ?>
+                    <a href="<?php echo $atelier->url() ?>"><?php echo $atelier->title() ?></a></br>
                 <?php endforeach ?>
+
+                </br>
+                <strong><?php echo page('projets')->title() ?></strong></br>
+                <?php foreach (page('projets')->children()->visible() as $atelier): ?>
+                    <a href="<?php echo $atelier->url() ?>"><?php echo $atelier->title() ?></a></br>
+                <?php endforeach ?>
+
             </div>
+
+
             <div class="col-sm-2 col-sm-offset-1">
                 <a href="http://technoculture.club" target="_blank"><img src="/assets/images/logo_TCC_M.png" class="img-responsive"></a>
                 <div class="social center mt">
@@ -18,8 +27,8 @@
             </div>
             <div class="col-sm-4 col-sm-offset-1 right">
                 <strong>Contact</strong>
-                <p>Techno Culture Club<br> 
-                7255 Alexandra #203<br> 
+                <p>Techno Culture Club<br>
+                2275 boul Saint-Joseph E #1.120<br>
                 Montréal, QC</p>
                 <div class="clearfix"></div>
                 <strong>Code</strong><br>

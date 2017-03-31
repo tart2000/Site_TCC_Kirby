@@ -1,7 +1,7 @@
 <?php snippet('head') ?>
 <?php snippet('menu') ?>
 
-<img src="<?php echo $site->url() ?>/assets/images/contact.png" class="img-responsive" style="width:100%">
+<img class="img-responsive" style="width:100%" width="640" src="https://maps.googleapis.com/maps/api/staticmap?center=2275+boul+Saint-Joseph+E,+Montreal,+QC&zoom=15&scale=2&size=640x180&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xffff00%7Clabel:%7C2275+boul+Saint-Joseph+E,+Montreal,+QC" alt="Google Map of 2275 boul Saint-Joseph E, Montreal, QC">
 
 <div class="container bmt">
     <div class="row">
@@ -36,8 +36,8 @@
         <div class="col-sm-3">
             <h3><?php echo $page->sideTitle() ?></h3>
 
-            <p>Techno Culture Club<br> 
-            7255 Alexandra #203<br> 
+            <p>Techno Culture Club<br>
+            2275 boul Saint-Joseph E #1.120<br>
             Montréal, QC</p>
 
             <p><strong>Email</strong><br>
