@@ -2,7 +2,7 @@ Title: À propos
 
 ----
 
-Header: 
+Header:
 
 Le Techno Culture Club crée des contextes d’échange, de création et d’expérimentation au croisement de la culture et de la technologie.
 
@@ -11,7 +11,7 @@ C'est une communauté d'intérêts ouverte, dans laquelle n'importe qui peut pro
 
 ----
 
-Text: 
+Text:
 
 ###Vision
 La révolution numérique n’est pas (qu’)une révolution technologique : c’est une révolution culturelle. Nous définissons la culture comme un ensemble de manifestations, créations et réalisations humaines, impliquant le savoir technologique. La démocratisation et diffusion croissante du numérique et des technologies de l’information et des communications ont modifié les usages et pratiques des individus comme celles des institutions, y compris dans la sphère culturelle et artistique. Nous assistons a un momentum où l’accès technologique demeure un enjeu majeur, au risque de voir se créer une fracture entre les communautés professionnelles, le milieu de l’industrie du numérique et des TIC et la société civile. Parmi les communautés porteuses de ce changement, Techno Culture Club s’engage à oeuvrer à l’accès et l’appropriation du numérique par tous les citoyens et citoyennes.
@@ -41,4 +41,4 @@ D’autres événements créatifs sur le modèle de Museomix, des ateliers d’a
 ****
 
 ### Partenaires
-(image:https://www.pipedrive.com/images/logo/logo-dark-for-screen.svg link: http://pipedrive.com width:150)
+(image:pipedrive_logo.png link: http://pipedrive.com width:150)
