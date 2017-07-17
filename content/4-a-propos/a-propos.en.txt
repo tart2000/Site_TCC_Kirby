@@ -6,7 +6,7 @@ Url-key: about
 
 ----
 
-Header: 
+Header:
 
 Techno Culture Club creates opportunities for exchange, creativity and experimentation at the intersection of culture and technology.
 
@@ -14,7 +14,7 @@ It is a community open to new ideas and which welcomes anyone to propose new pro
 
 ----
 
-Text: 
+Text:
 
 ###Vision
 The digital revolution is more than (just) a technological revolution: it is a cultural revolution. We define culture as the collection of manifestations, creations and human achievements, thus including technology. The democratisation and growing access to digital, information and communication technolgies (ICT) have profoundly changed our activities and interactions, including within the cultural and artistic spheres. We are witnessing a moment at which technology accessibility is still a major issue, and at risk of the divide widening between the professional communities & ICT sectors, and the civil society. Among other communities bridging the divide, Techno Culture Club is committed to working towards the technological literacy and appropriation of digital skills by all citizens.
@@ -42,4 +42,4 @@ Techno Culture Club was born following the first edition of Museomix in Montreal
 ****
 
 ### Sponsors
-(image:https://www.pipedrive.com/images/logo/logo-dark-for-screen.svg link: http://pipedrive.com width:150)
+(image:pipedrive_logo.png link: http://pipedrive.com width:150)
