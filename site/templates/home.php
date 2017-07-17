@@ -52,7 +52,7 @@
 
 </div>
 
-<?php snippet('ateliers_carousel') ?>
+<?php snippet('services_carousel') ?>
 
 <?php snippet('evenements') ?>
 

@@ -1,4 +1,4 @@
-Title: ABCx
+Title: ATELIERS
 
 ----
 
@@ -6,7 +6,7 @@ Projectlink:
 
 ----
 
-Projecttag: abcx
+Projecttag: ateliers
 
 ----
 
@@ -16,7 +16,7 @@ Short: Ateliers creatifs sur technologies emergentes.
 
 Text:
 
-ABCx c'est une série des atelier, défis créatif, sur une diversité de technologies et pratiques emergentes. Le but ultime est de promouvoir l'alphabétisation technologique et la collaboration techno-culturelle.
+ATELIERS c'est une série des atelier, défis créatif, sur une diversité de technologies et pratiques emergentes. Le but ultime est de promouvoir l'alphabétisation technologique et la collaboration techno-culturelle.
 
 Nous emprofiterons de la fascination du public avec l'impression 3D comme moyen de fournir l'alphabétisation techno-culturel. Les activités sont un mix de créativité et collaboration pour que l'apprentissage technique plaira aussi aux "non-geeks." Nous organisons des ateliers et des séances de pratique dans plusieurs cartiers de Montréal.
 

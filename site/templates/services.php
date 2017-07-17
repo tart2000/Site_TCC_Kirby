@@ -10,22 +10,22 @@
 
     <hr>
     <div class="row">
-    <?php foreach ($page->children()->visible() as $atelier) : ?>
+    <?php foreach ($page->children()->visible() as $service) : ?>
         <div class="col-md-4 col-sm-6 pb">
             <div>
-                <a href="<?php echo $atelier->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/banner-<?php echo $atelier->projectTag() ?>.jpg" class="img-responsive"></a>
+                <a href="<?php echo $service->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/banner-<?php echo $service->projectTag() ?>.jpg" class="img-responsive"></a>
             </div>
             <div class="project-header-s center">
-                <h1><?php echo $atelier->title() ?></h1>
+                <h1><?php echo $service->title() ?></h1>
             </div>
 
         </div>
         <div class="col-md-8 col-sm-6">
             <div class="text-proj">
-                <h4><?php echo $atelier->short() ?></h4>
-                <?php echo $atelier->text()->excerpt(400) ?>
+                <h4><?php echo $service->short() ?></h4>
+                <?php echo $service->text()->excerpt(400) ?>
                 <div class="clearfix"></div>
-                <a href="<?php echo $atelier->url() ?>" class="right btn btn-theme"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
+                <a href="<?php echo $service->url() ?>" class="right btn btn-theme"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
             </div>
         </div>
         <div class="clearfix"></div>

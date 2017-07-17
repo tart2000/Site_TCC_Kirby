@@ -3,15 +3,15 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <strong><?php echo page('ateliers')->title() ?></strong></br>
-                <?php foreach (page('ateliers')->children()->visible() as $atelier): ?>
-                    <a href="<?php echo $atelier->url() ?>"><?php echo $atelier->title() ?></a></br>
+                <strong><?php echo page('services')->title() ?></strong></br>
+                <?php foreach (page('services')->children()->visible() as $service): ?>
+                    <a href="<?php echo $service->url() ?>"><?php echo $service->title() ?></a></br>
                 <?php endforeach ?>
 
                 </br>
                 <strong><?php echo page('projets')->title() ?></strong></br>
-                <?php foreach (page('projets')->children()->visible() as $atelier): ?>
-                    <a href="<?php echo $atelier->url() ?>"><?php echo $atelier->title() ?></a></br>
+                <?php foreach (page('projets')->children()->visible() as $service): ?>
+                    <a href="<?php echo $service->url() ?>"><?php echo $service->title() ?></a></br>
                 <?php endforeach ?>
 
             </div>
