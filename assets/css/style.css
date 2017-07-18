@@ -94,6 +94,10 @@ h2 {
 }
 .btn, .input-lg {
   border-radius: 0px;
+  vertical-align: middle;
+}
+.btn-round{
+border-radius: 17px;
 }
 .center {
   text-align: center;

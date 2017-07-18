@@ -51,18 +51,18 @@
 
     <!-- 2ème colonne -->
     <div class="col-md-4">
-      <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="/assets/images/<?php echo $page->projectTag() ?>.png" class="img-responsive pb"></a>
+      <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="/assets/images/<?php echo $page->projectTag() ?>.png" class="img-responsive pb center-block" style="max-height:250px"></a>
       <!-- icones sociales du projet -->
-      <div class="mt">
+      <div class="mt right mr">
         <?php if ($page->fb() != '') : ?>
-          <a href="<?php echo $page->fb() ?>" target="_blank"><i class="fa fa-2x fa-facebook right mr"></i></a>
+        <button type="button" class="btn btn-round btn-default" aria-label="Facebook link"><a href="<?php echo $page->fb() ?>" target="_blank"><i class="fa fa fa-facebook" aria-hidden="true"></i></a></button>
         <?php endif ?>
         <?php if ($page->tw() != '') : ?>
-          <a href="<?php echo $page->tw() ?>" target="_blank"><i class="fa fa-2x fa-twitter right mr"></i></a>
-        <?php endif ?>
-        <?php if ($page->projectLink() != '') : ?>
-          <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right"><i class="fa fa-external-link fa-2x mr"></i></a>
-        <?php endif ?>
+        <button type="button" class="btn btn-default btn-round" aria-label="Twitter link"><a href="<?php echo $page->tw() ?>" target="_blank"><i class="fa fa fa-twitter" aria-hidden="true"></i></a></button>
+      <?php endif ?>
+      <?php if ($page->projectLink() != '') : ?>
+        <button type="button" class="btn btn-round btn-default" aria-label="External link" style="vertical-align:middle;"><a href="<?php echo $page->projectLink() ?>" target="_blank" class="right"><i class="fa fa-external-link fa" aria-hidden="true"></i> <?php echo l::get('project-page-link') ?></span></a></button>
+      <?php endif ?>
       </div>
       <div class="clearfix"></div>
 

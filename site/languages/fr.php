@@ -17,5 +17,5 @@ l::set('see','Voir');
 l::set('cookie-message',"Ce site utilise des cookies pour assurer que vous obtenez la meilleure expérience sur notre site");
 l::set('cookie-dismiss',"D'accord!");
 l::set('cookie-learn-more',"Plus d'infos");
-
+l::set('project-page-link','Page du projet');
 ?>
