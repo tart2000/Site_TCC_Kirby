@@ -54,8 +54,6 @@
 
 <?php snippet('services_carousel') ?>
 
-<?php snippet('evenements') ?>
-
 <?php snippet('projets_carousel') ?>
 
 <?php snippet('newsletter') ?>

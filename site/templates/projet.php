@@ -87,15 +87,15 @@
           <?php endforeach ?>
       <?php endif ?>
 
-      <!-- evenements -->
-      <?php if (page('evenements')->children()->filterBy('connect',$thetag,',') != '') : ?>
+      <!-- editions -->
+      <?php if ($page->children()->filterBy('connect',$thetag,',') != '') : ?>
         <hr>
         <strong>Archives</strong></br>
-        <?php foreach (page('evenements')->children()->filterBy('connect',$thetag,',') as $evenement) : ?>
-        <a href="<?php echo $evenement->url() ?>">Retour sur <?php echo $evenement->title() ?></a></br>
-        <p><?php echo $evenement->dates() ?> <?php echo $evenement->year() ?> - <?php echo $evenement->participants() ?> participants<br>
-        <a href="<?php echo $evenement->url() ?>" class="right"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
-        <a href="<?php echo $evenement->placeLink() ?>" target="_blank"><?php echo $evenement->place() ?></a></p>
+        <?php foreach ($page->children()->filterBy('connect',$thetag,',') as $retour) : ?>
+        <a href="<?php echo $retour->url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
+        <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
+        <a href="<?php echo $retour->url() ?>" class="right"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
+        <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>
         <div class="clearfix"></div>
         <?php endforeach ?>
       <?php endif ?>
