@@ -286,7 +286,6 @@ svg:not(:root) {
 }
 .carousel .item {
   height: auto;
-  min-height: 500px;
 }
 .carousel-caption {
   position: inherit;
@@ -295,6 +294,7 @@ svg:not(:root) {
   padding-top: 40px;
   padding-bottom: 20px;
 }
+
 .flag {
   position: absolute;
   right: 20px;

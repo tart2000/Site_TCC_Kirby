@@ -12,7 +12,7 @@
 
 
             <div class="col-sm-2 col-sm-offset-1">
-                <a href="http://technoculture.club" target="_blank"><img src="/assets/images/logo_TCC_M.png" class="img-responsive"></a>
+                <a href="http://technoculture.club" target="_blank"><img src="/assets/images/logo_TCC_M.png" class="img-responsive center-block" style="max-height:150px;"></a>
                 <div class="social center mt">
                     <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
                     <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>

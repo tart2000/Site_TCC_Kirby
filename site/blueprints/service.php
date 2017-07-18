@@ -57,17 +57,6 @@ fields:
       fr: Lien vers projet global
     type: Url
     width: 1/2
-  titreLien:
-    label:
-      en: Link title
-      fr: Titre du lien
-    type: text
-    width: 1/2
-  textLien:
-    label:
-      en: Intro link text
-      fr: Texte intro lien
-    type: textarea
   mailchimp:
     label: Mailchimp listID
     type: text

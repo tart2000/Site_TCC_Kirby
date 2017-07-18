@@ -151,9 +151,6 @@
     </div> <!-- end 2ème colonne -->
   </div> <!-- end row -->
 
-
-
-
 </main>
 
 <?php snippet('footer') ?>
