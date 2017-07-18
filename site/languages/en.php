@@ -18,4 +18,6 @@ l::set('cookie-message',"This website uses cookies to ensure you get the best ex
 l::set('cookie-dismiss',"Got it!");
 l::set('cookie-learn-more',"More info");
 l::set('project-page-link','Project page');
+l::set('previous','Previous');
+l::set('next','Next');
 ?>

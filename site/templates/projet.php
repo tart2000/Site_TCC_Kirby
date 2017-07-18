@@ -47,7 +47,21 @@
         <h3><?php echo $page->short() ?></h3>
         <?php echo $page->text()->kirbytext() ?>
       </div>
-    </div>
+
+      <!-- navigation -->
+      <div class="col-md-12">
+        <nav class="" role="navigation">
+          <ul class="pager">
+            <?php if($page->hasPrevVisible() && $prev = $page->prev()): ?>
+            <li class="previous"><a href="<?php echo $prev->url() ?>">&larr; <?php echo l::get('previous') ?></a></li>
+            <?php endif ?>
+            <?php if($page->hasNextVisible() && $next = $page->next()): ?>
+            <li class="next"><a href="<?php echo $next->url() ?>"><?php echo l::get('next') ?> &rarr;</a></li>
+            <?php endif ?>
+          </ul>
+        </nav>
+      </div>
+    </div><!-- 1ere colonne -->
 
     <!-- 2ème colonne -->
     <div class="col-md-4">

@@ -18,4 +18,6 @@ l::set('cookie-message',"Ce site utilise des cookies pour assurer que vous obten
 l::set('cookie-dismiss',"D'accord!");
 l::set('cookie-learn-more',"Plus d'infos");
 l::set('project-page-link','Page du projet');
+l::set('previous','Précédent');
+l::set('next','Suivant');
 ?>
