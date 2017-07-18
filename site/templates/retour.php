@@ -54,10 +54,10 @@
           <nav class="" role="navigation">
             <ul class="pager">
               <?php if($prev = $page->prev()): ?>
-              <li class="previous"><a href="<?php echo $prev->url() ?>">&larr; Précédent</a></li>
+              <li class="previous"><a href="<?php echo $prev->url() ?>">&larr; <?php echo l::get('previous') ?></a></li>
               <?php endif ?>
               <?php if($next = $page->next()): ?>
-              <li class="next"><a href="<?php echo $next->url() ?>">Suivant &rarr;</a></li>
+              <li class="next"><a href="<?php echo $next->url() ?>"><?php echo l::get('next') ?> &rarr;</a></li>
               <?php endif ?>
             </ul>
           </nav>
