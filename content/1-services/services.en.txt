@@ -2,6 +2,10 @@ Title: We Facilitate
 
 ----
 
+Menutitle: Services
+
+----
+
 Subtitle: workshops on emergent practices and technology
 
 ----

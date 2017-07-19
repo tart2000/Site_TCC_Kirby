@@ -2,6 +2,10 @@ Title: We Share
 
 ----
 
+Menutitle: Resources
+
+----
+
 subtitle: resources and documentation
 
 ----

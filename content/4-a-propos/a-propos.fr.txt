@@ -1,4 +1,8 @@
-Title: À propos
+Title: À Propos
+
+----
+
+Menutitle: À Propos
 
 ----
 

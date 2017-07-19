@@ -15,7 +15,11 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <?php foreach($pages->visible() as $p): ?>
+        <?php if($p->menutitle() != ''): ?>
+        <li><a <?php e($p->isOpen(), ' class="active"') ?>href="<?php echo $p->url() ?>"><?php echo $p->menutitle()->text() ?></a></li>
+        <?php else: ?>
         <li><a <?php e($p->isOpen(), ' class="active"') ?>href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a></li>
+        <?php endif ?>
         <?php endforeach ?>
         <li><a>|</a></li>
         <!-- Languages -->

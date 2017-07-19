@@ -2,6 +2,10 @@ Title: On Experiment
 
 ----
 
+Menutitle: Projets
+
+----
+
 subtitle: des projets interdisciplinaire et des événements phares
 
 ----

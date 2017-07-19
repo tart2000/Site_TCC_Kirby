@@ -2,6 +2,10 @@ Title: We Experiment
 
 ----
 
+Menutitle: Projects
+
+----
+
 subtitle: with intersectional projects and epic events
 
 ----

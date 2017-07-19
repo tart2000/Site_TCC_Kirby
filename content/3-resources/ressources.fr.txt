@@ -2,6 +2,10 @@ Title: On Partage
 
 ----
 
+Menutitle: Resources
+
+----
+
 subtitle: des resources et de la documentation
 
 ----
