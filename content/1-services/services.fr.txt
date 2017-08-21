@@ -1,12 +1,20 @@
-Title: On Anime
+Title: Renforçer
 
 ----
 
-Menutitle: Services
+Menutitle: Renforçer
 
 ----
 
-Subtitle: des ateliers sur les pratiques et technologies émergentes
+Subtitle: par nos services sur les pratiques et technologies émergentes
+
+----
+
+Text: Techno Culture Club créé des services d’humain à humain initiateurs de changement, et fait évoluer en permanence son offre dans le domaine techno-culturel :
+Nous concevons et animons des ateliers pour le grand public.
+Nous offrons des formations aux professionnels, adaptées à leurs besoins.
+Nous accompagnons les écosystèmes culturels et éducatifs dans leur transformation.
+Nous évaluons systématiquement nos services.
 
 ----
 

@@ -9,6 +9,7 @@
   <div class="row">
     <div class="col-md-8">
       <?php if ($page->images() != '') : ?>
+        <?php if ($page->images()->length() > 1) : ?>
         <!-- Carousel -->
         <div id="project-carousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -40,6 +41,17 @@
           </a>
         </div>
         <!-- end carousel -->
+        <?php else : ?>
+        <!-- single image -->
+        <div id="project-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="<?php echo $page->images()->flip()->first()->url() ?>" alt="<?php echo $page->title()->html() ?>">
+            </div>
+          </div>
+        </div>
+        <!-- end single image -->
+        <?php endif ?>
       <?php endif ?>
 
       <!-- Texte de la page -->
@@ -65,7 +77,7 @@
 
     <!-- 2ème colonne -->
     <div class="col-md-4">
-      <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="/assets/images/<?php echo $page->projectTag() ?>.png" class="img-responsive pb center-block" style="max-height:250px"></a>
+      <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="<?php echo $fname ?>" class="img-responsive pb center-block" style="max-height:250px"></a>
       <!-- icones sociales du projet -->
       <div class="mt right mr">
         <?php if ($page->fb() != '') : ?>

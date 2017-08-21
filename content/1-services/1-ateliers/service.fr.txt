@@ -10,21 +10,17 @@ Projecttag: ateliers
 
 ----
 
-Short: Ateliers creatifs sur technologies emergentes.
+Short: Ateliers créatifs sur les technologies émergentes et numériques.
 
 ----
 
 Text:
 
-ATELIERS c'est une série des atelier, défis créatif, sur une diversité de technologies et pratiques emergentes. Le but ultime est de promouvoir l'alphabétisation technologique et la collaboration techno-culturelle.
-
-Nous emprofiterons de la fascination du public avec l'impression 3D comme moyen de fournir l'alphabétisation techno-culturel. Les activités sont un mix de créativité et collaboration pour que l'apprentissage technique plaira aussi aux "non-geeks." Nous organisons des ateliers et des séances de pratique dans plusieurs cartiers de Montréal.
-
-(youtube: https://www.youtube.com/watch?v=M4blAdS6r3Q width: 600 height: 350)
+Nous concevons et animons des ateliers créatifs autour des technologies émergentes pour les institutions culturelles et éducatives et plus généralement pour tous les curieux désirant apprendre (impression 3D, réalité virtuelle, fabrication numérique). L’expérimentation, l’apprentissage actif et ludique nous tiennent à coeur et se retrouvent dans chacun des ateliers, que ce soit dans notre espace de création ou à l’extérieur (bibliothèques, écoles, etc). Nous évaluons systématiquement nos ateliers pour s’adapter au mieux à nos publics.
 
 ----
 
-Tags: 3D printing,tech literacy,collaboration,creative sprint,fun,learning,experimentation
+Tags: ateliers, technologies, numérique, créativité, culture, impression 3D, expérimentation, apprentissage actif
 
 ----
 
