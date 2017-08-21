@@ -15,9 +15,9 @@
             <div>
                 <a href="<?php echo $service->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/banner-<?php echo $service->projectTag() ?>.jpg" class="img-responsive"></a>
             </div>
-            <div class="project-header-s center">
+            <a href="<?php echo $service->url() ?>"><div class="project-header-s center">
                 <h1><?php echo $service->title() ?></h1>
-            </div>
+            </div></a>
 
         </div>
         <div class="col-md-8 col-sm-6">

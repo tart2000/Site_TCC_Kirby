@@ -20,9 +20,9 @@
           <?php endif ?>
         </a>
       </div>
-      <div class="project-header-s left">
+      <a href="<?php echo $project->url() ?>"><div class="project-header-s left">
         <h1><?php echo $project->title() ?></h1>
-      </div>
+      </div></a>
     </div>
     <div class="col-md-8 col-sm-6">
       <div class="text-proj">
