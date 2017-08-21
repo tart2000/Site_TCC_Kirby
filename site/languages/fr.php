@@ -4,6 +4,7 @@ l::set('plus', 'En savoir plus...');
 l::set('coming-up', 'Événements à venir');
 l::set('all-projects','Voir tous nos projets');
 l::set('all-services','Voir tous nos services');
+l::set('all-resources','Voir tous nos ressources');
 l::set('submit','Envoyer');
 l::set('signup','Inscrivez-moi!');
 l::set('made','Fait avec');

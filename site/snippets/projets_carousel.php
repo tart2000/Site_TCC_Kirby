@@ -23,6 +23,6 @@
 	</div>
 	<div class="clearfix"></div>
 	<div class="row center">
-		<a href="/projets" class="btn btn-theme"><?php echo l::get('all-projects') ?></a>
+		<a href=<?php echo page('projets')->url() ?> class="btn btn-theme"><?php echo l::get('all-projects') ?></a>
 	</div>
 </div>

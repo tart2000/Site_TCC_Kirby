@@ -1,13 +1,13 @@
-<div class="colour-block cyan-bg bmt"></div>
+<div class="colour-block purple-bg bmt"></div>
 <div class="yellow-narrow-spacer center">
-	<h1><?php echo page('services')->title() ?></h1>
-	<h4><?php echo page('services')->subtitle() ?></h4>
+	<h1><?php echo page('ressources')->title() ?></h1>
+	<h4><?php echo page('ressources')->subtitle() ?></h4>
 </div>
-<div class="colour-block cyan-bg bmb"></div>
+<div class="colour-block purple-bg bmb"></div>
 
 <div class="container bmb">
 	<div clas="row">
-	  	<?php foreach (page('services')->children()->visible()->limit(3) as $p) : ?>
+	  	<?php foreach (page('ressources')->children()->visible()->limit(3) as $p) : ?>
 	  		<div class="col-md-4 col-sm-6">
 		  		<div>
 	                <a href="<?php echo $p->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/banner-<?php echo $p->projectTag() ?>.jpg" class="img-responsive"></a>
@@ -23,6 +23,6 @@
 	</div>
 	<div class="clearfix"></div>
 	<div class="row center">
-		<a href=<?php echo page('services')->url() ?> class="btn btn-theme"><?php echo l::get('all-services') ?></a>
+		<a href=<?php echo page('ressources')->url() ?> class="btn btn-theme"><?php echo l::get('all-resources') ?></a>
 	</div>
 </div>
