@@ -16,13 +16,16 @@ Short: Formations professionnelles instigatrices de changement.
 
 Text:
 
-FORMATION PRO sont nos ateliers de formation professionel sur les pratiques et technologies émergentes.
-
-La première dans notre serie c'est une introduction aux espaces de fabrication partagée et pratiques émergentes. En bref, l'objectif de l'atelier c'est d'avoir la la réponse à la question suivante: Qu’est-ce que le mouvement maker peut apporter à mon métier ?
+Nous avons créé (et développons encore sur mesure) des formations professionnelles autour des technologies et pratiques émergentes. Celles-ci sont en permanente évolution et  adaptées à vos problématiques et vos réalités professionnelles. Elles se composent de contenus spécifiques et de documents ainsi que de mises en situation pratiques créatives. Dynamiques et flexibles, nous créons des environnements d’apprentissages collaboratifs centrés sur l’humain et favorisant la capacité à agir en tirant profit des transformations technologiques actuelles.
+Nous travaillons notamment autour des thématiques suivantes :
+* Les usages et utilisations des technologies émergentes (impression 3D, réalité virtuelle, etc)
+* Les cultures auxquelles elles se rattachent (culture maker)
+* Les nouvelles possibilités qu’elles offrent dans votre milieu : comment exploiter au mieux le potentiel de ces technologies dans vos milieux ?
+* Les approches pour animer, faire vivre et utiliser l’équipement dans vos espaces
 
 ----
 
-Tags: apprentissage actif,culture maker,formation professionnelle,dévélopment professionnelle,atelier pratique
+Tags: formations professionnelles, sur mesure, technologies et pratiques émergentes, créativité, changement, mises en situation, makerspaces, fablab, medialab, collaboration
 
 ----
 

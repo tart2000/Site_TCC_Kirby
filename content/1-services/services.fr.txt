@@ -11,10 +11,10 @@ Subtitle: sur les nouvelles pratiques et technologies
 ----
 
 Text: Techno Culture Club créé des services d’humain à humain initiateurs de changement, et fait évoluer en permanence son offre dans le domaine techno-culturel :
-Nous concevons et animons des ateliers pour le grand public.
-Nous offrons des formations aux professionnels, adaptées à leurs besoins.
-Nous accompagnons les écosystèmes culturels et éducatifs dans leur transformation.
-Nous évaluons systématiquement nos services.
+* Nous concevons et animons des ateliers pour le grand public.
+* Nous offrons des formations aux professionnels, adaptées à leurs besoins.
+* Nous accompagnons les écosystèmes culturels et éducatifs dans leur transformation.
+* Nous évaluons systématiquement nos services.
 
 ----
 

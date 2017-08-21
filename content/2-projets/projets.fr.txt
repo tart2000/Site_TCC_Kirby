@@ -1,8 +1,8 @@
-Title: Experimenter
+Title: Projets
 
 ----
 
-Menutitle: Experimenter
+Menutitle: Projets
 
 ----
 

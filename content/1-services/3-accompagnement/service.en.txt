@@ -1,28 +1,26 @@
-Title: Formation PRO
+Title: Support
 
 ----
 
-Projectlink:
+Projectlink: Support
 
 ----
 
-Projecttag: formationpro
+Projecttag: accompagnement
 
 ----
 
-Short: Professional development from the perspective of change-makers.
+Short: Support and made to measure consulting.
 
 ----
 
 Text:
 
-FORMATION PRO are professional development workshops on emergent technologies and practices.
-
-Our first in the series is an introduction to shared fabrication spaces and related emergent practices. In a nutshell, the objective of the workshop is to provide the answer to the following question: what might maker culture bring to my work?
+Nous fournissons un accompagnement sur mesure en créant des expériences techno-culturelles qui favorisent la transformation des organisations culturelles et éducatives tout en engageant la créativité de leurs publics (bibliothèques, musées). Nous créons constamment de nouveaux types d’accompagnement inspirés par  les enjeux propres à chaque organisation. Nous nous appuyons sur le potentiel des nouvelles technologies pour générer de nouvelles pratiques organisationnelles, artistiques et créatives.
 
 ----
 
-Tags: active learning,maker culture,professional development,practical workshop
+Tags: accompagnement, service-conseil, techno-créatif, institutions publiques, culture, éducation, publics
 
 ----
 

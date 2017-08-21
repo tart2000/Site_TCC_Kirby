@@ -1,8 +1,8 @@
-Title: Partager
+Title: Ressources
 
 ----
 
-Menutitle: Partager
+Menutitle: Ressources
 
 ----
 

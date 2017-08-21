@@ -1,0 +1,17 @@
+Title: Resources
+
+----
+
+Menutitle: Resources
+
+----
+
+url-key : resources
+
+----
+
+subtitle: evolving and practical resources
+
+----
+
+Text: Techno Culture Club wishes to create practical resources which may be readily shared (and remixed). Our resources touch on a variety of techno-creative subjects. They include, for example, techno-creative workshop guides for facilitators and more technical guides such as on equipment maintenance. Please do not hesitate to get in touch with us if you have questions about our resources, their use, or if you would like to contribute.

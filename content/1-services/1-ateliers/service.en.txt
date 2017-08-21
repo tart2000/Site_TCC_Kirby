@@ -10,21 +10,17 @@ Projecttag: ateliers
 
 ----
 
-Short: Fun + hands-on workshops with a creative-challenge as a means to learn emergent technologies.
+Short: Creative, hands-on workshops on emergent and digital technologies.
 
 ----
 
-Text:
+Text :
 
-ATELIERS is a series of creative-challenge style workshops on emergent technologies and practices. The ultimate goal is to promote techno-cultural literacy and collaboration.
-
-We will lean on the public fascination with emergent technologies, such as 3D printing, as a means for providing techno-cultural literacy. Activities will complement creativity and collaboration with technical learning to appeal to non-geeks. We will host workshops and practice sessions in various Montreal neighbourhoods.
-
-(youtube: https://www.youtube.com/watch?v=M4blAdS6r3Q width: 600 height: 350)
+We design and facilitate creative workshops around emergent technologies for cultural and educational institutions, and more generally, for anyone interested in learning (3D printing, virtual reality, digital fabrication, ...). Experimentation, active learning, and fun all values central to our workshop design, be they in our creative space or elsewhere (libraries, schools, ...). We systematically evaluate our workshops with participant feedback to continue learning from their experiences.
 
 ----
 
-Tags: impression 3D,alphabétisation technologique,collaboration,sprint créatif,amusement,apprentissage,experimentation
+Tags: workshops, technology, digital, creativity, culture, 3D printing, experimentation, active learning
 
 ----
 
