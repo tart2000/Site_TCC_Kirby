@@ -361,7 +361,7 @@ div.feat-div{
   border-style: solid;
   border-width: 10px 0px;
   border-color: #FFFFFF;
-  padding: 15px 0 5px 0;
+  padding: 15px 5px 5px 5px;
 }
 
 a.click-div {
@@ -372,7 +372,7 @@ div.feat-div:hover {
   transition-duration: 1s;
   border-style: solid;
   border-width: 10px 0px;
-  padding: 15px 0 5px 0;
+  padding: 15px 5px 5px 5px;
   border-color: #FFFF00;
   color: #01b2fe;
   /*width: 200px;
