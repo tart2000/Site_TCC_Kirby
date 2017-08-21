@@ -1,0 +1,13 @@
+Title: Partager
+
+----
+
+Menutitle: Partager
+
+----
+
+subtitle: des ressources accessibles et évolutives
+
+----
+
+Text: Techno Culture Club a à coeur de partager des ressources en sources ouvertes pour qu’elles puissent servir et être diffusées au plus grand nombre. Nous mettons à disposition des ressources pratiques, accessibles et évolutives sur différents sujets techno-créatifs. Il s’agit par exemple de guide d’ateliers pouvant être utilisés de manière autonome, de ressources plus techniques sur la maintenance des appareils technos. N’hésitez pas à nous écrire pour contribuer ou si vous avez des questions concernant les ressources.
