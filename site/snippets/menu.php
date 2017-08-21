@@ -21,7 +21,7 @@
         <li><a <?php e($p->isOpen(), ' class="active"') ?>href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a></li>
         <?php endif ?>
         <?php endforeach ?>
-        <li><a href="https://medium.com/techno-culture-club">BLOG <i class="fa fa-external-link"></i></a></li>
+        <li><a href="https://medium.com/techno-culture-club" target="_blank">BLOG <i class="fa fa-external-link"></i></a></li>
         <li><a>|</a></li>
         <!-- Languages -->
         <li class="dropdown">

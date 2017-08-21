@@ -12,9 +12,9 @@
 		  		<div>
 	                <a href="<?php echo $p->url() ?>"><img src="<?php echo $site->url() ?>/assets/images/banner-<?php echo $p->projectTag() ?>.jpg" class="img-responsive"></a>
 	            </div>
-	            <div class="project-header-s center">
-	                <h1><?php echo $p->title() ?></h1>
-	            </div>
+	            <a href="<?php echo $p->url() ?>"><div class="project-header-s center">
+	                <h1 class="left"><?php echo $p->title() ?></h1>
+	            </div></a>
 	            <div class="text">
 	            	<h4><?php echo $p->short()->excerpt(120) ?> <a href="<?php echo $p->url() ?>"><i class="fa fa-arrow-right"></i></a></h4>
 	            </div>
