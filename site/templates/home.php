@@ -22,8 +22,6 @@
     </div><!-- /row -->
   </main>
 
-<script src="<?php echo $site->url() ?>/assets/js/lines.js"></script>
-
 <!-- 3 features (icons + txt) -->
 <div id="features" class="bmt">
   <div class="yellow-spacer center">
