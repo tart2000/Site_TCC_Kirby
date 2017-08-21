@@ -6,11 +6,15 @@ Menutitle: Services
 
 ----
 
-Subtitle: services on emergent practices and technology
+Subtitle: on emergent practices and technology
 
 ----
 
-Text:
+Text: Techno Culture Club creates services for people to aid in initiating change. Our services evolve and adapt to the needs of the techno-cultural community, currently we :
+* We design and facilitate workshops for everyday people.
+* We offer professional training, specifically adapted to their needs.
+* We support and collaborate with the cultural and educational ecosystems in their evolution.
+* We systematically evaluate our services.
 
 ----
 

@@ -1,12 +1,12 @@
-Title: Renforçer
+Title: Services
 
 ----
 
-Menutitle: Renforçer
+Menutitle: Services
 
 ----
 
-Subtitle: par nos services sur les pratiques et technologies émergentes
+Subtitle: sur les nouvelles pratiques et technologies
 
 ----
 
