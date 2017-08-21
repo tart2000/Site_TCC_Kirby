@@ -15,6 +15,7 @@ Short: The beginner’s guide on how to prevent technology from failing
 
 ----
 
+Text:
 
 An article published on [our medium blog](https://medium.com/techno-culture-club) about preventative maintenance for shared fabrication spaces (medialabs, fablabs, makerspaces).
 
