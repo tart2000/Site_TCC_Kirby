@@ -1,0 +1,43 @@
+Title: ABC3D GUIDES
+
+----
+
+Projectlink: http://abc3d.technoculture.club/en
+
+----
+
+Projecttag: abc3d
+
+----
+
+Short: A series of 3D printing workshops guides tested in and designed for libraries.
+
+----
+
+Text:
+
+We tested and documented a series of 3D printing workshops guides ideally suited for libraries, thanks to the support of the [Library Directorate of the city of Montréal](bibliomontreal.com) and the participation of numerous Montreal libraries.
+
+----
+
+Tags: impression 3D,libraries,workshop,discovery,learning,experimentation
+
+----
+
+Fb:
+
+----
+
+Tw:
+
+----
+
+Lien:
+
+----
+
+Titrelien:
+
+----
+
+Textlien:

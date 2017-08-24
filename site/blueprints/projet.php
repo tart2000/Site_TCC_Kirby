@@ -2,8 +2,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Projet
-pages: 
-  template: 
+pages:
+  template:
     - edition
     - poste
 files:
@@ -15,30 +15,30 @@ fields:
       fr: Titre
     type:  text
   projectLink:
-    label: 
+    label:
       en: Link to the project site
       fr: Lien vers le site du projet
-    type: Url 
-    width: 1/2 
+    type: Url
+    width: 1/2
   projectTag:
-    label: 
+    label:
       en: Tag to connect news and events
       fr: Tag pour connecter les news et événements
     type: text
     width: 1/2
-  fb: 
-    label: 
+  fb:
+    label:
       en: Facebook link
       fr: Lien Facebook
-    type: Url 
+    type: Url
     width: 1/2
-  tw: 
-    label: 
+  tw:
+    label:
       en: Twitter link
       fr: Lien Twitter
     type: Url
     width: 1/2
-  short: 
+  short:
     label: Description courte
     type: text
   text:
@@ -47,24 +47,27 @@ fields:
       fr: Texte
     type:  textarea
   tags:
-    label: 
+    label:
       en: Tags
       fr: Tags
     type:  tags
-  lien: 
-    label: 
+  lien:
+    label:
       en: Link to global project
       fr: Lien vers projet global
     type: Url
     width: 1/2
-  titreLien: 
-    label: 
+  titreLien:
+    label:
       en: Link title
-      fr: Titre du lien 
+      fr: Titre du lien
     type: text
     width: 1/2
-  textLien: 
-    label: 
+  textLien:
+    label:
       en: Intro link text
       fr: Texte intro lien
     type: textarea
+  mailchimp:
+    label: Mailchimp listID
+    type: text

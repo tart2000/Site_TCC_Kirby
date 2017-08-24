@@ -3,22 +3,16 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <strong><?php echo page('ateliers')->title() ?></strong></br>
-                <?php foreach (page('ateliers')->children()->visible() as $atelier): ?>
-                    <a href="<?php echo $atelier->url() ?>"><?php echo $atelier->title() ?></a></br>
-                <?php endforeach ?>
-
-                </br>
-                <strong><?php echo page('projets')->title() ?></strong></br>
-                <?php foreach (page('projets')->children()->visible() as $atelier): ?>
-                    <a href="<?php echo $atelier->url() ?>"><?php echo $atelier->title() ?></a></br>
-                <?php endforeach ?>
-
+              <p>
+              <?php foreach($pages->visible() as $p): ?>
+              <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a></br>
+              <?php endforeach ?>
+              </p>
             </div>
 
 
             <div class="col-sm-2 col-sm-offset-1">
-                <a href="http://technoculture.club" target="_blank"><img src="/assets/images/logo_TCC_M.png" class="img-responsive"></a>
+                <a href="http://technoculture.club" target="_blank"><img src="/assets/images/logo_TCC_M.png" class="img-responsive center-block" style="max-height:150px;"></a>
                 <div class="social center mt">
                     <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
                     <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>
@@ -26,7 +20,7 @@
                 </div>
             </div>
             <div class="col-sm-4 col-sm-offset-1 right">
-                <strong>Contact</strong>
+                <strong><a href="contact">Contact</a></strong>
                 <p>Techno Culture Club<br>
                 2275 boul Saint-Joseph E #1.120<br>
                 Montréal, QC</p>

@@ -13,7 +13,3 @@ FeaturesTitle: Ce que nous faisons ...
 ----
 
 Newsletter: La Bulletin Techno Culture Club formidable, même si irrégulière, pourrait être dans votre boîte de réception ...
-
-----
-
-Header: Some text

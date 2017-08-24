@@ -1,0 +1,48 @@
+Title: Formation PRO
+
+----
+
+Projectlink:
+
+----
+
+Projecttag: formationpro
+
+----
+
+Short: Professional development designed to instigate change.
+
+----
+
+Text:
+
+We have designed (and continue to develop made to measure) professional development workshops around emergent practices and technologies. Our trainings evolve with user feedback and are adapted to the realities or challenges of each group. We include relevant and specific content, support documents, and creative situational experiences for participants to practice applying new information. Additionally, we create collaborative learning moments and highlight people-centred possibilities for emergent practices and technologies.
+Specifically, we facilitate learning around the following themes:
+* The use and utility of emergent technologies (3D printing, virtual reality, ...)
+* The contexts and cultures surrounding the above (for example, maker culture)
+* The possibilities these offer to your spaces and public : how to make use of these emergent practices and technologies in your environment?
+* The approaches to designing experiences and programming for your spaces and with your equipment
+
+----
+
+Tags: professional development, made-to-measure, emergent technologies and practices, creativity, change, situational practice, makerspaces, fablab, medialab, collaboration
+
+----
+
+Fb:
+
+----
+
+Tw:
+
+----
+
+Lien:
+
+----
+
+Titrelien:
+
+----
+
+Textlien:

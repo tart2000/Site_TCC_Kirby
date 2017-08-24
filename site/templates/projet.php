@@ -9,6 +9,7 @@
   <div class="row">
     <div class="col-md-8">
       <?php if ($page->images() != '') : ?>
+        <?php if ($page->images()->length() > 1) : ?>
         <!-- Carousel -->
         <div id="project-carousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -40,6 +41,17 @@
           </a>
         </div>
         <!-- end carousel -->
+        <?php else : ?>
+        <!-- single image -->
+        <div id="project-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="<?php echo $page->images()->flip()->first()->url() ?>" alt="<?php echo $page->title()->html() ?>">
+            </div>
+          </div>
+        </div>
+        <!-- end single image -->
+        <?php endif ?>
       <?php endif ?>
 
       <!-- Texte de la page -->
@@ -47,22 +59,36 @@
         <h3><?php echo $page->short() ?></h3>
         <?php echo $page->text()->kirbytext() ?>
       </div>
-    </div>
+
+      <!-- navigation -->
+      <div class="col-md-12">
+        <nav class="" role="navigation">
+          <ul class="pager">
+            <?php if($page->hasPrevVisible() && $prev = $page->prev()): ?>
+            <li class="previous"><a href="<?php echo $prev->url() ?>">&larr; <?php echo l::get('previous') ?></a></li>
+            <?php endif ?>
+            <?php if($page->hasNextVisible() && $next = $page->next()): ?>
+            <li class="next"><a href="<?php echo $next->url() ?>"><?php echo l::get('next') ?> &rarr;</a></li>
+            <?php endif ?>
+          </ul>
+        </nav>
+      </div>
+    </div><!-- 1ere colonne -->
 
     <!-- 2ème colonne -->
     <div class="col-md-4">
-      <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="/assets/images/<?php echo $page->projectTag() ?>.png" class="img-responsive pb"></a>
+      <a href="<?php echo $page->projectLink() ?>" target="_blank"><img src="<?php echo $fname ?>" class="img-responsive pb center-block" style="max-height:250px"></a>
       <!-- icones sociales du projet -->
-      <div class="mt">
+      <div class="mt right mr">
         <?php if ($page->fb() != '') : ?>
-          <a href="<?php echo $page->fb() ?>" target="_blank"><i class="fa fa-2x fa-facebook right mr"></i></a>
+        <button type="button" class="btn btn-round btn-default" aria-label="Facebook link"><a href="<?php echo $page->fb() ?>" target="_blank"><i class="fa fa fa-facebook" aria-hidden="true"></i></a></button>
         <?php endif ?>
         <?php if ($page->tw() != '') : ?>
-          <a href="<?php echo $page->tw() ?>" target="_blank"><i class="fa fa-2x fa-twitter right mr"></i></a>
-        <?php endif ?>
-        <?php if ($page->projectLink() != '') : ?>
-          <a href="<?php echo $page->projectLink() ?>" target="_blank" class="right"><i class="fa fa-external-link fa-2x mr"></i></a>
-        <?php endif ?>
+        <button type="button" class="btn btn-default btn-round" aria-label="Twitter link"><a href="<?php echo $page->tw() ?>" target="_blank"><i class="fa fa fa-twitter" aria-hidden="true"></i></a></button>
+      <?php endif ?>
+      <?php if ($page->projectLink() != '') : ?>
+        <button type="button" class="btn btn-round btn-default" aria-label="External link" style="vertical-align:middle;"><a href="<?php echo $page->projectLink() ?>" target="_blank" class="right"><i class="fa fa-external-link fa" aria-hidden="true"></i> <?php echo l::get('project-page-link') ?></span></a></button>
+      <?php endif ?>
       </div>
       <div class="clearfix"></div>
 
@@ -87,15 +113,15 @@
           <?php endforeach ?>
       <?php endif ?>
 
-      <!-- evenements -->
-      <?php if (page('evenements')->children()->filterBy('connect',$thetag,',') != '') : ?>
+      <!-- editions -->
+      <?php if ($page->children()->filterBy('connect',$thetag,',') != '') : ?>
         <hr>
         <strong>Archives</strong></br>
-        <?php foreach (page('evenements')->children()->filterBy('connect',$thetag,',') as $evenement) : ?>
-        <a href="<?php echo $evenement->url() ?>">Retour sur <?php echo $evenement->title() ?></a></br>
-        <p><?php echo $evenement->dates() ?> <?php echo $evenement->year() ?> - <?php echo $evenement->participants() ?> participants<br>
-        <a href="<?php echo $evenement->url() ?>" class="right"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
-        <a href="<?php echo $evenement->placeLink() ?>" target="_blank"><?php echo $evenement->place() ?></a></p>
+        <?php foreach ($page->children()->filterBy('connect',$thetag,',') as $retour) : ?>
+        <a href="<?php echo $retour->url() ?>">Retour sur <?php echo $retour->title() ?></a></br>
+        <p><?php echo $retour->dates() ?> <?php echo $retour->year() ?> - <?php echo $retour->participants() ?> participants<br>
+        <a href="<?php echo $retour->url() ?>" class="right"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
+        <a href="<?php echo $retour->placeLink() ?>" target="_blank"><?php echo $retour->place() ?></a></p>
         <div class="clearfix"></div>
         <?php endforeach ?>
       <?php endif ?>
@@ -136,9 +162,6 @@
 
     </div> <!-- end 2ème colonne -->
   </div> <!-- end row -->
-
-
-
 
 </main>
 

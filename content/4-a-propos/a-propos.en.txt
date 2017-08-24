@@ -2,6 +2,10 @@ Title: About Us
 
 ----
 
+Menutitle: About Us
+
+----
+
 Url-key: about
 
 ----

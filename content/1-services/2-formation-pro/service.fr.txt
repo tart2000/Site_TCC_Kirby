@@ -1,0 +1,48 @@
+Title: Formation PRO
+
+----
+
+Projectlink:
+
+----
+
+Projecttag: formationpro
+
+----
+
+Short: Formations professionnelles instigatrices de changement.
+
+----
+
+Text:
+
+Nous avons créé (et développons encore sur mesure) des formations professionnelles autour des technologies et pratiques émergentes. Celles-ci sont en permanente évolution et  adaptées à vos problématiques et vos réalités professionnelles. Elles se composent de contenus spécifiques et de documents ainsi que de mises en situation pratiques créatives. Dynamiques et flexibles, nous créons des environnements d’apprentissages collaboratifs centrés sur l’humain et favorisant la capacité à agir en tirant profit des transformations technologiques actuelles.
+Nous travaillons notamment autour des thématiques suivantes :
+* Les usages et utilisations des technologies émergentes (impression 3D, réalité virtuelle, etc)
+* Les cultures auxquelles elles se rattachent (culture maker)
+* Les nouvelles possibilités qu’elles offrent dans votre milieu : comment exploiter au mieux le potentiel de ces technologies dans vos milieux ?
+* Les approches pour animer, faire vivre et utiliser l’équipement dans vos espaces
+
+----
+
+Tags: formations professionnelles, sur mesure, technologies et pratiques émergentes, créativité, changement, mises en situation, makerspaces, fablab, medialab, collaboration
+
+----
+
+Fb:
+
+----
+
+Tw:
+
+----
+
+Lien:
+
+----
+
+Titrelien:
+
+----
+
+Textlien:

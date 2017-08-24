@@ -2,9 +2,9 @@
 
 l::set('plus', 'Discover more...');
 l::set('coming-up', 'Coming up');
-l::set('all-events','See all the events');
-l::set('all-projects','See all the projects');
-l::set('all-ateliers','See all the workshops');
+l::set('all-projects','See all our projects');
+l::set('all-services','See all our services');
+l::set('all-resources','See all our resources');
 l::set('submit','Submit');
 l::set('signup','Sign me up!');
 l::set('made','Made with');
@@ -18,5 +18,7 @@ l::set('see','Check it out');
 l::set('cookie-message',"This website uses cookies to ensure you get the best experience on our website");
 l::set('cookie-dismiss',"Got it!");
 l::set('cookie-learn-more',"More info");
-
+l::set('project-page-link','Project page');
+l::set('previous','Previous');
+l::set('next','Next');
 ?>

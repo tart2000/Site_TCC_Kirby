@@ -22,8 +22,6 @@
     </div><!-- /row -->
   </main>
 
-<script src="<?php echo $site->url() ?>/assets/js/lines.js"></script>
-
 <!-- 3 features (icons + txt) -->
 <div id="features" class="bmt">
   <div class="yellow-spacer center">
@@ -52,16 +50,12 @@
 
 </div>
 
-<?php snippet('ateliers_carousel') ?>
-
-<?php snippet('evenements') ?>
+<?php snippet('services_carousel') ?>
 
 <?php snippet('projets_carousel') ?>
 
+<?php snippet('ressources_carousel') ?>
+
 <?php snippet('newsletter') ?>
-
-
-<script src="<?php echo $site->url() ?>/assets/js/svg.min.js"></script>
-<script src="<?php echo $site->url() ?>/assets/js/helpers.js"></script>
 
 <?php snippet('footer') ?>

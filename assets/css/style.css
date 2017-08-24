@@ -94,6 +94,10 @@ h2 {
 }
 .btn, .input-lg {
   border-radius: 0px;
+  vertical-align: middle;
+}
+.btn-round{
+border-radius: 17px;
 }
 .center {
   text-align: center;
@@ -282,7 +286,6 @@ svg:not(:root) {
 }
 .carousel .item {
   height: auto;
-  min-height: 500px;
 }
 .carousel-caption {
   position: inherit;
@@ -291,6 +294,7 @@ svg:not(:root) {
   padding-top: 40px;
   padding-bottom: 20px;
 }
+
 .flag {
   position: absolute;
   right: 20px;
@@ -357,7 +361,7 @@ div.feat-div{
   border-style: solid;
   border-width: 10px 0px;
   border-color: #FFFFFF;
-  padding: 15px 0 5px 0;
+  padding: 15px 15px 5px 15px;
 }
 
 a.click-div {
@@ -368,7 +372,7 @@ div.feat-div:hover {
   transition-duration: 1s;
   border-style: solid;
   border-width: 10px 0px;
-  padding: 15px 0 5px 0;
+  padding: 15px 15px 5px 15px;
   border-color: #FFFF00;
   color: #01b2fe;
   /*width: 200px;
@@ -429,6 +433,7 @@ Project page
   padding: 5px;
   padding-right: 10px;
   padding-left: 10px;
+  margin-right: 15px;
 }
 .project-page {
   padding-top: 30px;
