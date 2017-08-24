@@ -58,8 +58,4 @@
 
 <?php snippet('newsletter') ?>
 
-
-<script src="<?php echo $site->url() ?>/assets/js/svg.min.js"></script>
-<script src="<?php echo $site->url() ?>/assets/js/helpers.js"></script>
-
 <?php snippet('footer') ?>
