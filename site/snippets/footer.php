@@ -23,7 +23,7 @@
                 <strong><a href="contact">Contact</a></strong>
                 <p>Techno Culture Club<br>
                 2275 boul Saint-Joseph E #1.120<br>
-                Montréal, QC</p>
+                Montréal, QC, H2H 1G4</p>
                 <div class="clearfix"></div>
                 <strong>Code</strong><br>
                 <p><?php echo l::get('made') ?> <a href="http://getkirby.com">Kirby</a>

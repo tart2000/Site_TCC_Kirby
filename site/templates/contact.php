@@ -38,7 +38,7 @@
 
             <p>Techno Culture Club<br>
             2275 boul Saint-Joseph E #1.120<br>
-            Montréal, QC</p>
+            Montréal, QC, H2H 1G4</p>
 
             <p><strong>Email</strong><br>
             <a href="mailto:boygeorge@technoculture.club" target="_blank"><?php echo $page->email() ?></a></p>
