@@ -12,5 +12,5 @@ Header:
 
 Text:
 
-<iframe src="https://drive.google.com/file/d/0B7RDnEcTPS2mdUVBSm9pdURMN28/preview" width="640" height="480"></iframe>
-<p><a href="https://drive.google.com/open?id=0B7RDnEcTPS2mdUVBSm9pdURMN28">Télécharger (PDF, 92KB)</a></p>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vSUxNvU-LpNCGu0sk62O5jBORp2uuC4_T2TTjrslwqtyK4s-dqB0a32Ecgu9bLiN7PIxS6SkhQQvzl2/pub?embedded=true" width="640" height="480"></iframe>
+<p><a href="https://drive.google.com/open?id=0B7RDnEcTPS2mZVVGOF9fdjdMR0E">Télécharger (PDF, 115KB)</a></p>
