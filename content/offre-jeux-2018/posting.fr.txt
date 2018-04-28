@@ -1,0 +1,23 @@
+Title: Poste contractuel : Animateur.rice d'ateliers en conception de jeux
+----
+
+Url-key: offre-jeux-2018
+
+----
+
+Header:
+
+----
+
+Text:
+
+<iframe src="https://drive.google.com/file/d/1IWfeHHiOritk0DnwMEk-J85wyzgOa94H/preview" width="640" height="480"></iframe>
+<p><a href="https://drive.google.com/uc?export=download&id=1IWfeHHiOritk0DnwMEk-J85wyzgOa94H">Télécharger (PDF, 97KB)</a></p>
+
+<h3>Pour postuler :</h3>
+<ul>
+<li>Veuillez remplir <a href="https://goo.gl/forms/fmmYJIoxX3x7zAzj2">ce formulaire en ligne</a> <strong>avant minuit le 3 mars 2018</strong>.</li>
+<li>Dans le formulaire, joindre votre CV en format PDF (en français ou en anglais, selon votre préférence).</li>
+</ul>
+<p>Si vous avez des questions ou besoin d’assistance avec le formulaire en ligne, n’hésitez pas à nous contacter à <a href="mailto:boygeorge@technoculture.club?Subject=Poste%20Conception%20Jeux" target="_top">boygeorge@technoculture.club</a>.</p>
+<p>Nous examinerons les demandes de façon continue. Nous remercions d’avance pour vos candidatures mais seul.e.s les candidat.e.s retenu.e.s seront contacté.e.s pour une entrevue.</p>

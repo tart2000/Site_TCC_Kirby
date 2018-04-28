@@ -1,0 +1,24 @@
+Title: Permanent, part-time position: Code Project Officer
+
+----
+
+Url-key: offre-code-2018
+
+----
+
+Header:
+
+----
+
+Text:
+
+<iframe src="https://drive.google.com/file/d/1oPhd-6GR9REsoGUlhygUk9IVuyTxJdrx/preview" width="640" height="480"></iframe>
+<p><a href="https://drive.google.com/uc?export=download&id=1oPhd-6GR9REsoGUlhygUk9IVuyTxJdrx">Download (PDF, 96KB)</a></p>
+
+<h3>To apply:</h3>
+<ul>
+<li>Please submit a completed online application <a href="https://goo.gl/forms/nfjw1NyH2mQvBg8x2">using this form</a> <strong>before midnight, March 3rd, 2018</strong>.</li>
+<li>In the online application, please attach your CV as a PDF (in english or french, as you prefer).</li>
+</ul>
+<p>If you have questions or require assistance with the online form, please do not hesitate to contact us at <a href="mailto:boygeorge@technoculture.club?Subject=Position%20Code%20Project" target="_top">boygeorge@technoculture.club</a>.</p>
+<p>We will review applications on an ongoing basis. While we thank you for your application, only candidates chosen for an interview will be contacted.</p>
