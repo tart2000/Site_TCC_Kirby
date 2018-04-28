@@ -12,5 +12,5 @@ Header:
 
 Text:
 
-<iframe src="https://drive.google.com/file/d/0B7RDnEcTPS2mdUVBSm9pdURMN28/preview" width="640" height="480"></iframe>
-<p><a href="https://drive.google.com/open?id=0B7RDnEcTPS2mdUVBSm9pdURMN28">Download (PDF, 92KB)</a></p>
+<iframe src="https://drive.google.com/file/d/1vEp2nyUDceplb211HP35G6NzSdRLDyxL/preview" width="640" height="480"></iframe>
+<p><a href="https://drive.google.com/uc?export=download&id=1vEp2nyUDceplb211HP35G6NzSdRLDyxL">Download (PDF, 114KB)</a></p>
