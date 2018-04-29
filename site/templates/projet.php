@@ -6,6 +6,7 @@
 
 
 <main class="container">
+  <?php snippet('breadcrumb') ?>
   <div class="row">
     <div class="col-md-8">
       <?php if ($page->images() != '') : ?>

@@ -6,6 +6,7 @@
 
 
 <main class="container">
+  <?php snippet('breadcrumb') ?>
   <div class="row">
     <!--title and subtitle and CTA left column-->
     <div class="col-md-4">

@@ -17,22 +17,22 @@
       </div>
       <div class="col-md-6 col-md-offset-1 col-sm-6 left bmt">
         <h3><?php echo $page->text()->kirbytext() ?></h3>
-        <a href="/a-propos/" class="btn btn-theme"><?php echo l::get('plus') ?></a>
+        <a href="/a-propos/" class="underline"><?php echo l::get('plus') ?></a>
       </div>
     </div><!-- /row -->
   </main>
 
 <!-- 3 features (icons + txt) -->
 <div id="features" class="bmt">
-  <div class="yellow-spacer center">
-  	<h1><?php echo $page->featurestitle()->kirbytext() ?></h1>
+  <div class="center">
+  	<h1><?php echo $page->featurestitle()->text() ?></h1>
   </div>
 
   <div class="row bmt">
     <div class="visible-md visible-lg col-md-3"></div>
     <?php foreach($pages->visible()->limit(3) as $p): ?>
     <a class="click-div" href="<?php echo $p->url() ?>">
-      <div class="col-xs-12 col-sm-4 col-md-2 center feat-div">
+      <div class="col-xs-12 col-sm-4 col-md-2 center feat-div glow">
         <?php $images = $p->images();
           $pngimg = $images->findBy('extension','png');
           if($pngimg):
@@ -50,12 +50,20 @@
 
 </div>
 
-<?php snippet('services_carousel') ?>
+<div class="gray-block">
+  <?php snippet('services_carousel') ?>
+</div>
 
-<?php snippet('projets_carousel') ?>
+<div class="gray-block">
+  <?php snippet('projets_carousel') ?>
+</div>
 
-<?php snippet('ressources_carousel') ?>
+<div class="gray-block">
+  <?php snippet('ressources_carousel') ?>
+</div>
 
-<?php snippet('newsletter') ?>
+<div class="yellow-block">
+  <?php snippet('newsletter') ?>
+</div>
 
 <?php snippet('footer') ?>

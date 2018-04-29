@@ -16,7 +16,7 @@
     		<?php if ($page->toi() != '') : ?>
     			<h3>Tu es</h3>
     			<?php echo $page->toi()->kirbytext() ?>
-    		<?php endif ?>	
+    		<?php endif ?>
     		<?php if ($page->mission() != '') : ?>
     			<h3>Mission</h3>
     			<?php echo $page->mission()->kirbytext() ?>

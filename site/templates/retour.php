@@ -2,6 +2,7 @@
 <?php snippet('menu') ?>
 
   <main class="container bmt">
+    <?php snippet('breadcrumb') ?>
         <div class="row center">
             <h2><a href="<?php echo $page->url() ?>"><?php echo $page->title()->html() ?></a></h2>
         </div>

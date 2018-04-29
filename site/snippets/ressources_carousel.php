@@ -1,9 +1,7 @@
-<div class="colour-block purple-bg bmt"></div>
-<div class="yellow-narrow-spacer center">
+<div class="center pb">
 	<h1><?php echo page('ressources')->title() ?></h1>
 	<h4><?php echo page('ressources')->subtitle() ?></h4>
 </div>
-<div class="colour-block purple-bg bmb"></div>
 
 <div class="container bmb">
 	<div clas="row">
@@ -23,6 +21,6 @@
 	</div>
 	<div class="clearfix"></div>
 	<div class="row center">
-		<a href=<?php echo page('ressources')->url() ?> class="btn btn-theme"><?php echo l::get('all-resources') ?></a>
+		<a href=<?php echo page('ressources')->url() ?> class="underline lg"><?php echo l::get('all-resources') ?> <i class="fa fa-arrow-right"></i></a>
 	</div>
 </div>

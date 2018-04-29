@@ -16,6 +16,7 @@
                 <div class="social center mt">
                     <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook fa-2x mr"></i></a>
                     <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter fa-2x mr"></i></a>
+                    <a href="<?php echo $site->instagram() ?>"><i class="fa fa-instagram fa-2x mr"></i></a>
                     <a href="<?php echo $site->linkedin() ?>"><i class="fa fa-linkedin fa-2x"></i></a>
                 </div>
             </div>

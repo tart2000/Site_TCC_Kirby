@@ -1,6 +1,8 @@
 <?php snippet('head') ?>
 <?php snippet('menu') ?>
+
 <main class="container bmt">
+  <?php snippet('breadcrumb') ?>
   <div class="text lg">
     <h1><?php echo $page->title()->html() ?></h1>
     <?php echo $page->text()->kirbytext() ?>
@@ -28,9 +30,9 @@
       <div class="text-proj">
         <h4><?php echo $project->short() ?></h4>
         <?php echo $project->text()->excerpt(200) ?>
+        <a href="<?php echo $project->url() ?>" class="underline"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
         <div class="clearfix"></div>
-        <a href="<?php echo $project->url() ?>" class="right btn btn-theme"><?php echo l::get('see') ?> <i class="fa fa-arrow-right"></i></a>
-      </div>
+        </div>
     </div>
     <div class="clearfix"></div>
     <div class="col-md-12">
@@ -38,7 +40,6 @@
     </div>
   </div>
   <?php endforeach ?>
-
 </main>
 
 <?php snippet('footer') ?>

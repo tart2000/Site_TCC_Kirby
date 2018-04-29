@@ -24,18 +24,13 @@
         <li><a href="https://medium.com/techno-culture-club" target="_blank">BLOG <i class="fa fa-external-link"></i></a></li>
         <li><a>|</a></li>
         <!-- Languages -->
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#"><?php echo $site->language()->code() ?></a>
-          <ul class="dropdown-menu" role="menu">
-              <?php foreach($site->languages() as $language): ?>
-              <li<?php e($site->language() == $language, ' class="active"') ?>>
-                  <a href="<?php echo $page->url($language->code()) ?>">
-                    <?php echo html($language->name()) ?>
-                  </a>
-              </li>
-              <?php endforeach ?>
-           </ul>
-        </li>
+        <?php foreach($site->languages() as $language): ?>
+          <?php if($site->language() != $language): ?>
+            <li><a href="<?php echo $page->url($language->code()) ?>">
+                  <?php echo html($language->name()) ?></a></li>
+          <?php endif ?>
+        <?php endforeach ?>
+        <!-- end languages -->
 
       </ul>
     </div><!--/.nav-collapse -->

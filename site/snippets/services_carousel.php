@@ -1,9 +1,7 @@
-<div class="colour-block cyan-bg bmt"></div>
-<div class="yellow-narrow-spacer center">
+<div class="center pb">
 	<h1><?php echo page('services')->title() ?></h1>
 	<h4><?php echo page('services')->subtitle() ?></h4>
 </div>
-<div class="colour-block cyan-bg bmb"></div>
 
 <div class="container bmb">
 	<div clas="row">
@@ -23,6 +21,6 @@
 	</div>
 	<div class="clearfix"></div>
 	<div class="row center">
-		<a href=<?php echo page('services')->url() ?> class="btn btn-theme"><?php echo l::get('all-services') ?></a>
+		<a href=<?php echo page('services')->url() ?> class="underline lg"><?php echo l::get('all-services') ?> <i class="fa fa-arrow-right"></i></a>
 	</div>
 </div>

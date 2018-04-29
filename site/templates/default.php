@@ -2,6 +2,7 @@
 <?php snippet('menu') ?>
 
   <main class="container">
+    <?php snippet('breadcrumb') ?>
 
     <div class="text">
       <h1><?php echo $page->title()->html() ?></h1>

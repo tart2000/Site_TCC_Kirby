@@ -1,7 +1,6 @@
 <?php snippet('head') ?>
 <?php snippet('menu') ?>
 
-
 <div class="container bmt">
   <img class="img-responsive" style="width:100%" width="640px" src="http://maps.googleapis.com/maps/api/staticmap?center=2275+boul+Saint-Joseph+E,+Montreal,+QC&zoom=15&scale=2&size=640x180&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xffff00%7Clabel:%7C2275+boul+Saint-Joseph+E,+Montreal,+QC&key=AIzaSyBRyCf8uEuub9lPQV98G_sI1Qkn7EwlPlg" alt="Google Map of 2275 boul Saint-Joseph E, Montreal, QC">
     <div class="row">
