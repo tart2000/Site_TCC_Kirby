@@ -14,4 +14,4 @@ subtitle: Join our team!
 
 ----
 
-Text: 
+Text:

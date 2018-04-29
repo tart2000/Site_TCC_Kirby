@@ -2,11 +2,11 @@ Title: Animateur.trice d'ateliers
 
 ----
 
-Url-key: workshop-facilitator-201702
+Url-key: animatrice-ateliers-201711
 
 ----
 
-Header:
+Header: 
 
 ----
 
@@ -38,4 +38,4 @@ Short: On cherche un.e artiste numérique / graphiste souhaitant animer des atel
 
 ----
 
-Text:
+Text: 
