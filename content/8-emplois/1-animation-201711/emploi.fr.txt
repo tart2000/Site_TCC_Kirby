@@ -6,10 +6,6 @@ Url-key: animatrice-ateliers-201711
 
 ----
 
-Header: 
-
-----
-
 Position-type: temps partiel
 
 ----
@@ -18,7 +14,7 @@ Startdate: 2017-11-01
 
 ----
 
-Enddate: 2018-12-02
+Enddate: 2017-12-02
 
 ----
 
@@ -38,4 +34,4 @@ Short: On cherche un.e artiste numérique / graphiste souhaitant animer des atel
 
 ----
 
-Text: 
+Text:
