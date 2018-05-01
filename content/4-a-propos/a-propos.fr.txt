@@ -10,31 +10,23 @@ Header:
 
 Le Techno Culture Club crée des contextes d’échange, de création et d’expérimentation au croisement de la culture et de la technologie.
 
-
-C'est une communauté d'intérêts ouverte, dans laquelle n'importe qui peut proposer un projet.
-
 ----
 
 Text:
 
-###Vision
-La révolution numérique n’est pas (qu’)une révolution technologique : c’est une révolution culturelle. Nous définissons la culture comme un ensemble de manifestations, créations et réalisations humaines, impliquant le savoir technologique. La démocratisation et diffusion croissante du numérique et des technologies de l’information et des communications ont modifié les usages et pratiques des individus comme celles des institutions, y compris dans la sphère culturelle et artistique. Nous assistons a un momentum où l’accès technologique demeure un enjeu majeur, au risque de voir se créer une fracture entre les communautés professionnelles, le milieu de l’industrie du numérique et des TIC et la société civile. Parmi les communautés porteuses de ce changement, Techno Culture Club s’engage à oeuvrer à l’accès et l’appropriation du numérique par tous les citoyens et citoyennes.
+###Mission
+Techno Culture Club (TCC) est un organisme à but non-lucratif qui favorise la participation active des communautés à la culture en soutenant le développement de nouvelles pratiques et utilisations des technologies au sein du secteur culturel.
 
-Au travers l’arrimage du progres technologique au champ social, Techno Culture Club (TCC) reconnaît la capacité de chacun, notamment au travers de projets innovants et transversaux tel que MUSÉOMIXmtl, à participer activement à cette révolution culturelle. Au-delà, TCC s’inscrit dans un mouvement fondé sur de nouvelles dynamiques partenariales et participe à des modèles de réalisation innovants impliquants tous les acteurs de la société : milieux corporatif et indutriel, institutionel, culturel et social.
+Nous animons des activités techno-créatives, accompagnons les professionnels par des formations et des ressources, impliquons activement le public dans ces nouveaux espaces que sont les médialabs et les fablabs, organisons des foires-ateliers de découverte technologique et des sprints créatifs, concevons et mettons en oeuvre des projets participatifs pour créer de nouvelles expériences culturelles.
 
-Dans son ADN, Techno Culture Club s'inspire :
+Dans un contexte d’effervescence autour de la culture numérique, nous utilisons l’expérimentation, la collaboration et des usages créatifs des technologies pour soutenir le développement d’un secteur culturel centré sur les besoins de la communauté. Par ces approches, nous apportons ainsi une perspective critique sur le rôle grandissant de la technologie dans la culture et la société. Nos actions et notre volonté de cultiver la participation active, l’inclusion, l’accessibilité et l’agentivité des communautés au sein des institutions illustrent parfaitement notre mantra : *« People re-make institutions »* !
 
-- des fablabs et de la communauté maker plus largement
-- des modèles d’organisation des communautés open-source web, comme Wordpress, Linux ou Drupal
-- du mouvement des ‘communs’
-- de ‘l’urbanisme tactique’
-
-###Domaines d'intérêt :
+###Domaines d'intérêt et champs d'action :
 
 - les espaces culturels (musées, bibliothèques, etc.)
+- justice numérique
 - l'éducation et l'apprentissage
 - la ville et l'espace urbain
-- l'innovation sociale
 - les nouveaux médias et nouvelles formes narratives
 
 ###Historique
@@ -44,5 +36,6 @@ D’autres événements créatifs sur le modèle de Museomix, des ateliers d’a
 
 ****
 
-### Partenaires
-(image:pipedrive_logo.png link: http://pipedrive.com width:150)
+### Partenaires financiers
+(image:QUEBw3.gif link: http://www.mcc.gouv.qc.ca/ width:200) (image:PME_CentreVille.png link: https://pmemtl.com/ width:100)
+(image:PRM_soutenupar.jpg link: http://ville.montreal.qc.ca/pls/portal/url/page/arrond_pmr_fr/accueil width:200)

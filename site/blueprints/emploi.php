@@ -25,7 +25,7 @@ fields:
       en: Display start date
       fr: Date de début d'affichage
     type:  text
-  startdate:
+  enddate:
     label:
       en: Application deadline
       fr: Date limite d'inscription

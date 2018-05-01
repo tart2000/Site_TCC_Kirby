@@ -14,30 +14,24 @@ Header:
 
 Techno Culture Club creates opportunities for exchange, creativity and experimentation at the intersection of culture and technology.
 
-It is a community open to new ideas and which welcomes anyone to propose new projects.
-
 ----
 
 Text:
 
-###Vision
-The digital revolution is more than (just) a technological revolution: it is a cultural revolution. We define culture as the collection of manifestations, creations and human achievements, thus including technology. The democratisation and growing access to digital, information and communication technolgies (ICT) have profoundly changed our activities and interactions, including within the cultural and artistic spheres. We are witnessing a moment at which technology accessibility is still a major issue, and at risk of the divide widening between the professional communities & ICT sectors, and the civil society. Among other communities bridging the divide, Techno Culture Club is committed to working towards the technological literacy and appropriation of digital skills by all citizens.
+###Mission
 
-Techno Culture Club (TCC) labours for societal inclusion in technological progress, particularly through innovative and multi-disciplinary projects such as MUSÉOMIXmtl. We recognize the ability of everyone to participate actively in this cultural revolution. TCC is also a movement, based on creative partnerships and innovative methods for bringing the many societal actors: the corporate and indutrial sectors, and both the cultural and social institutions.
+Techno Culture Club (TCC) is a non-profit organization which fosters active community participation in culture by supporting the development of new practices and uses of technology in the cultural sector.
 
-At its core, TCC is inspired by:
+We facilitate creative technology activities, support professionals with training and resources, engage users in digital media and fabrication labs, produce technology-discovery fairs and creative sprints, and design and implement novel participatory and cultural experiences.
 
-- fablabs and the maker community at large
-- organizational models of the open-source web communities, like Wordpress, Linux or Drupal
-- the movement of the *commons*
-- tactical urbanism
+During this moment of effervescence for digital culture, we practice experimentation, collaboration and creative uses of technologies to support a community-centred development of the cultural sector. Through our activities, we continue to engage critically with technology’s expanding role in culture and society. Our mantra is *people re-make institutions* – our actions nurture the active participation, connectedness, understanding, and agency of communities in these spaces.
 
-###Areas of interest :
+###Areas of interest & action :
 
 - cultural spaces (museums, libraries, etc.)
+- digital justice
 - education and learning
 - the city and urban spaces
-- social innovation
 - new media and new forms of storytelling
 
 ###History
@@ -45,5 +39,6 @@ Techno Culture Club was born following the first edition of Museomix in Montreal
 
 ****
 
-### Sponsors
-(image:pipedrive_logo.png link: http://pipedrive.com width:150)
+### Funding partners
+(image:QUEBw3.gif link: http://www.mcc.gouv.qc.ca/ width:200) (image:PME_CentreVille.png link: https://pmemtl.com/ width:100)
+(image:PRM_soutenupar.jpg link: http://ville.montreal.qc.ca/pls/portal/url/page/arrond_pmr_fr/accueil width:200)

@@ -14,7 +14,7 @@ subject: Subject
 
 ----
 
-Text: 
+Text:
 You may use this form to get in touch with us.
 We'll get back to you very soon.
 Thanks ;)

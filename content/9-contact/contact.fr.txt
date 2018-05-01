@@ -14,10 +14,10 @@ subject: Sujet
 
 ----
 
-Text: 
+Text:
 
-Vous pouvez utiliser le formulaire ci-dessous pour nous contacter. 
-Nous vous répondrons dans les plus brefs délais. 
+Vous pouvez utiliser le formulaire ci-dessous pour nous contacter.
+Nous vous répondrons dans les plus brefs délais.
 Merci ;)
 
 ----

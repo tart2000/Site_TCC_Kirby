@@ -15,7 +15,7 @@
     ->children()
     ->visible()
     ->filter(function($child) {
-      return $child->date(null, 'startdate') < time() && $child->date(null, 'enddate') > time();
+      return $child->date(null, 'startdate') <= time() && $child->date(null, 'enddate') >= time();
     });
    ?>
   <?php foreach ($jobs as $subpage) : ?>

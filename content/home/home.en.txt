@@ -4,11 +4,11 @@ Title: Home
 
 Text:
 
-Techno Culture Club invents the cultural practices of the 21st century with institutions and their audiences.
+Techno Culture Club fosters active community participation in culture by supporting the development of new practices and uses of technology.
 
 ----
 
-FeaturesTitle: What we make
+FeaturesTitle:
 
 ----
 
