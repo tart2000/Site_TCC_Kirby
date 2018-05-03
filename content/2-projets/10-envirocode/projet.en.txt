@@ -1,0 +1,44 @@
+
+Title: Coding for the environment
+
+----
+
+Projectlink:
+
+----
+
+Projecttag: envirocode
+
+----
+
+Short: Coding for the environment and citizen science. An experimentation project in schools to create teacher-guides and activities with micro:bits.
+
+----
+
+Text:
+
+More info coming soon...
+
+----
+
+Tags: environment, citizen science, code, programming, micro:bits, school projects
+
+----
+
+Fb:
+
+----
+
+Tw:
+
+----
+
+Lien:
+
+----
+
+Titrelien:
+
+----
+
+Textlien:
