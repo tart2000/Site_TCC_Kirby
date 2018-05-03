@@ -9,41 +9,46 @@ fields:
       en: Title
       fr: Titre
     type:  text
+  menutitle:
+    label:
+      en: Title in top navigation bar
+      fr: Titre dans la barre de navigation supérieure
+    type: text
   author:
-    label: 
+    label:
       en: Author
       fr: Auteur
     type: text
   description:
-    label: 
+    label:
       en: Description
       fr: Description
     type:  textarea
   keywords:
-    label: 
+    label:
       en: Keywords
       fr: Mots clés
     type:  tags
-  facebook: 
-    label: 
+  facebook:
+    label:
       en: Facebook link
       fr: Lien Facebook
     type: Url
     width: 1/2
-  twitter: 
-    label: 
+  twitter:
+    label:
       en: Twitter link
       fr: Lien twitter
     type: Url
     width: 1/2
   linkedin:
-    label: 
+    label:
       en: LinkedIn link
       fr: Lien LinkedIn
     type: Url
     width:1/2
   copyright:
-    label: 
+    label:
       en: Copyright
       fr: Droits d'auteur
     type:  textarea

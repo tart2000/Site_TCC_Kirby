@@ -24,10 +24,6 @@
 
 <!-- 3 features (icons + txt) -->
 <div id="features" class="bmt">
-  <div class="center">
-  	<h1><?php echo $page->featurestitle()->text() ?></h1>
-  </div>
-
   <div class="row bmt">
     <div class="visible-md visible-lg col-md-3"></div>
     <?php foreach($pages->visible()->limit(3) as $p): ?>

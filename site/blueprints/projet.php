@@ -14,6 +14,11 @@ fields:
       en: Title
       fr: Titre
     type:  text
+  menutitle:
+    label:
+      en: Title in top navigation bar
+      fr: Titre dans la barre de navigation supérieure
+    type: text
   projectLink:
     label:
       en: Link to the project site

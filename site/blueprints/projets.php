@@ -13,9 +13,9 @@ fields:
     type:  text
   menutitle:
     label:
-      en: Menu title
-      fr: Titre au menu
-    type:  text
+      en: Title in top navigation bar
+      fr: Titre dans la barre de navigation supérieure
+    type: text
   text:
     label:
       en: Text

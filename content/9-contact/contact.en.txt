@@ -2,6 +2,10 @@ Title: Contact Us
 
 ----
 
+Menutitle: Contact
+
+----
+
 Name: Your name
 
 ----
@@ -25,4 +29,4 @@ sideTitle: Meet us
 
 ----
 
-email: boygeorge [at the] technoculture.club
+email: boygeorge [at] technoculture.club

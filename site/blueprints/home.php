@@ -9,20 +9,14 @@ fields:
       en: Title
       fr: Titre
     type:  text
-  header: 
-    label: 
-      en: Text header
-      fr: Texte header
-    type: textarea
   text:
-    label: 
+    label:
       en: Text
       fr: Texte
     type:  textarea
     size:  large
   newsletter:
-    label: 
+    label:
       en: Newsletter text
       fr: Texte newsletter
-    type: text 
-  
+    type: text

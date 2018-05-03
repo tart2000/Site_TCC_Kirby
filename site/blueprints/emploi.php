@@ -10,6 +10,11 @@ fields:
       en: Title
       fr: Titre
     type:  text
+  menutitle:
+    label:
+      en: Title in top navigation bar
+      fr: Titre dans la barre de navigation supérieure
+    type: text
   url-key:
     label:
       en: url-key
@@ -27,8 +32,8 @@ fields:
     type:  text
   enddate:
     label:
-      en: Application deadline
-      fr: Date limite d'inscription
+      en: Application and display deadline
+      fr: Date limite d'inscription et d'affichage
     type:  text
   location:
     label:
