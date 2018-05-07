@@ -1,0 +1,37 @@
+Title: Code Project Officer
+
+----
+
+Url-key: code-officer-201805
+
+----
+
+Position-type: part-time
+
+----
+
+Startdate: 2018-05-06
+
+----
+
+Enddate: 2018-06-02
+
+----
+
+Location: Montreal
+
+----
+
+Pdflink: https://drive.google.com/file/d/1vf3Q3_sCNl_6oVoJnvogXqMkyq5Mbfv-
+
+----
+
+Pdfsize: 96KB
+
+----
+
+Short: Our interdisciplinary and motivated team is seeking a programmer / tinkerer / digital artists / maker to collaborate on our school project about micro:bits (microcontrollers). The elementary school project involves designing, testing and documenting learning activities about programming for the environment and citizen science. The job is a permanent position of 60-80 hours per month (on average) at $16-18 per hour starting May or June 2018.
+
+----
+
+Text:
