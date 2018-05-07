@@ -1,8 +1,8 @@
-Title: Chargé.e de Projet en Code
+Title: Chargé.e de Projet Micro:bits
 
 ----
 
-Url-key: chargee-code-201805
+Url-key: chargee-microbits-201805
 
 ----
 
@@ -30,7 +30,7 @@ Pdfsize: 96KB
 
 ----
 
-Short: Notre équipe jeune et passionnée cherche un.e programmeur.euse / bidouilleur.euse / artiste numérique / animateur.rice maker pour collaborer sur notre projet en écoles utilisant des micro:bits (des microcontrôleurs). Le projet consiste à concevoir, expérimenter et documenter des activités en classe primaire sur le coding au service de l’environnement et la science citoyenne. Le poste permanent proposé est de 60-80 heures/mois en moyenne, entre 16-18 $/heure à partir de mai ou juin 2018.
+Short: Notre équipe jeune et passionnée cherche un.e programmeur.euse / bidouilleur.euse / maker pour collaborer sur notre projet en écoles utilisant des micro:bits (des microcontrôleurs). Le projet consiste à concevoir, expérimenter et documenter des activités en classe primaire pour programmer au service de l’environnement et la science citoyenne. Le poste permanent proposé est de 60-80 heures/mois en moyenne, entre 16-18 $/heure à partir de mai ou juin 2018.
 
 ----
 
