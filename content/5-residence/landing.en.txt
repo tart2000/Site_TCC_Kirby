@@ -1,0 +1,69 @@
+Title: Co-residency at the Studio
+
+----
+
+Menutitle: Residency
+
+----
+
+url-key : residency
+
+----
+
+Text:
+(vimeo: https://vimeo.com/270101202 width:600 height: 400)
+
+###Context of the co-residency (summary)
+Are you an artist, programmer, or maker and would you be interested in creating new technological experiences for libraries visitors? If so, this co-residency is made for you! (Also, if you long for another Muséomix, then this residency is definitely made for you!)
+
+This summer, Techno Culture Club, in partnership with the City of Laval, is offering three team co-residencies, **in the Studio, the medialab of the Multicultural Library of Laval**. The residencies last **one month, in July or August 2018**, and conclude with a **public presentation on September 13th, 2018**.
+Candidates will be evaluated on an ongoing basis. You have until June 15th (for the July residency) or July 6th (for the August residency) to submit your application to participate using the [online application form available at this link](https://goo.gl/forms/JhwCQLb8GalxoA3L2).
+
+###Objective
+Each residency will focus on creating a digital experience kit. Like a book, the digital experience kit is an object that users will borrow for free from the library and which invites users to participate in a cultural experience. The kit consists of:
+1. A technological component (a micro-computer, accessory components, and related software), and
+2. A guide on how to use the kit.
+
+###Participation in the residency involves
+- **one month** of co-creation to make a digital cultural experience, including:
+  - at least **15 hours per week** at the Studio, split among days open the public (Wednesday to Saturday, inclusive) and days not open to the public (Sunday to Tuesday, inclusive)
+  - **collaboration in a multidisciplinary team** : artist & maker or programmer
+  - **support from staff** of Techno Culture Club and of the Studio
+  - access to technological and audio-visual equipment at the Studio
+  - moments of audience interaction and testing
+- **documentation** produced with ample support from TCC, including:
+  - in collaboration with TCC, a minimal visual (video or photo and text) journalling of the co-creative process
+  - user guide
+  - code documentation
+  - kit reproduction how-to guide
+- *Compensation* for the residency and assignment of rights: **$1000 per participant** (as per the CQAM Media Arts Fee Schedule)
+- **participation in the public event on September 13th, 2018**, including:
+  - brief presentation of your other works or projects, optional
+  - team presentation of the kit (at least one of the teammates must be - present)
+
+###Intellectual property
+The financial compensation covers both participation in the residency and the waiving of rights, for a total of $1000 dollars plus applicable taxes.
+The rights on the kit will be assigned to Techno Culture Club, which commits to licence the kit under the Creative Commons NonCommercial licence (CC-NC-BY-SA 4.0).
+The intended primary use is the lending of these kits and the reproduction of these kits for their use in and lending by libraries.
+Contributors to creation of the kits will be clearly credited in all reproductions of the kit.
+
+###Eligibility criteria
+You do **NOT** need to be :
+- an expert programmer nor an established artist
+- from Laval
+- fully bilingual
+
+You **DO** need to be:
+- able to speak and understand either English or French
+- able to collaborate and co-create with others
+- open to your work being reused and remixed in the future
+
+###Application Guide
+[An application guide is available as a downloadable PDF](https://drive.google.com/file/d/1RqqDtyFzVV1hBjdsl1jI_QWFcJMoNUdI/view?usp=sharing). It includes a list of all the applications questions as well as an extensive FAQ. If you have any questions not answered in the guide, please contact us at boygeorge@technoculture.club.
+
+<hr>
+
+A big thanks to our financial partners and collaborators,
+(image:QUEBw3.gif link:http://www.mcc.gouv.qc.ca/ width:200)
+(image:LeStudio-Symbole-Noir_L.png width:200)
+(image:logo-laval_L.png link:https://www.laval.ca/ width:200)

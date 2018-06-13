@@ -1,0 +1,70 @@
+Title: Résidence de co-création au Studio
+
+----
+
+Menutitle: Residence
+
+----
+
+url-key : residence
+
+----
+
+Text:
+(vimeo: https://vimeo.com/270101202 width:600 height: 400)
+
+###Contexte de la résidence de co-création (résumé)
+Vous êtes artiste, développeur.se, bidouilleur.se et vous avez envie de contribuer à créer de nouveaux usages/expériences du numérique en bibliothèque ? Cette résidence rémunérée de co-création est faite pour vous ! (si vous êtes nostalgiques de Muséomix, cette résidence est définitivement faite pour vous !)
+
+Cet été, Techno Culture Club, en partenariat avec la Ville de Laval, offre des résidences de co-création en équipe, **au Studio, médialab dans la bibliothèque multiculturelle de Laval**. Les résidences sont d’une durée **d’un mois, en juillet ou août 2018**, et se concluent par une **présentation générale le 13 septembre 2018**.
+
+Les candidatures seront évaluées en continue. Vous avez jusqu’au 15 juin pour postuler à la résidence de juillet et jusqu’au 6 juillet pour postuler à la résidence d’août. Merci de postuler via le formulaire en ligne : [lien formulaire](https://goo.gl/forms/cUYt1TgCokjZkOse2).
+
+###Objectif
+Chaque résidence a pour objectif la création d’une trousse culturelle numérique. C’est-à-dire la création d’expériences numériques culturelles et participatives empruntables gratuitement (comme un livre) à la bibliothèque. Chaque trousse se compose des éléments suivants :
+1. Un équipement numérique (un micro-ordinateur, composant accessoires, et logiciel)
+2. Un petit guide expliquant comment utiliser la trousse.
+
+###La participation à cette résidence implique
+- **Un mois** de co-création pour créer une trousse d’expérience culturelle numérique :
+  - Au minimum **15 heures par semaine** au Studio selon un horaire à définir, à partager entre du temps sans public (dimanche, lundi et mardi) et du temps avec public (mercredi, jeudi, vendredi et samedi)
+  - **Collaboration en binôme multidisciplinaire** : artiste et maker/développeur.se
+  - Avec le **soutien de Techno Culture Club et du Studio**
+  - Accès à l’équipement technologique et audiovisuel du Studio
+  - Avec des moments d’interaction et de test avec le public
+- Diverses **documentations** réalisées avec un soutien important de Techno Culture Club :
+  - En collaboration avec Techno Culture Club, un journal écrit ou audio documentant le processus de co-création (selon votre préférence) sera créé
+  - Produire un guide usager.ère.s
+  - Documentation du code
+  - Un guide expliquant comment créer ou reproduire la trousse
+- La **rémunération** pour la résidence et la cession de droits : **$1000 par participant.e** (le tout respectant les barèmes de diffusion en arts médiatiques du CQAM)
+- La **participation à l’évènement de clôture le 13 septembre 2018** :
+  - Une brève présentation de vos autres projets/travaux si vous le souhaitez
+  - Une présentation de l’équipe de réalisation de la trousse (présence d’au moins un des membres du binôme requise)
+
+###Propriété intellectuelle
+La compensation financière couvre également la cession des droits prévue et s’élève à 1000 dollars plus taxes applicables.
+Les droits sur la trousse sont cédés à Techno Culture Club qui s’engage à licencier l’intégralité du contenu sous la licence Creative Commons Non-Commercial (CC-NC-BY-SA 4.0).
+Essentiellement, l’utilisation principale prévue est le prêt de ces trousses et la reproduction au fin de prêt de ces trousses en bibliothèques.
+Les contributeurs ayant participé à la création des trousses seront clairement crédités dans toutes les reproductions des trousses.
+
+###Critère d’admissibilité
+Vous n’avez pas besoin d’être :
+- un.e expert.e en programmation ou un artiste établi.e
+- Lavallois.e
+- complètement bilingue
+
+Vous avez besoin d’être :
+- capable de parler et de comprendre le français ou l’anglais
+- capable de collaborer et de co-créer avec d’autres personnes
+- ouvert.e aux potentiels remix et réutilisations de votre travail
+
+###Guide d'application
+[Un guide d'application est disponible en format PDF téléchargeable](https://drive.google.com/file/d/1-xt9PMmpIXGRv2xwx_gWCv8IMTNUuV2l/view?usp=sharing). Il comprend une liste de toutes les questions du formulaire ainsi qu'une FAQ comprehensive. Si vous avez des questions non répondues dans le guide, veuillez nous contacter à boygeorge@technoculture.club.
+
+<hr>
+
+Merci à nos partenaires financiers et collaborateurs,
+(image:QUEBw3.gif link:http://www.mcc.gouv.qc.ca/ width:200)
+(image:LeStudio-Symbole-Noir_L.png width:200)
+(image:logo-laval_L.png link:https://www.laval.ca/ width:200)
